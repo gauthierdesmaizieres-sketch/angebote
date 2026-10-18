@@ -5,6 +5,7 @@ date has themes (?theme=Haushalt). Product data is embedded in each page's Nuxt 
 """
 
 import asyncio
+import re
 from datetime import date, timedelta
 from urllib.parse import quote_plus
 
@@ -17,6 +18,11 @@ DELAY_S = 1.5  # be polite between page loads
 # Promotions that started up to this many days ago are still "this week".
 LOOKBACK_DAYS = 7
 LOOKAHEAD_DAYS = 7
+# Staples tracked every week even when not on promotion (Magerquark-Radar).
+STAPLES = [
+    ("https://www.aldi-suisse.ch/de/produkte/milchprodukte-eier/joghurts-quark-desserts/k/158816141843305903",
+     re.compile(r"magerquark", re.I)),
+]
 
 
 async def _load(page, url):
@@ -47,9 +53,10 @@ def _image(p):
     return None
 
 
-def _offer(p, promo, themes):
+def _offer(p, promo, themes, regular=False):
     price = p.get("price") or {}
     return {
+        "regular": regular,
         "id": f"aldi-{p['sku']}",
         "store": "aldi",
         "name": p.get("name"),
@@ -84,6 +91,13 @@ async def fetch(browser, today=None):
             for theme in promo.get("themes") or []:
                 for p in await _products(page, f"{base}?theme={quote_plus(theme['key'])}"):
                     offers.setdefault(p["sku"], (p, promo, set()))[2].add(theme["title"])
-        return [_offer(p, promo, themes) for p, promo, themes in offers.values()]
+        result = [_offer(p, promo, themes) for p, promo, themes in offers.values()]
+
+        regular = {"onSaleDateFrom": today.isoformat(), "title": "Dauerpreis"}
+        for url, wanted in STAPLES:
+            for p in await _products(page, url):
+                if p["sku"] not in offers and wanted.search(p.get("name") or ""):
+                    result.append(_offer(p, regular, set(), regular=True))
+        return result
     finally:
         await page.close()

@@ -1,16 +1,17 @@
 {
- "updatedAt": "2026-10-18T11:02:48+00:00",
+ "updatedAt": "2026-10-18T11:15:57+00:00",
  "stores": [
   {
    "id": "aldi",
    "name": "ALDI SUISSE",
    "url": "https://www.aldi-suisse.ch/de/aktionen-und-angebote",
-   "count": 275,
+   "count": 277,
    "stale": false
   }
  ],
  "offers": [
   {
+   "regular": false,
    "id": "aldi-000000000000746011",
    "store": "aldi",
    "name": "30-W-Akku-Universal-Arbeitsstrahler",
@@ -27,9 +28,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5bb1c226-8572-49c7-9971-769ea9ad9a2c/workzone-30-w-akku-universal-arbeitsstrahler",
-   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-30-w-akku-universal-arbeitsstrahler-000000000000746011"
+   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-30-w-akku-universal-arbeitsstrahler-000000000000746011",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000444036",
    "store": "aldi",
    "name": "Argo Sour Madness",
@@ -46,9 +54,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c4e75498-53ca-4bf6-9aa9-da875a23e679/no-brand-argo-sour-madness",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-argo-sour-madness-000000000000444036"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-argo-sour-madness-000000000000444036",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 42.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000677110",
    "store": "aldi",
    "name": "Batterie",
@@ -65,9 +80,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/89df510d-99d0-4fa5-888d-de78bf768f71/activ-energy-batterie",
-   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-batterie-000000000000677110"
+   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-batterie-000000000000677110",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736131",
    "store": "aldi",
    "name": "Batterie-Ladegerät",
@@ -84,9 +106,16 @@
     "Heimtextilien - Wohnen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5595abc5-3d35-47b0-8d2b-78184d20cd0e/activ-energy-batterie-ladegeraet",
-   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-batterie-ladegeraet-000000000000736131"
+   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-batterie-ladegeraet-000000000000736131",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000516726",
    "store": "aldi",
    "name": "Big Party Mix",
@@ -103,9 +132,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b3889ca2-ef09-4129-80a9-f953d7764c37/swizzels-big-party-mix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/swizzels-big-party-mix-000000000000516726"
+   "url": "https://www.aldi-suisse.ch/de/produkt/swizzels-big-party-mix-000000000000516726",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 9.99,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737241",
    "store": "aldi",
    "name": "Damen-/Herren-Winterarbeitshandschuhe",
@@ -122,9 +158,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/8b4bdc92-05aa-465b-987f-15450a078977/topcraft-damen-herren-winterarbeitshandschuhe",
-   "url": "https://www.aldi-suisse.ch/de/produkt/topcraft-damen-herren-winterarbeitshandschuhe-000000000000737241"
+   "url": "https://www.aldi-suisse.ch/de/produkt/topcraft-damen-herren-winterarbeitshandschuhe-000000000000737241",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000169538",
    "store": "aldi",
    "name": "Eier Pappardelle",
@@ -141,9 +184,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5f6becd3-a9ef-42e7-9f2e-dab3042031aa/cucina-nobile-eier-pappardelle",
-   "url": "https://www.aldi-suisse.ch/de/produkt/cucina-nobile-eier-pappardelle-000000000000169538"
+   "url": "https://www.aldi-suisse.ch/de/produkt/cucina-nobile-eier-pappardelle-000000000000169538",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 6.4,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000766114",
    "store": "aldi",
    "name": "Elektrischer Häcksler",
@@ -160,9 +210,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b8615906-cf80-43e1-bfed-3f37ab902ad0/ferrex-elektrischer-haecksler",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ferrex-elektrischer-haecksler-000000000000766114"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ferrex-elektrischer-haecksler-000000000000766114",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000743361",
    "store": "aldi",
    "name": "Feuchtigkeitsmessgerät",
@@ -179,9 +236,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4290e7b7-18b2-4151-9bd2-16e514b3a1ae/workzone-feuchtigkeitsmessgeraet",
-   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-feuchtigkeitsmessgeraet-000000000000743361"
+   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-feuchtigkeitsmessgeraet-000000000000743361",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000688322",
    "store": "aldi",
    "name": "Fugensortiment",
@@ -198,9 +262,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/229c5175-6743-4d00-b665-e30883e9eb8f/pattex-fugensortiment",
-   "url": "https://www.aldi-suisse.ch/de/produkt/pattex-fugensortiment-000000000000688322"
+   "url": "https://www.aldi-suisse.ch/de/produkt/pattex-fugensortiment-000000000000688322",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000285980006",
    "store": "aldi",
    "name": "Glacé-Mix, Churro",
@@ -217,9 +288,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/18ab8cda-f779-4d9f-a4be-74292f4c514c/ben-jerry-s-glace-mix-churro",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ben-jerry-s-glace-mix-churro-000000000285980006"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ben-jerry-s-glace-mix-churro-000000000285980006",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000285980001",
    "store": "aldi",
    "name": "Glacé-Mix, Cookie Dough",
@@ -236,9 +314,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0cb7a2ba-2869-4982-8a22-007d7fb6dbd1/ben-jerry-s-glace-mix-cookie-dough",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ben-jerry-s-glace-mix-cookie-dough-000000000285980001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ben-jerry-s-glace-mix-cookie-dough-000000000285980001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000745646",
    "store": "aldi",
    "name": "Glasgrablaterne",
@@ -255,9 +340,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/304a6ab1-1d71-45de-bc5f-e62d3b381b50/no-brand-glasgrablaterne",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-glasgrablaterne-000000000000745646"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-glasgrablaterne-000000000000745646",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000501503",
    "store": "aldi",
    "name": "Glotzer",
@@ -274,9 +366,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/20c4b9b9-941a-4755-a78a-b38ee690a682/trolli-glotzer",
-   "url": "https://www.aldi-suisse.ch/de/produkt/trolli-glotzer-000000000000501503"
+   "url": "https://www.aldi-suisse.ch/de/produkt/trolli-glotzer-000000000000501503",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.2,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749031",
    "store": "aldi",
    "name": "Grabkerzen",
@@ -293,9 +392,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e9e0266e-c30e-4403-97da-c2c44b5d0614/no-brand-grabkerzen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-grabkerzen-000000000000749031"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-grabkerzen-000000000000749031",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000674004",
    "store": "aldi",
    "name": "HALLOWEEN Mix",
@@ -312,9 +418,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/cdaefd7b-1b64-4a6a-9545-96a5edb19791/halloween-halloween-mix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-mix-000000000000674004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-mix-000000000000674004",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000501480",
    "store": "aldi",
    "name": "Halloween Magic Horror",
@@ -331,9 +444,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3213324a-97a8-4650-88fe-7db9acea92c9/trolli-halloween-magic-horror",
-   "url": "https://www.aldi-suisse.ch/de/produkt/trolli-halloween-magic-horror-000000000000501480"
+   "url": "https://www.aldi-suisse.ch/de/produkt/trolli-halloween-magic-horror-000000000000501480",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 10.4,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000561368",
    "store": "aldi",
    "name": "Halloween Pasta",
@@ -350,9 +470,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/edae0e11-433e-4d1b-b994-deb62063552d/halloween-halloween-pasta",
-   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-pasta-000000000000561368"
+   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-pasta-000000000000561368",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000110499",
    "store": "aldi",
    "name": "Halloween-Mix",
@@ -369,9 +496,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/691bcbbd-d59c-40a0-8c33-0d64e4bad68f/haribo-halloween-mix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/haribo-halloween-mix-000000000000110499"
+   "url": "https://www.aldi-suisse.ch/de/produkt/haribo-halloween-mix-000000000000110499",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 9.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000661124",
    "store": "aldi",
    "name": "Halloween-Pumpkin",
@@ -388,9 +522,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6c76dbf8-f0f4-4510-96b6-838d1788f805/halloween-halloween-pumpkin",
-   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-pumpkin-000000000000661124"
+   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-pumpkin-000000000000661124",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000271642",
    "store": "aldi",
    "name": "Halloween-Schokoladen-Lollies",
@@ -407,9 +548,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/57848b4c-1840-408f-8556-857699172139/halloween-halloween-schokoladen-lollies",
-   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-schokoladen-lollies-000000000000271642"
+   "url": "https://www.aldi-suisse.ch/de/produkt/halloween-halloween-schokoladen-lollies-000000000000271642",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-7349111588161430758021",
    "store": "aldi",
    "name": "Herren-LED-Mütze",
@@ -426,9 +574,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3a5e9bba-cf89-40e7-b71f-c9aa202496ed/topcraft-herren-led-muetze",
-   "url": "https://www.aldi-suisse.ch/de/produkt/topcraft-herren-led-muetze-7349111588161430758021"
+   "url": "https://www.aldi-suisse.ch/de/produkt/topcraft-herren-led-muetze-7349111588161430758021",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000742369",
    "store": "aldi",
    "name": "Holzspalter",
@@ -445,9 +600,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/780b445e-c1df-4ea2-9d25-1ba754338b9d/scheppach-holzspalter",
-   "url": "https://www.aldi-suisse.ch/de/produkt/scheppach-holzspalter-000000000000742369"
+   "url": "https://www.aldi-suisse.ch/de/produkt/scheppach-holzspalter-000000000000742369",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000277344002",
    "store": "aldi",
    "name": "Kaubonbons mit Tattoo 150g, Cola",
@@ -464,9 +626,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2ecffc48-5c9d-4f82-adce-0c5a63cb5e0e/sweet-land-kaubonbons-mit-tattoo-150g-cola",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sweet-land-kaubonbons-mit-tattoo-150g-cola-000000000277344002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sweet-land-kaubonbons-mit-tattoo-150g-cola-000000000277344002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000277344001",
    "store": "aldi",
    "name": "Kaubonbons mit Tattoo, Erdbeere",
@@ -483,9 +652,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7896c997-4c53-4604-8c46-d3cecc065694/sweet-land-kaubonbons-mit-tattoo-erdbeere",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sweet-land-kaubonbons-mit-tattoo-erdbeere-000000000277344001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sweet-land-kaubonbons-mit-tattoo-erdbeere-000000000277344001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000680029",
    "store": "aldi",
    "name": "Kerze mit Weihnachtsetikett",
@@ -502,9 +678,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b79f5284-eefa-47c7-ad60-937682c08ebd/home-creation-kerze-mit-weihnachtsetikett",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-kerze-mit-weihnachtsetikett-000000000000680029"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-kerze-mit-weihnachtsetikett-000000000000680029",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-7349111588161430758030",
    "store": "aldi",
    "name": "Kinder-LED-Mütze",
@@ -521,9 +704,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/08329748-4ae7-485b-ba3d-c38e6a16bdfa/topcraft-kinder-led-muetze",
-   "url": "https://www.aldi-suisse.ch/de/produkt/topcraft-kinder-led-muetze-7349111588161430758030"
+   "url": "https://www.aldi-suisse.ch/de/produkt/topcraft-kinder-led-muetze-7349111588161430758030",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000282888001",
    "store": "aldi",
    "name": "Knoppers Riegel Kokos",
@@ -540,9 +730,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a46f5748-7579-497d-aa9e-fdf94a56d9d0/storck-knoppers-riegel-kokos",
-   "url": "https://www.aldi-suisse.ch/de/produkt/storck-knoppers-riegel-kokos-000000000282888001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/storck-knoppers-riegel-kokos-000000000282888001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000282888003",
    "store": "aldi",
    "name": "Knoppers Riegel, Erdnussriegel",
@@ -559,9 +756,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/221be175-a908-4512-b398-b935a1fce2cc/storck-knoppers-riegel-erdnussriegel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/storck-knoppers-riegel-erdnussriegel-000000000282888003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/storck-knoppers-riegel-erdnussriegel-000000000282888003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000282888002",
    "store": "aldi",
    "name": "Knoppers, Nussriegel Dunkel",
@@ -578,9 +782,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/effdbb19-3b9c-436a-9530-298e0d274272/storck-knoppers-nussriegel-dunkel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/storck-knoppers-nussriegel-dunkel-000000000282888002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/storck-knoppers-nussriegel-dunkel-000000000282888002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000751002",
    "store": "aldi",
    "name": "LED-Leuchtmittel",
@@ -597,9 +808,16 @@
     "Heimtextilien - Wohnen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/237bb96d-5a77-4ede-955b-5c4dfaf71bde/casalux-led-leuchtmittel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/casalux-led-leuchtmittel-000000000000751002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/casalux-led-leuchtmittel-000000000000751002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737515",
    "store": "aldi",
    "name": "Leichtgewichtsschere",
@@ -616,9 +834,16 @@
     "Garten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/306962f4-ca47-484e-9b37-b7ea0c7db139/gardenline-leichtgewichtsschere",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-leichtgewichtsschere-000000000000737515"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-leichtgewichtsschere-000000000000737515",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000617535",
    "store": "aldi",
    "name": "Lindor Kugeln assortiert",
@@ -635,9 +860,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6ba9dc09-8847-4697-9b93-aef5bc6bbfd4/lindt-lindor-kugeln-assortiert",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lindt-lindor-kugeln-assortiert-000000000000617535"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lindt-lindor-kugeln-assortiert-000000000000617535",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 32.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000617528",
    "store": "aldi",
    "name": "Lindor Kugeln, Milch",
@@ -654,9 +886,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/91c06a48-2549-4164-af94-0aa40e8b8933/lindt-lindor-kugeln-milch",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lindt-lindor-kugeln-milch-000000000000617528"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lindt-lindor-kugeln-milch-000000000000617528",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 32.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000756066",
    "store": "aldi",
    "name": "Lollipop-Rings",
@@ -673,9 +912,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4c6cb812-cf3f-44a6-ac4a-c17f953e8e5c/no-brand-lollipop-rings",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-lollipop-rings-000000000000756066"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-lollipop-rings-000000000000756066",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000744272",
    "store": "aldi",
    "name": "Luftentfeuchter",
@@ -692,9 +938,16 @@
     "Heimtextilien - Wohnen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2151ba05-5097-4c2b-b870-e07d6e7e688d/pattex-luftentfeuchter",
-   "url": "https://www.aldi-suisse.ch/de/produkt/pattex-luftentfeuchter-000000000000744272"
+   "url": "https://www.aldi-suisse.ch/de/produkt/pattex-luftentfeuchter-000000000000744272",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000767959",
    "store": "aldi",
    "name": "M&M's Cookie Dough",
@@ -711,9 +964,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4447e1f1-84c9-4eec-b9d0-c9019fd294b8/m-m-s-m-m-s-cookie-dough",
-   "url": "https://www.aldi-suisse.ch/de/produkt/m-m-s-m-m-s-cookie-dough-000000000000767959"
+   "url": "https://www.aldi-suisse.ch/de/produkt/m-m-s-m-m-s-cookie-dough-000000000000767959",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 0.01,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000778579",
    "store": "aldi",
    "name": "Malteser, Maxi-Pack",
@@ -730,9 +990,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/36d5d76f-d743-43fe-b432-a8b86c640c00/maltesers-malteser-maxi-pack",
-   "url": "https://www.aldi-suisse.ch/de/produkt/maltesers-malteser-maxi-pack-000000000000778579"
+   "url": "https://www.aldi-suisse.ch/de/produkt/maltesers-malteser-maxi-pack-000000000000778579",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000763430",
    "store": "aldi",
    "name": "Maoween",
@@ -749,9 +1016,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/8e5df151-b3cf-4250-b9cc-f6b8d41a43c6/maoam-maoween",
-   "url": "https://www.aldi-suisse.ch/de/produkt/maoam-maoween-000000000000763430"
+   "url": "https://www.aldi-suisse.ch/de/produkt/maoam-maoween-000000000000763430",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.39,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000155166",
    "store": "aldi",
    "name": "Mixed-Minis",
@@ -768,9 +1042,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f234dd9d-a424-45da-9edf-7c8e82b724d5/mars-mixed-minis",
-   "url": "https://www.aldi-suisse.ch/de/produkt/mars-mixed-minis-000000000000155166"
+   "url": "https://www.aldi-suisse.ch/de/produkt/mars-mixed-minis-000000000000155166",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 12.38,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000655918",
    "store": "aldi",
    "name": "Multi-Mix",
@@ -787,9 +1068,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/78bb9742-8003-41c9-97ab-0f922172196b/trolli-multi-mix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/trolli-multi-mix-000000000000655918"
+   "url": "https://www.aldi-suisse.ch/de/produkt/trolli-multi-mix-000000000000655918",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 9.2,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000156511002",
    "store": "aldi",
    "name": "Regular",
@@ -806,9 +1094,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1d2d1477-c367-4de5-92b8-3f791c8c2f73/red-bull-regular",
-   "url": "https://www.aldi-suisse.ch/de/produkt/red-bull-regular-000000000156511002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/red-bull-regular-000000000156511002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.13,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000669102",
    "store": "aldi",
    "name": "Schlitten-Kerzen",
@@ -825,9 +1120,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/68579206-6946-4ae9-af45-19bbcf3ce577/home-creation-schlitten-kerzen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-schlitten-kerzen-000000000000669102"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-schlitten-kerzen-000000000000669102",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000739692",
    "store": "aldi",
    "name": "Schlüsseltresor",
@@ -844,9 +1146,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/638a63d6-fdad-4383-86e3-04f90460d885/workzone-schluesseltresor",
-   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-schluesseltresor-000000000000739692"
+   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-schluesseltresor-000000000000739692",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000153899",
    "store": "aldi",
    "name": "Steirische Apfelchips, Nature",
@@ -863,9 +1172,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4bfadbb2-a32b-4f1c-bad4-b9c35e832b58/gutes-aus-der-region-steirische-apfelchips-nature",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gutes-aus-der-region-steirische-apfelchips-nature-000000000000153899"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gutes-aus-der-region-steirische-apfelchips-nature-000000000000153899",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000156511001",
    "store": "aldi",
    "name": "Sugarfree",
@@ -882,9 +1198,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/04643587-f0db-468f-842d-5af91f07f568/red-bull-sugarfree",
-   "url": "https://www.aldi-suisse.ch/de/produkt/red-bull-sugarfree-000000000156511001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/red-bull-sugarfree-000000000156511001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.13,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000747712",
    "store": "aldi",
    "name": "Takis-Chips",
@@ -901,9 +1224,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/621a309a-6912-45be-963f-df5f5ba1912e/takis-takis-chips",
-   "url": "https://www.aldi-suisse.ch/de/produkt/takis-takis-chips-000000000000747712"
+   "url": "https://www.aldi-suisse.ch/de/produkt/takis-takis-chips-000000000000747712",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000746245",
    "store": "aldi",
    "name": "Vorhängeschlösser",
@@ -920,9 +1250,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3a22f3dd-da2d-4683-89b0-242bd67a71f6/workzone-vorhaengeschloesser",
-   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-vorhaengeschloesser-000000000000746245"
+   "url": "https://www.aldi-suisse.ch/de/produkt/workzone-vorhaengeschloesser-000000000000746245",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000761569001",
    "store": "aldi",
    "name": "XXL-Nimm2-Lachgummi, Minis",
@@ -939,9 +1276,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0b2bff36-142e-442a-a0a5-ceca04d937af/storck-xxl-nimm2-lachgummi-minis",
-   "url": "https://www.aldi-suisse.ch/de/produkt/storck-xxl-nimm2-lachgummi-minis-000000000761569001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/storck-xxl-nimm2-lachgummi-minis-000000000761569001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 6.52,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000728085",
    "store": "aldi",
    "name": "2-in-1-Crème/-Trigger",
@@ -958,9 +1302,16 @@
     "Haushalt / Reinigung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/49c55e36-4d3f-467e-95f0-1f1eb566db82/no-brand-2-in-1-creme-trigger",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-2-in-1-creme-trigger-000000000000728085"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-2-in-1-creme-trigger-000000000000728085",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000679521",
    "store": "aldi",
    "name": "4-in-1, Lemon",
@@ -977,9 +1328,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6e8d26d5-dce9-4ebb-9a8a-38eb3c922153/sun-4-in-1-lemon",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sun-4-in-1-lemon-000000000000679521"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sun-4-in-1-lemon-000000000000679521",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000639039",
    "store": "aldi",
    "name": "Abflussreiniger Duo",
@@ -996,9 +1354,16 @@
     "Haushalt / Reinigung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/218f4fd7-1a1b-4a69-a7c0-dfd96da22396/no-brand-abflussreiniger-duo",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-abflussreiniger-duo-000000000000639039"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-abflussreiniger-duo-000000000000639039",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000753191",
    "store": "aldi",
    "name": "Adventsaufsteller/-Box",
@@ -1015,9 +1380,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e585eb9c-2a51-4ddd-b441-383e0dbe9c65/no-brand-adventsaufsteller-box",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-adventsaufsteller-box-000000000000753191"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-adventsaufsteller-box-000000000000753191",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000778068",
    "store": "aldi",
    "name": "Adventskalender",
@@ -1034,9 +1406,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b3ec5116-61d9-474b-b079-66808b6bf5de/mattel-adventskalender",
-   "url": "https://www.aldi-suisse.ch/de/produkt/mattel-adventskalender-000000000000778068"
+   "url": "https://www.aldi-suisse.ch/de/produkt/mattel-adventskalender-000000000000778068",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000782218",
    "store": "aldi",
    "name": "Adventskalender",
@@ -1053,9 +1432,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f0e08d01-343a-4801-b397-07d11e6085d2/lego-adventskalender",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lego-adventskalender-000000000000782218"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lego-adventskalender-000000000000782218",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000748894",
    "store": "aldi",
    "name": "Aldi Supermarkt",
@@ -1072,9 +1458,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0ff70715-b9ec-4d77-9319-e0ff73dbb9fa/toylino-aldi-supermarkt",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-aldi-supermarkt-000000000000748894"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-aldi-supermarkt-000000000000748894",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749218",
    "store": "aldi",
    "name": "Automechaniker-Set/Schminktisch aus Holz",
@@ -1091,9 +1484,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/01e48755-f6b4-4c8f-9709-a72c41dcbf7f/toylino-automechaniker-set-schminktisch-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-automechaniker-set-schminktisch-aus-holz-000000000000749218"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-automechaniker-set-schminktisch-aus-holz-000000000000749218",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000639073",
    "store": "aldi",
    "name": "Backofen-/Grill-Schaumreiniger",
@@ -1110,9 +1510,16 @@
     "Haushalt / Reinigung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2369f8a1-defe-481c-abd0-15e06a53f380/no-brand-backofen-grill-schaumreiniger",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-backofen-grill-schaumreiniger-000000000000639073"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-backofen-grill-schaumreiniger-000000000000639073",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 10.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000728078",
    "store": "aldi",
    "name": "Bad-/Küchen-Reiniger",
@@ -1129,9 +1536,16 @@
     "Haushalt / Reinigung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c670122d-2767-4106-8d0a-37342a95666d/no-brand-bad-kuechen-reiniger",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bad-kuechen-reiniger-000000000000728078"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bad-kuechen-reiniger-000000000000728078",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 3.84,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000733489",
    "store": "aldi",
    "name": "Bambus-Küchen-Utensilien",
@@ -1148,9 +1562,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e0bd20f2-1b90-4286-b778-11ecd8172daf/crofton-bambus-kuechen-utensilien",
-   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-bambus-kuechen-utensilien-000000000000733489"
+   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-bambus-kuechen-utensilien-000000000000733489",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000698318",
    "store": "aldi",
    "name": "Bastelmix",
@@ -1167,9 +1588,16 @@
     "Büro / Schule"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0e3caabb-73f2-42f1-99c4-15fd681f3d72/home-creation-bastelmix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-bastelmix-000000000000698318"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-bastelmix-000000000000698318",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000531502",
    "store": "aldi",
    "name": "Batterien",
@@ -1186,9 +1614,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4228bf52-ebda-40d5-a023-4218c4b02215/activ-energy-batterien",
-   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-batterien-000000000000531502"
+   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-batterien-000000000000531502",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000744734",
    "store": "aldi",
    "name": "Baumwoll-Geschirrtuch, 3-teillig",
@@ -1205,9 +1640,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/44862287-a931-4caf-bfbf-6fdd10cc5596/crofton-baumwoll-geschirrtuch-3-teillig",
-   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-baumwoll-geschirrtuch-3-teillig-000000000000744734"
+   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-baumwoll-geschirrtuch-3-teillig-000000000000744734",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000662604",
    "store": "aldi",
    "name": "Bonsai Ficus microcarpa",
@@ -1224,9 +1666,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e82ed61e-88fa-46a0-a4f9-4ab4f3ba433c/gardenline-bonsai-ficus-microcarpa",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-bonsai-ficus-microcarpa-000000000000662604"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-bonsai-ficus-microcarpa-000000000000662604",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000711292",
    "store": "aldi",
    "name": "Bratspeck",
@@ -1243,9 +1692,16 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9a37c984-9246-44e8-838a-9f2a3a282766/country-s-best-bratspeck",
-   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-bratspeck-000000000000711292"
+   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-bratspeck-000000000000711292",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000745107",
    "store": "aldi",
    "name": "Buchkalender",
@@ -1262,9 +1718,16 @@
     "Büro / Schule"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6787a188-7f59-4e2e-a586-c8760e9129d2/no-brand-buchkalender",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-buchkalender-000000000000745107"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-buchkalender-000000000000745107",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000741278",
    "store": "aldi",
    "name": "Callunenmischung",
@@ -1281,9 +1744,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3431699d-ff08-42b0-9afe-50800d837394/gardenline-callunenmischung",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-callunenmischung-000000000000741278"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-callunenmischung-000000000000741278",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000568909",
    "store": "aldi",
    "name": "Discreet Inkontinenzeinlagen",
@@ -1300,9 +1770,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/116b2100-392c-4671-9f8b-08d2e57fd4f9/always-discreet-inkontinenzeinlagen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/always-discreet-inkontinenzeinlagen-000000000000568909"
+   "url": "https://www.aldi-suisse.ch/de/produkt/always-discreet-inkontinenzeinlagen-000000000000568909",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000604147004",
    "store": "aldi",
    "name": "Discreet Inkontinenzeinlagen, Maxi Night",
@@ -1319,9 +1796,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c8c93ea1-f048-4ed2-9b31-9b33b31072ba/always-discreet-inkontinenzeinlagen-maxi-night",
-   "url": "https://www.aldi-suisse.ch/de/produkt/always-discreet-inkontinenzeinlagen-maxi-night-000000000604147004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/always-discreet-inkontinenzeinlagen-maxi-night-000000000604147004",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000682083",
    "store": "aldi",
    "name": "Duftkerze mit Deckel",
@@ -1338,9 +1822,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/73a4d0a2-8bd3-46c0-bf8e-34b6bcba748a/home-creation-duftkerze-mit-deckel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-duftkerze-mit-deckel-000000000000682083"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-duftkerze-mit-deckel-000000000000682083",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000157369",
    "store": "aldi",
    "name": "Duftöle, Doppelpackung",
@@ -1357,9 +1848,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c18a4dc3-1564-4f1e-8e24-597692e1769c/no-brand-duftoele-doppelpackung",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-duftoele-doppelpackung-000000000000157369"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-duftoele-doppelpackung-000000000000157369",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 149.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736115",
    "store": "aldi",
    "name": "Edelstahlschüssel mit Kunststoffdeckel",
@@ -1376,9 +1874,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/94ae767f-0593-4d32-a060-0887133d3153/crofton-edelstahlschuessel-mit-kunststoffdeckel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-edelstahlschuessel-mit-kunststoffdeckel-000000000000736115"
+   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-edelstahlschuessel-mit-kunststoffdeckel-000000000000736115",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000639027",
    "store": "aldi",
    "name": "Flüssigentkalker Duo",
@@ -1395,9 +1900,16 @@
     "Haushalt / Reinigung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c801aa6f-34e9-4e54-b612-f86f5c6fa814/no-brand-fluessigentkalker-duo",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-fluessigentkalker-duo-000000000000639027"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-fluessigentkalker-duo-000000000000639027",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738052",
    "store": "aldi",
    "name": "Flüssigwaschmittel",
@@ -1414,9 +1926,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2b57f568-fb94-46f3-9b0c-f38db94a3c37/ariel-fluessigwaschmittel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-fluessigwaschmittel-000000000000738052"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-fluessigwaschmittel-000000000000738052",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000750644",
    "store": "aldi",
    "name": "Funkelnde LED-Kugel",
@@ -1433,9 +1952,16 @@
     "Wohnen / Dekoration"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ab252fec-872e-4b6d-b9dc-3976dec00caa/home-creation-funkelnde-led-kugel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-funkelnde-led-kugel-000000000000750644"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-funkelnde-led-kugel-000000000000750644",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000654658",
    "store": "aldi",
    "name": "Gefrierbeutel, Grosspackung",
@@ -1452,9 +1978,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/09f9fac1-e1e8-4cf6-94cb-ae3965c847bf/power-force-gefrierbeutel-grosspackung",
-   "url": "https://www.aldi-suisse.ch/de/produkt/power-force-gefrierbeutel-grosspackung-000000000000654658"
+   "url": "https://www.aldi-suisse.ch/de/produkt/power-force-gefrierbeutel-grosspackung-000000000000654658",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000741801",
    "store": "aldi",
    "name": "Geschenkverpackung",
@@ -1471,9 +2004,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6e4d89ff-f2a8-4e9e-9f75-4e49b8de0d4f/home-creation-geschenkverpackung",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-geschenkverpackung-000000000000741801"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-geschenkverpackung-000000000000741801",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000602619001",
    "store": "aldi",
    "name": "Geschirrspülpulver, Zitrone",
@@ -1490,9 +2030,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/151d38ae-7b3d-4db4-9cbf-eb8ca9b9d29f/sun-geschirrspuelpulver-zitrone",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sun-geschirrspuelpulver-zitrone-000000000602619001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sun-geschirrspuelpulver-zitrone-000000000602619001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.83,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000602637",
    "store": "aldi",
    "name": "Geschirrspültabs",
@@ -1509,9 +2056,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/70717e1b-1a12-4637-9f56-06321e28d8c1/sun-geschirrspueltabs",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sun-geschirrspueltabs-000000000000602637"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sun-geschirrspueltabs-000000000000602637",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000729094",
    "store": "aldi",
    "name": "Grünpflanze in Keramik",
@@ -1528,9 +2082,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ac13c91a-96f3-4839-b2d5-1a9e3d95c325/gardenline-gruenpflanze-in-keramik",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-gruenpflanze-in-keramik-000000000000729094"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-gruenpflanze-in-keramik-000000000000729094",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000659946",
    "store": "aldi",
    "name": "Halloween Artikel",
@@ -1547,9 +2108,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/432d613e-5f66-4a5a-b849-67064971e2a2/jes-collection-halloween-artikel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/jes-collection-halloween-artikel-000000000000659946"
+   "url": "https://www.aldi-suisse.ch/de/produkt/jes-collection-halloween-artikel-000000000000659946",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000743335",
    "store": "aldi",
    "name": "Halloween-Bausteine",
@@ -1566,9 +2134,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/031882be-ea8e-40ba-bd20-440ce1878c9d/block-tech-halloween-bausteine",
-   "url": "https://www.aldi-suisse.ch/de/produkt/block-tech-halloween-bausteine-000000000000743335"
+   "url": "https://www.aldi-suisse.ch/de/produkt/block-tech-halloween-bausteine-000000000000743335",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000742650",
    "store": "aldi",
    "name": "Halloween-Stabkerzen",
@@ -1585,9 +2160,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f808d39a-5f5d-467b-b13b-16701b83b9ad/home-creation-halloween-stabkerzen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-halloween-stabkerzen-000000000000742650"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-halloween-stabkerzen-000000000000742650",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000740949",
    "store": "aldi",
    "name": "Halloween-Tischsortiment",
@@ -1604,9 +2186,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d100e3b1-6538-49e0-b98f-47240111d142/home-creation-halloween-tischsortiment",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-halloween-tischsortiment-000000000000740949"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-halloween-tischsortiment-000000000000740949",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000732010",
    "store": "aldi",
    "name": "Heftgerät/Locher",
@@ -1623,9 +2212,16 @@
     "Büro / Schule"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/827ecd90-38ac-488f-8bc9-9dafc3bc7865/expertiz-heftgeraet-locher",
-   "url": "https://www.aldi-suisse.ch/de/produkt/expertiz-heftgeraet-locher-000000000000732010"
+   "url": "https://www.aldi-suisse.ch/de/produkt/expertiz-heftgeraet-locher-000000000000732010",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000677638",
    "store": "aldi",
    "name": "Heissklebepistole/Heissfolien-Set",
@@ -1642,9 +2238,16 @@
     "Büro / Schule"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1a6f7014-c19a-45e6-a2b9-e36041fe914b/home-creation-heissklebepistole-heissfolien-set",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-heissklebepistole-heissfolien-set-000000000000677638"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-heissklebepistole-heissfolien-set-000000000000677638",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000745892",
    "store": "aldi",
    "name": "Herbst-Bastelset",
@@ -1661,9 +2264,16 @@
     "Büro / Schule"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/371fb84c-7f89-40d5-911f-6fab77516b5e/home-creation-herbst-bastelset",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-herbst-bastelset-000000000000745892"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-herbst-bastelset-000000000000745892",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749500",
    "store": "aldi",
    "name": "Holz-Nussknacker",
@@ -1680,9 +2290,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a3896fba-2e5d-43c2-b607-9d536c52094a/home-creation-holz-nussknacker",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-holz-nussknacker-000000000000749500"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-holz-nussknacker-000000000000749500",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000752189",
    "store": "aldi",
    "name": "Holzfahrzeug, gross",
@@ -1699,9 +2316,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5b9a59d0-e52c-4cae-baa4-42ae1b6eeb6f/toylino-holzfahrzeug-gross",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-holzfahrzeug-gross-000000000000752189"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-holzfahrzeug-gross-000000000000752189",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000748694",
    "store": "aldi",
    "name": "Holzküchen-Sets/-Accessoires",
@@ -1718,9 +2342,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/92685ba8-e8b6-4a85-9ee8-cabfa73d82fc/toylino-holzkuechen-sets-accessoires",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-holzkuechen-sets-accessoires-000000000000748694"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-holzkuechen-sets-accessoires-000000000000748694",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736781",
    "store": "aldi",
    "name": "Kinder-Halloween-Kostüm",
@@ -1737,9 +2368,16 @@
     "Halloween"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/48a5f2bd-0b33-42c6-9be8-207fe2a8e0e8/l-d-kinder-halloween-kostuem",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-halloween-kostuem-000000000000736781"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-halloween-kostuem-000000000000736781",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000602662",
    "store": "aldi",
    "name": "Klarspüler",
@@ -1756,9 +2394,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/78da6f5c-48a4-42d7-91e0-9e07cefb36cc/sun-klarspueler",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sun-klarspueler-000000000000602662"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sun-klarspueler-000000000000602662",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 5.99,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000746618",
    "store": "aldi",
    "name": "Kleinkind-Sortiment aus Holz",
@@ -1775,9 +2420,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/339ad4e1-623b-44cc-b55d-b6fc4ab6ae8b/toylino-kleinkind-sortiment-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-kleinkind-sortiment-aus-holz-000000000000746618"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-kleinkind-sortiment-aus-holz-000000000000746618",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749415",
    "store": "aldi",
    "name": "Knopfzellen Blister",
@@ -1794,9 +2446,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d2015665-8e73-49ce-ad5a-6df68eaf8172/activ-energy-knopfzellen-blister",
-   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-knopfzellen-blister-000000000000749415"
+   "url": "https://www.aldi-suisse.ch/de/produkt/activ-energy-knopfzellen-blister-000000000000749415",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000748688",
    "store": "aldi",
    "name": "Küchengeräte aus Holz",
@@ -1813,9 +2472,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5882f76f-609e-4765-8afb-a44baf9359d0/toylino-kuechengeraete-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-kuechengeraete-aus-holz-000000000000748688"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-kuechengeraete-aus-holz-000000000000748688",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000341135",
    "store": "aldi",
    "name": "Küchenpapier «Design», Kurzblatt",
@@ -1832,9 +2498,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/92fe5011-f72a-4a1f-aca1-be60d4deadcb/kokett-kuechenpapier-design-kurzblatt",
-   "url": "https://www.aldi-suisse.ch/de/produkt/kokett-kuechenpapier-design-kurzblatt-000000000000341135"
+   "url": "https://www.aldi-suisse.ch/de/produkt/kokett-kuechenpapier-design-kurzblatt-000000000000341135",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000751976",
    "store": "aldi",
    "name": "LED-Lichterkette",
@@ -1851,9 +2524,16 @@
     "Wohnen / Dekoration"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/dce64af2-0906-4a9e-80e0-d95489dd9186/home-creation-led-lichterkette",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-led-lichterkette-000000000000751976"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-led-lichterkette-000000000000751976",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749345",
    "store": "aldi",
    "name": "LED-Weihnachtskranz",
@@ -1870,9 +2550,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/947ca013-67e6-483d-8ebf-866b35086c37/home-creation-led-weihnachtskranz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-led-weihnachtskranz-000000000000749345"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-led-weihnachtskranz-000000000000749345",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000752177",
    "store": "aldi",
    "name": "LED-Weihnachtsstern",
@@ -1889,9 +2576,16 @@
     "Wohnen / Dekoration"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6c852006-5eeb-47b1-ae9a-97fba16921bb/home-creation-led-weihnachtsstern",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-led-weihnachtsstern-000000000000752177"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-led-weihnachtsstern-000000000000752177",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000748525",
    "store": "aldi",
    "name": "Lebensmittelkörbe/Brettchen aus Holz",
@@ -1908,9 +2602,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4fb6ceff-9ce8-428e-9e2c-cd798b7b5032/toylino-lebensmittelkoerbe-brettchen-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-lebensmittelkoerbe-brettchen-aus-holz-000000000000748525"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-lebensmittelkoerbe-brettchen-aus-holz-000000000000748525",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000748679",
    "store": "aldi",
    "name": "Mahlzeiten aus Holz",
@@ -1927,9 +2628,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9027e4dc-449c-4510-be5c-2b8312bd15e8/toylino-mahlzeiten-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-mahlzeiten-aus-holz-000000000000748679"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-mahlzeiten-aus-holz-000000000000748679",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000752453",
    "store": "aldi",
    "name": "Markt-/Kino-/Essensstand",
@@ -1946,9 +2654,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6660b614-51f4-4d5e-a51d-88b88eafb797/toylino-markt-kino-essensstand",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-markt-kino-essensstand-000000000000752453"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-markt-kino-essensstand-000000000000752453",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000602670",
    "store": "aldi",
    "name": "Maschinenreinigungspulver",
@@ -1965,9 +2680,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d45e3c90-ebe8-4bab-8956-24de69efc91c/sun-maschinenreinigungspulver",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sun-maschinenreinigungspulver-000000000000602670"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sun-maschinenreinigungspulver-000000000000602670",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 74.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000493591",
    "store": "aldi",
    "name": "Premium-WC-Einhänger",
@@ -1984,9 +2706,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e04c83ad-429c-470e-8654-a954f9125bcb/wc-frisch-premium-wc-einhaenger",
-   "url": "https://www.aldi-suisse.ch/de/produkt/wc-frisch-premium-wc-einhaenger-000000000000493591"
+   "url": "https://www.aldi-suisse.ch/de/produkt/wc-frisch-premium-wc-einhaenger-000000000000493591",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749146",
    "store": "aldi",
    "name": "Rollenspielbuch aus Holz",
@@ -2003,9 +2732,16 @@
     "Kinder"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/02e932d8-420e-434f-ab69-70a96965d69e/toylino-rollenspielbuch-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-rollenspielbuch-aus-holz-000000000000749146"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-rollenspielbuch-aus-holz-000000000000749146",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000750232",
    "store": "aldi",
    "name": "Rollenspieltaschen aus Holz",
@@ -2022,9 +2758,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/33565973-4f82-4398-80d9-0b31acf16ab9/toylino-rollenspieltaschen-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-rollenspieltaschen-aus-holz-000000000000750232"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-rollenspieltaschen-aus-holz-000000000000750232",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736053",
    "store": "aldi",
    "name": "Schneidebrett",
@@ -2041,9 +2784,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/8cb6dece-0e52-43ad-bb4a-f0b408ca9b2a/crofton-schneidebrett",
-   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-schneidebrett-000000000000736053"
+   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-schneidebrett-000000000000736053",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738887",
    "store": "aldi",
    "name": "Schranklicht",
@@ -2060,9 +2810,16 @@
     "Beleuchtung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c72d0bf9-ab27-439c-8437-924b0d4cfc94/casalux-schranklicht",
-   "url": "https://www.aldi-suisse.ch/de/produkt/casalux-schranklicht-000000000000738887"
+   "url": "https://www.aldi-suisse.ch/de/produkt/casalux-schranklicht-000000000000738887",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000559587",
    "store": "aldi",
    "name": "Schweinshals am Stück",
@@ -2079,9 +2836,16 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a2807160-b82d-47d7-b949-cce0c35aa237/country-s-best-schweinshals-am-stueck",
-   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-schweinshals-am-stueck-000000000000559587"
+   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-schweinshals-am-stueck-000000000000559587",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 11.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000746264",
    "store": "aldi",
    "name": "Supermarkt-Sets aus Holz",
@@ -2098,9 +2862,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a9648afb-5dcd-4858-a213-a9a9f533228d/toylino-supermarkt-sets-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-supermarkt-sets-aus-holz-000000000000746264"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-supermarkt-sets-aus-holz-000000000000746264",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000747913",
    "store": "aldi",
    "name": "Süsswaren-/Kuchensortiment aus Holz",
@@ -2117,9 +2888,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/57fafa16-c167-48a9-bc0f-3848f0e902c5/toylino-suesswaren-kuchensortiment-aus-holz",
-   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-suesswaren-kuchensortiment-aus-holz-000000000000747913"
+   "url": "https://www.aldi-suisse.ch/de/produkt/toylino-suesswaren-kuchensortiment-aus-holz-000000000000747913",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000684401",
    "store": "aldi",
    "name": "Teekanne oder French Press",
@@ -2136,9 +2914,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/75aa67f1-b79a-48db-af47-991812a2f6c9/crofton-teekanne-oder-french-press",
-   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-teekanne-oder-french-press-000000000000684401"
+   "url": "https://www.aldi-suisse.ch/de/produkt/crofton-teekanne-oder-french-press-000000000000684401",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000678623",
    "store": "aldi",
    "name": "Ultra Binden",
@@ -2155,9 +2940,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3b7e4a7c-6380-4157-a0fa-b11e3a3a1d71/always-ultra-binden",
-   "url": "https://www.aldi-suisse.ch/de/produkt/always-ultra-binden-000000000000678623"
+   "url": "https://www.aldi-suisse.ch/de/produkt/always-ultra-binden-000000000000678623",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738404",
    "store": "aldi",
    "name": "Waschmittel-Pulver",
@@ -2174,9 +2966,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2b62a6b3-b42b-4332-9108-26f2a1a2bad7/ariel-waschmittel-pulver",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-waschmittel-pulver-000000000000738404"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-waschmittel-pulver-000000000000738404",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738055",
    "store": "aldi",
    "name": "Waschmittelpods, All-in-one",
@@ -2193,9 +2992,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/913a6199-5b01-4895-bf3f-b0a8eaee6c1c/ariel-waschmittelpods-all-in-one",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-waschmittelpods-all-in-one-000000000000738055"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-waschmittelpods-all-in-one-000000000000738055",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738047",
    "store": "aldi",
    "name": "Waschmittelpods, Max Power",
@@ -2212,9 +3018,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f48c1fc9-9c0f-4c94-b96c-836d4352d5f9/ariel-waschmittelpods-max-power",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-waschmittelpods-max-power-000000000000738047"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ariel-waschmittelpods-max-power-000000000000738047",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737497",
    "store": "aldi",
    "name": "Wassersprudler",
@@ -2231,9 +3044,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/bdd3d369-6fe7-4051-af90-ab96e8b80035/soda-star-wassersprudler",
-   "url": "https://www.aldi-suisse.ch/de/produkt/soda-star-wassersprudler-000000000000737497"
+   "url": "https://www.aldi-suisse.ch/de/produkt/soda-star-wassersprudler-000000000000737497",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000739760",
    "store": "aldi",
    "name": "Weihnachtsgeschenkverpackung",
@@ -2250,9 +3070,16 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6a986cae-1c8b-496c-a032-3a57c8612407/home-creation-weihnachtsgeschenkverpackung",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-weihnachtsgeschenkverpackung-000000000000739760"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-weihnachtsgeschenkverpackung-000000000000739760",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000751582",
    "store": "aldi",
    "name": "Winter-Aroma-Diffuser",
@@ -2269,9 +3096,16 @@
     "Heimwerken"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a39b1e4c-75a9-41f4-b1bd-9f4125ca9646/ambiano-winter-aroma-diffuser",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ambiano-winter-aroma-diffuser-000000000000751582"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ambiano-winter-aroma-diffuser-000000000000751582",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749446",
    "store": "aldi",
    "name": "XL-Weihnachtsfiguren",
@@ -2288,9 +3122,64 @@
     "Weihnachten"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f6bbeeb1-c348-444d-924b-b68d7f81d380/home-creation-xl-weihnachtsfiguren",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-xl-weihnachtsfiguren-000000000000749446"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-xl-weihnachtsfiguren-000000000000749446",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": true,
+   "id": "aldi-000000000000319397",
+   "store": "aldi",
+   "name": "BIO-Magerquark",
+   "brand": "BIO",
+   "size": "250 g",
+   "price": 0.99,
+   "priceDisplay": "CHF 0.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": "CHF 0.40/100 g",
+   "validFrom": "2026-10-18",
+   "validFromDisplay": "Dauerpreis",
+   "categories": [],
+   "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/313e1076-196f-4f83-92a2-09ea682ab7cd/bio-bio-magerquark",
+   "url": "https://www.aldi-suisse.ch/de/produkt/bio-bio-magerquark-000000000000319397",
+   "group": "magerquark",
+   "proteinPer100g": 12,
+   "highProtein": true,
+   "pricePerKg": 4.0,
+   "proteinPerChf": 30.0,
+   "pick": true
+  },
+  {
+   "regular": true,
+   "id": "aldi-000000000000544617",
+   "store": "aldi",
+   "name": "Magerquark, laktosefrei",
+   "brand": "SAVEURS SUISSES",
+   "size": "250 g",
+   "price": 1.25,
+   "priceDisplay": "CHF 1.25",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": "CHF 0.50/100 g",
+   "validFrom": "2026-10-18",
+   "validFromDisplay": "Dauerpreis",
+   "categories": [],
+   "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9ee0f765-03a7-48b3-9655-eb5c0d95471c/saveurs-suisses-magerquark-laktosefrei",
+   "url": "https://www.aldi-suisse.ch/de/produkt/saveurs-suisses-magerquark-laktosefrei-000000000000544617",
+   "group": "magerquark",
+   "proteinPer100g": 12,
+   "highProtein": true,
+   "pricePerKg": 5.0,
+   "proteinPerChf": 24.0,
+   "pick": true
+  },
+  {
+   "regular": false,
    "id": "aldi-000000000000616475",
    "store": "aldi",
    "name": "Ananasscheiben",
@@ -2307,9 +3196,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/47ebf673-82a5-4b96-916d-d3ba9740dc18/sweet-valley-ananasscheiben",
-   "url": "https://www.aldi-suisse.ch/de/produkt/sweet-valley-ananasscheiben-000000000000616475"
+   "url": "https://www.aldi-suisse.ch/de/produkt/sweet-valley-ananasscheiben-000000000000616475",
+   "group": "frucht",
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.9,
+   "proteinPerChf": null,
+   "pick": true
   },
   {
+   "regular": false,
    "id": "aldi-000000000000760567",
    "store": "aldi",
    "name": "Asia-Snackbox",
@@ -2326,9 +3222,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1c9813a5-7645-4491-aec3-3dda76bad3d2/asia-green-garden-asia-snackbox",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-asia-snackbox-000000000000760567"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-asia-snackbox-000000000000760567",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000651940",
    "store": "aldi",
    "name": "BIO-Kokosnussmilch",
@@ -2345,9 +3248,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3fbb9095-1dcb-4b29-92d0-bf23456ef00e/no-brand-bio-kokosnussmilch",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bio-kokosnussmilch-000000000000651940"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bio-kokosnussmilch-000000000000651940",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 9.2,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738917",
    "store": "aldi",
    "name": "BIO-Kokosnussmilch",
@@ -2364,9 +3274,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1f8479d7-ad5c-46b1-9c93-10350b8e96d1/no-brand-bio-kokosnussmilch",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bio-kokosnussmilch-000000000000738917"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bio-kokosnussmilch-000000000000738917",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000739323",
    "store": "aldi",
    "name": "Baby-Fleece-Overall",
@@ -2383,9 +3300,16 @@
     "Baby"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/fbe4e519-54e9-4e33-ad88-c002d7907db6/lily-dan-baby-fleece-overall",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-baby-fleece-overall-000000000000739323"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-baby-fleece-overall-000000000000739323",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000450713001",
    "store": "aldi",
    "name": "Backfüllung, Birnenweggen",
@@ -2402,9 +3326,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3e72229a-fe9b-45c6-9d57-289754f7cdcd/nectaflor-backfuellung-birnenweggen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/nectaflor-backfuellung-birnenweggen-000000000450713001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/nectaflor-backfuellung-birnenweggen-000000000450713001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 12.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000450713003",
    "store": "aldi",
    "name": "Backfüllung, Haselnuss",
@@ -2421,9 +3352,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0ab3aa91-def4-48c8-99d7-635dba087492/nectaflor-backfuellung-haselnuss",
-   "url": "https://www.aldi-suisse.ch/de/produkt/nectaflor-backfuellung-haselnuss-000000000450713003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/nectaflor-backfuellung-haselnuss-000000000450713003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 12.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000450713002",
    "store": "aldi",
    "name": "Backfüllung, Mandeln",
@@ -2440,9 +3378,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5dd5fd99-d66a-4d4f-8e8b-fdf8f2d64aef/nectaflor-backfuellung-mandeln",
-   "url": "https://www.aldi-suisse.ch/de/produkt/nectaflor-backfuellung-mandeln-000000000450713002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/nectaflor-backfuellung-mandeln-000000000450713002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 12.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000635201001",
    "store": "aldi",
    "name": "Basis-Müesli, 5-Kornmix",
@@ -2459,9 +3404,16 @@
     "Bio"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a921ceb7-3e73-40f3-bf92-a7c8ec22ea15/bio-basis-mueesli-5-kornmix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/bio-basis-mueesli-5-kornmix-000000000635201001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/bio-basis-mueesli-5-kornmix-000000000635201001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 3.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000635201002",
    "store": "aldi",
    "name": "Basis-Müesli, Cereal-Mix",
@@ -2478,9 +3430,16 @@
     "Bio"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/cfb260d5-0595-402c-96f7-6d9596d04382/bio-basis-mueesli-cereal-mix",
-   "url": "https://www.aldi-suisse.ch/de/produkt/bio-basis-mueesli-cereal-mix-000000000635201002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/bio-basis-mueesli-cereal-mix-000000000635201002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 5.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000109856",
    "store": "aldi",
    "name": "Blätterteiggebäck mit Aprikosenglasur",
@@ -2497,9 +3456,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/85cd6a80-8092-485a-ab7b-de32615d45a8/cucina-blaetterteiggebaeck-mit-aprikosenglasur",
-   "url": "https://www.aldi-suisse.ch/de/produkt/cucina-blaetterteiggebaeck-mit-aprikosenglasur-000000000000109856"
+   "url": "https://www.aldi-suisse.ch/de/produkt/cucina-blaetterteiggebaeck-mit-aprikosenglasur-000000000000109856",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000776073002",
    "store": "aldi",
    "name": "Bschüssig Teigwaren, Älplermacaroni",
@@ -2516,9 +3482,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6afa6d8a-2ec0-4721-8c8e-f74a8de6488b/no-brand-bschuessig-teigwaren-aelplermacaroni",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bschuessig-teigwaren-aelplermacaroni-000000000776073002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-bschuessig-teigwaren-aelplermacaroni-000000000776073002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.66,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000777938",
    "store": "aldi",
    "name": "Caramel-Konzentrat",
@@ -2535,9 +3508,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7659a973-7115-44cb-a5e8-09268b35fb6d/l-or-caramel-konzentrat",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-or-caramel-konzentrat-000000000000777938"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-or-caramel-konzentrat-000000000000777938",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 12.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738894",
    "store": "aldi",
    "name": "Chili-Crunch",
@@ -2554,9 +3534,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4d899cc2-fd51-46bf-b5de-1a562e381436/no-brand-chili-crunch",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-chili-crunch-000000000000738894"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-chili-crunch-000000000000738894",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 46.6,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000707848003",
    "store": "aldi",
    "name": "Crevetten in asiatischer Sauce, Madras",
@@ -2573,9 +3560,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/fbe9d994-4e1c-476b-8744-488aa49ef392/asia-green-garden-crevetten-in-asiatischer-sauce-madras",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevetten-in-asiatischer-sauce-madras-000000000707848003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevetten-in-asiatischer-sauce-madras-000000000707848003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000707848002",
    "store": "aldi",
    "name": "Crevetten in asiatischer Sauce, Sweet Chili",
@@ -2592,9 +3586,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/28c057bf-9c00-4da6-b1cc-22b406c954e1/asia-green-garden-crevetten-in-asiatischer-sauce-sweet-chili",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevetten-in-asiatischer-sauce-sweet-chili-000000000707848002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevetten-in-asiatischer-sauce-sweet-chili-000000000707848002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000707848001",
    "store": "aldi",
    "name": "Crevetten in asiatischer Sauce, Yellow Thai",
@@ -2611,9 +3612,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6d9ba73a-e262-48b6-8e80-6caa743d73d3/asia-green-garden-crevetten-in-asiatischer-sauce-yellow-thai",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevetten-in-asiatischer-sauce-yellow-thai-000000000707848001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevetten-in-asiatischer-sauce-yellow-thai-000000000707848001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000434710002",
    "store": "aldi",
    "name": "Crevettenchips, Chili",
@@ -2630,9 +3638,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/637dc3e8-2f76-48db-906b-0ec37b44a072/asia-green-garden-crevettenchips-chili",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevettenchips-chili-000000000434710002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevettenchips-chili-000000000434710002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000434710001",
    "store": "aldi",
    "name": "Crevettenchips, Classic",
@@ -2649,9 +3664,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d567bbaf-8757-4bcb-8e3d-b60cf619c196/asia-green-garden-crevettenchips-classic",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevettenchips-classic-000000000434710001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-crevettenchips-classic-000000000434710001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000774305",
    "store": "aldi",
    "name": "Crunchy-Cream",
@@ -2668,9 +3690,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e62d3954-205d-4531-bb77-c3f29cab937d/ovomaltine-crunchy-cream",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ovomaltine-crunchy-cream-000000000000774305"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ovomaltine-crunchy-cream-000000000000774305",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 9.17,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000651954003",
    "store": "aldi",
    "name": "Curry Paste, Gelb",
@@ -2687,9 +3716,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ce734389-fe9a-43c1-9bb7-8d6dcda96f6b/no-brand-curry-paste-gelb",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-curry-paste-gelb-000000000651954003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-curry-paste-gelb-000000000651954003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000651954002",
    "store": "aldi",
    "name": "Curry Paste, Grün",
@@ -2706,9 +3742,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/551f0e8f-203a-42dd-ade7-4d6294b2d5c7/no-brand-curry-paste-gruen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-curry-paste-gruen-000000000651954002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-curry-paste-gruen-000000000651954002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000651954001",
    "store": "aldi",
    "name": "Curry Paste, Rot",
@@ -2725,9 +3768,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e80d938b-3818-415f-91ae-c4ce38651648/no-brand-curry-paste-rot",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-curry-paste-rot-000000000651954001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-curry-paste-rot-000000000651954001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000194107001",
    "store": "aldi",
    "name": "Curry Pasten, Gelb",
@@ -2744,9 +3794,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2223ea7d-ada2-4c30-9dfd-0101750bbc8b/asia-green-garden-curry-pasten-gelb",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-curry-pasten-gelb-000000000194107001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-curry-pasten-gelb-000000000194107001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 5.1,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000194107002",
    "store": "aldi",
    "name": "Curry Pasten, Grün",
@@ -2763,9 +3820,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7bf81107-e635-4962-ad88-b32458a81d90/asia-green-garden-curry-pasten-gruen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-curry-pasten-gruen-000000000194107002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-curry-pasten-gruen-000000000194107002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 5.1,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000194107003",
    "store": "aldi",
    "name": "Curry Pasten, Rot",
@@ -2782,9 +3846,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1c38f76f-4af9-4327-b0ce-064b10140603/asia-green-garden-curry-pasten-rot",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-curry-pasten-rot-000000000194107003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-curry-pasten-rot-000000000194107003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 5.1,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000744878",
    "store": "aldi",
    "name": "Damen-/Herren Thermo Sneaker",
@@ -2801,9 +3872,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d661d14e-03b6-492b-8db9-2b33e72fa4fc/up2fashion-damen-herren-thermo-sneaker",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-damen-herren-thermo-sneaker-000000000000744878"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-damen-herren-thermo-sneaker-000000000000744878",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000742905",
    "store": "aldi",
    "name": "Damen-/Herren-College-Sweatshirt/-Hoodie",
@@ -2820,9 +3898,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d005224b-2f54-4ed8-8f41-9e0c6f6b0073/licensed-damen-herren-college-sweatshirt-hoodie",
-   "url": "https://www.aldi-suisse.ch/de/produkt/licensed-damen-herren-college-sweatshirt-hoodie-000000000000742905"
+   "url": "https://www.aldi-suisse.ch/de/produkt/licensed-damen-herren-college-sweatshirt-hoodie-000000000000742905",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736431",
    "store": "aldi",
    "name": "Damen-/Herren-Filzfinken",
@@ -2839,9 +3924,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/23a1aafc-15bc-4865-a055-b53502ca76b1/up2fashion-basics-damen-herren-filzfinken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-basics-damen-herren-filzfinken-000000000000736431"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-basics-damen-herren-filzfinken-000000000000736431",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736351",
    "store": "aldi",
    "name": "Damen-/Herren-Finken",
@@ -2858,9 +3950,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/cfb5725d-8c16-442b-ac17-3ed10a7d6320/up2fashion-basics-damen-herren-finken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-basics-damen-herren-finken-000000000000736351"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-basics-damen-herren-finken-000000000000736351",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000744597",
    "store": "aldi",
    "name": "Damen-/Herren-Winterclogs",
@@ -2877,9 +3976,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6a0dd5ac-f5e8-4e36-838a-93336e43587f/up2fashion-damen-herren-winterclogs",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-damen-herren-winterclogs-000000000000744597"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-damen-herren-winterclogs-000000000000744597",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000733711",
    "store": "aldi",
    "name": "Damen-Komfort-Booties",
@@ -2896,9 +4002,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2a4cd0ff-86da-406f-ab57-8a88db5932a4/up2fashion-women-damen-komfort-booties",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-komfort-booties-000000000000733711"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-komfort-booties-000000000000733711",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000741885",
    "store": "aldi",
    "name": "Damen-Leggings",
@@ -2915,9 +4028,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/12a59a8d-00c3-41b3-9960-cd5a59f8577d/up2fashion-women-damen-leggings",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-leggings-000000000000741885"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-leggings-000000000000741885",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000730771",
    "store": "aldi",
    "name": "Damen-Pullover",
@@ -2934,9 +4054,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7c1be357-ac49-4be9-a7bf-07c46d1ee651/up2fashion-women-damen-pullover",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-pullover-000000000000730771"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-pullover-000000000000730771",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737850",
    "store": "aldi",
    "name": "Damen-Pullover",
@@ -2953,9 +4080,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f5d06989-993c-4791-8a05-f460ad779a90/up2fashion-women-damen-pullover",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-pullover-000000000000737850"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-pullover-000000000000737850",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000735353",
    "store": "aldi",
    "name": "Damen-Winter-Loungehose",
@@ -2972,9 +4106,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e58ac0b7-84ad-4373-a19f-cb110f3528e8/up2fashion-women-damen-winter-loungehose",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-winter-loungehose-000000000000735353"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-winter-loungehose-000000000000735353",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736758",
    "store": "aldi",
    "name": "Damenhose mit Bubble-Saum",
@@ -2991,9 +4132,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ae07816c-d528-4140-8396-3353ae7370ac/crane-damenhose-mit-bubble-saum",
-   "url": "https://www.aldi-suisse.ch/de/produkt/crane-damenhose-mit-bubble-saum-000000000000736758"
+   "url": "https://www.aldi-suisse.ch/de/produkt/crane-damenhose-mit-bubble-saum-000000000000736758",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000762734002",
    "store": "aldi",
    "name": "Dumplings, Chive Vegetable",
@@ -3010,9 +4158,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/07c008f3-0820-400a-93f0-9e9c701a0f60/bibigo-dumplings-chive-vegetable",
-   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-dumplings-chive-vegetable-000000000762734002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-dumplings-chive-vegetable-000000000762734002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000762734001",
    "store": "aldi",
    "name": "Dumplings, Kimchi",
@@ -3029,9 +4184,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/bda2ff3e-c30f-41b1-87f5-7c06fe1e4f73/bibigo-dumplings-kimchi",
-   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-dumplings-kimchi-000000000762734001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-dumplings-kimchi-000000000762734001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000290479",
    "store": "aldi",
    "name": "Gurken",
@@ -3048,9 +4210,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6679193d-a465-4aff-9519-bf772f1f3628/chirat-gurken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/chirat-gurken-000000000000290479"
+   "url": "https://www.aldi-suisse.ch/de/produkt/chirat-gurken-000000000000290479",
+   "group": "gemuese",
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 9.3,
+   "proteinPerChf": null,
+   "pick": true
   },
   {
+   "regular": false,
    "id": "aldi-000000000000773610",
    "store": "aldi",
    "name": "Gyoza, Beef",
@@ -3067,9 +4236,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/efe67b29-1b5a-48bd-b3f4-0c4eade3c3e0/no-brand-gyoza-beef",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-gyoza-beef-000000000000773610"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-gyoza-beef-000000000000773610",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000773596",
    "store": "aldi",
    "name": "Gyoza, Chicken",
@@ -3086,9 +4262,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4b5ae700-be90-402c-8a3a-b83630e04684/no-brand-gyoza-chicken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-gyoza-chicken-000000000000773596"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-gyoza-chicken-000000000000773596",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 24.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000735674",
    "store": "aldi",
    "name": "Herren-Jeans",
@@ -3105,9 +4288,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e0a37ea5-1a8e-40c0-b85b-f634e318cd0f/up2fashion-men-herren-jeans",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-men-herren-jeans-000000000000735674"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-men-herren-jeans-000000000000735674",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000742083",
    "store": "aldi",
    "name": "Herren-Ledergürtel",
@@ -3124,9 +4314,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7272e817-486b-49ee-8953-6c440b967ac3/up2fashion-men-herren-lederguertel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-men-herren-lederguertel-000000000000742083"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-men-herren-lederguertel-000000000000742083",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000743289",
    "store": "aldi",
    "name": "Journal-Sortiment",
@@ -3143,9 +4340,16 @@
     "Freizeit"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a6d9c2e1-2ee1-46af-a043-77f441c857e6/home-creation-journal-sortiment",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-journal-sortiment-000000000000743289"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-journal-sortiment-000000000000743289",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000752280",
    "store": "aldi",
    "name": "Jugendroman",
@@ -3162,9 +4366,16 @@
     "Freizeit"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/28b3324d-5fc6-4edc-98c3-697ccc33e98e/no-brand-jugendroman",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-jugendroman-000000000000752280"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-jugendroman-000000000000752280",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000289719",
    "store": "aldi",
    "name": "Kaffee, der Himmlische",
@@ -3181,9 +4392,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/bc585a3c-b840-4e63-9b06-6919465de6ae/moevenpick-kaffee-der-himmlische",
-   "url": "https://www.aldi-suisse.ch/de/produkt/moevenpick-kaffee-der-himmlische-000000000000289719"
+   "url": "https://www.aldi-suisse.ch/de/produkt/moevenpick-kaffee-der-himmlische-000000000000289719",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000479321",
    "store": "aldi",
    "name": "Kaffeekapseln \"Der Himmlische\"",
@@ -3200,9 +4418,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/bcee5662-1f8a-40ce-b82a-a28f89f43c80/moevenpick-kaffeekapseln-der-himmlische",
-   "url": "https://www.aldi-suisse.ch/de/produkt/moevenpick-kaffeekapseln-der-himmlische-000000000000479321"
+   "url": "https://www.aldi-suisse.ch/de/produkt/moevenpick-kaffeekapseln-der-himmlische-000000000000479321",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000658777",
    "store": "aldi",
    "name": "Ketchup, Zero",
@@ -3219,9 +4444,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7a007150-b1dd-42da-a077-15b6a9189b49/heinz-ketchup-zero",
-   "url": "https://www.aldi-suisse.ch/de/produkt/heinz-ketchup-zero-000000000000658777"
+   "url": "https://www.aldi-suisse.ch/de/produkt/heinz-ketchup-zero-000000000000658777",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736153",
    "store": "aldi",
    "name": "Kinder Strickpullover",
@@ -3238,9 +4470,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c2f97a55-e44d-4f26-bdd2-625e0d82b6ff/l-d-kinder-strickpullover",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-strickpullover-000000000000736153"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-strickpullover-000000000000736153",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738617",
    "store": "aldi",
    "name": "Kinder-/Kleinkinder Thermoleggings",
@@ -3257,9 +4496,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/aba5cf9a-2775-49e1-b2af-14390405e4a3/l-d-kinder-kleinkinder-thermoleggings",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-kleinkinder-thermoleggings-000000000000738617"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-kleinkinder-thermoleggings-000000000000738617",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737824",
    "store": "aldi",
    "name": "Kinder-Kniestrümpfe",
@@ -3276,9 +4522,16 @@
     "Kinder"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9a535547-c542-431c-bcfd-0409bb30cf6e/l-d-kinder-kniestruempfe",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-kniestruempfe-000000000000737824"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-kniestruempfe-000000000000737824",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-7429581588161431769129",
    "store": "aldi",
    "name": "Kinder-Thermo-Jeans, Mädchen",
@@ -3295,9 +4548,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/28c6cb04-2802-45d1-985c-cba7f2248ea8/lily-dan-kinder-thermo-jeans-maedchen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kinder-thermo-jeans-maedchen-7429581588161431769129"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kinder-thermo-jeans-maedchen-7429581588161431769129",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-7429581588161431769134",
    "store": "aldi",
    "name": "Kinder-Thermo-Jeans, Unisex",
@@ -3314,9 +4574,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/729cf5aa-5436-4113-b281-ad84bbbb3d56/lily-dan-kinder-thermo-jeans-unisex",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kinder-thermo-jeans-unisex-7429581588161431769134"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kinder-thermo-jeans-unisex-7429581588161431769134",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738626",
    "store": "aldi",
    "name": "Kinder-Velours-Pyjama, 2-teilig",
@@ -3333,9 +4600,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5f2563a6-2423-4e02-b96d-dffd8a5f1930/l-d-kinder-velours-pyjama-2-teilig",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-velours-pyjama-2-teilig-000000000000738626"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinder-velours-pyjama-2-teilig-000000000000738626",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000739428",
    "store": "aldi",
    "name": "Kinderstrumpfhose",
@@ -3352,9 +4626,16 @@
     "Kinder"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2330c62a-7cd2-4f06-bd40-c82ee94259b5/l-d-kinderstrumpfhose",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinderstrumpfhose-000000000000739428"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kinderstrumpfhose-000000000000739428",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737495",
    "store": "aldi",
    "name": "Kindertaschenschirm, Reflektierend",
@@ -3371,9 +4652,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/fd5ee5b1-5b18-448a-a91c-8f87996184b3/l-d-kindertaschenschirm-reflektierend",
-   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kindertaschenschirm-reflektierend-000000000000737495"
+   "url": "https://www.aldi-suisse.ch/de/produkt/l-d-kindertaschenschirm-reflektierend-000000000000737495",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000751627",
    "store": "aldi",
    "name": "Kleinkinder-/Kinder-Hüttenfinken",
@@ -3390,9 +4678,16 @@
     "Kinder"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7629ed49-52f8-4514-8347-e6ad98bb96de/lily-dan-kleinkinder-kinder-huettenfinken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kleinkinder-kinder-huettenfinken-000000000000751627"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kleinkinder-kinder-huettenfinken-000000000000751627",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000731948",
    "store": "aldi",
    "name": "Kleinkinder-Jogginghose",
@@ -3409,9 +4704,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e5d43a4b-3e5b-45f6-8c52-d7ee27b5f240/licensed-kleinkinder-jogginghose",
-   "url": "https://www.aldi-suisse.ch/de/produkt/licensed-kleinkinder-jogginghose-000000000000731948"
+   "url": "https://www.aldi-suisse.ch/de/produkt/licensed-kleinkinder-jogginghose-000000000000731948",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000734682",
    "store": "aldi",
    "name": "Kleinkinder-Leggings",
@@ -3428,9 +4730,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e6a5e064-180b-48ad-ab1a-27c9cc3af170/licensed-kleinkinder-leggings",
-   "url": "https://www.aldi-suisse.ch/de/produkt/licensed-kleinkinder-leggings-000000000000734682"
+   "url": "https://www.aldi-suisse.ch/de/produkt/licensed-kleinkinder-leggings-000000000000734682",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738378",
    "store": "aldi",
    "name": "Kleinkinder-Velours-Pyjama, 2-teilig",
@@ -3447,9 +4756,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a4134339-d3e1-4526-bd04-07c934956908/lily-dan-kleinkinder-velours-pyjama-2-teilig",
-   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kleinkinder-velours-pyjama-2-teilig-000000000000738378"
+   "url": "https://www.aldi-suisse.ch/de/produkt/lily-dan-kleinkinder-velours-pyjama-2-teilig-000000000000738378",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000734178",
    "store": "aldi",
    "name": "Kokos-Fussmatte",
@@ -3466,9 +4782,16 @@
     "Heimtextilien - Wohnen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/128b8b7c-bb84-4790-83d5-b6f1b3e8183c/home-creation-kokos-fussmatte",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-kokos-fussmatte-000000000000734178"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-kokos-fussmatte-000000000000734178",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000653649",
    "store": "aldi",
    "name": "Kokosmilch",
@@ -3485,9 +4808,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/cd72a159-68a9-4bd7-bbaa-c6593fed6f8c/no-brand-kokosmilch",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-kokosmilch-000000000000653649"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-kokosmilch-000000000000653649",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.2,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738879",
    "store": "aldi",
    "name": "Kokosnusscrème",
@@ -3504,9 +4834,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3e46287a-3b31-4011-9685-837266d9a476/no-brand-kokosnusscreme",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-kokosnusscreme-000000000000738879"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-kokosnusscreme-000000000000738879",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738877",
    "store": "aldi",
    "name": "Kokosnussmilch Light",
@@ -3523,9 +4860,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/dbdbe1eb-8c7c-43a1-a1ae-2112a305ee89/no-brand-kokosnussmilch-light",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-kokosnussmilch-light-000000000000738877"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-kokosnussmilch-light-000000000000738877",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.4,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000752383",
    "store": "aldi",
    "name": "LED-Leseleuchte",
@@ -3542,9 +4886,16 @@
     "Beleuchtung"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/197337cb-ff96-48e4-a4c2-8a80e6e592dc/casalux-led-leseleuchte",
-   "url": "https://www.aldi-suisse.ch/de/produkt/casalux-led-leseleuchte-000000000000752383"
+   "url": "https://www.aldi-suisse.ch/de/produkt/casalux-led-leseleuchte-000000000000752383",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000290481",
    "store": "aldi",
    "name": "Maiskölbchen",
@@ -3561,9 +4912,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2470e579-b829-4d92-8398-716f753a0ce6/chirat-maiskoelbchen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/chirat-maiskoelbchen-000000000000290481"
+   "url": "https://www.aldi-suisse.ch/de/produkt/chirat-maiskoelbchen-000000000000290481",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 31.1,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000543551001",
    "store": "aldi",
    "name": "Mayonnaise, Thomynaise",
@@ -3580,9 +4938,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4d9cb7eb-5940-48e3-b941-5e6171930a52/thomy-mayonnaise-thomynaise",
-   "url": "https://www.aldi-suisse.ch/de/produkt/thomy-mayonnaise-thomynaise-000000000543551001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/thomy-mayonnaise-thomynaise-000000000543551001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.02,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000543551002",
    "store": "aldi",
    "name": "Mayonnaise, francaise",
@@ -3599,9 +4964,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7829becb-3018-435b-95fd-c7b34da36f44/thomy-mayonnaise-francaise",
-   "url": "https://www.aldi-suisse.ch/de/produkt/thomy-mayonnaise-francaise-000000000543551002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/thomy-mayonnaise-francaise-000000000543551002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.47,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000152881",
    "store": "aldi",
    "name": "Minis",
@@ -3618,9 +4990,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/aa335427-7aab-435c-bd27-552072117f74/knoppers-minis",
-   "url": "https://www.aldi-suisse.ch/de/produkt/knoppers-minis-000000000000152881"
+   "url": "https://www.aldi-suisse.ch/de/produkt/knoppers-minis-000000000000152881",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 17.5,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000342718",
    "store": "aldi",
    "name": "Natürliches Mineralwasser",
@@ -3637,9 +5016,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/391e6fac-ff94-4aa4-99b7-222ae3014ed7/evian-natuerliches-mineralwasser",
-   "url": "https://www.aldi-suisse.ch/de/produkt/evian-natuerliches-mineralwasser-000000000000342718"
+   "url": "https://www.aldi-suisse.ch/de/produkt/evian-natuerliches-mineralwasser-000000000000342718",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 0.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000748907",
    "store": "aldi",
    "name": "New Romance/Young Adult Beschäftigungsbuch",
@@ -3656,9 +5042,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b6413716-0ad6-4cd2-b823-a1b5c8bac0ea/no-brand-new-romance-young-adult-beschaeftigungsbuch",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-new-romance-young-adult-beschaeftigungsbuch-000000000000748907"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-new-romance-young-adult-beschaeftigungsbuch-000000000000748907",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000774179002",
    "store": "aldi",
    "name": "Overnight Oat Winter, Haselnuss/Kakao",
@@ -3675,9 +5068,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/97ac7ba4-d52a-46ad-8076-3ca4acf49180/3bears-overnight-oat-winter-haselnuss-kakao",
-   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oat-winter-haselnuss-kakao-000000000774179002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oat-winter-haselnuss-kakao-000000000774179002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000774179001",
    "store": "aldi",
    "name": "Overnight Oat Winter, Zimt",
@@ -3694,9 +5094,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5682c98f-9a00-42a6-af45-fe0ec4922105/3bears-overnight-oat-winter-zimt",
-   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oat-winter-zimt-000000000774179001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oat-winter-zimt-000000000774179001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000774168002",
    "store": "aldi",
    "name": "Overnight Oats Sommer, Bananen Split",
@@ -3713,9 +5120,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/35cb0909-4146-4613-8eca-6de08959ac01/3bears-overnight-oats-sommer-bananen-split",
-   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oats-sommer-bananen-split-000000000774168002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oats-sommer-bananen-split-000000000774168002",
+   "group": "protein",
+   "proteinPer100g": 9,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000774168001",
    "store": "aldi",
    "name": "Overnight Oats Sommer, Erdbeere",
@@ -3732,9 +5146,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e9c72d22-5f4d-443a-a6bb-2cf25b6c1cea/3bears-overnight-oats-sommer-erdbeere",
-   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oats-sommer-erdbeere-000000000774168001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/3bears-overnight-oats-sommer-erdbeere-000000000774168001",
+   "group": "protein",
+   "proteinPer100g": 9,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000744117",
    "store": "aldi",
    "name": "Penne Rigate",
@@ -3751,9 +5172,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4cfd3003-c55d-4c79-a724-890e3ad5a930/rummo-penne-rigate",
-   "url": "https://www.aldi-suisse.ch/de/produkt/rummo-penne-rigate-000000000000744117"
+   "url": "https://www.aldi-suisse.ch/de/produkt/rummo-penne-rigate-000000000000744117",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 3.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000691659003",
    "store": "aldi",
    "name": "Pilzspezialitäten getrocknet, Pilzmischung",
@@ -3770,9 +5198,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f3437fd6-3f3c-427d-ab6d-4361940e7871/le-gusto-pilzspezialitaeten-getrocknet-pilzmischung",
-   "url": "https://www.aldi-suisse.ch/de/produkt/le-gusto-pilzspezialitaeten-getrocknet-pilzmischung-000000000691659003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/le-gusto-pilzspezialitaeten-getrocknet-pilzmischung-000000000691659003",
+   "group": "gemuese",
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 34.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000691659004",
    "store": "aldi",
    "name": "Pilzspezialitäten getrocknet, Steinpilze",
@@ -3789,9 +5224,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/fe060285-cf7a-4486-aeb6-ac2380d9d732/le-gusto-pilzspezialitaeten-getrocknet-steinpilze",
-   "url": "https://www.aldi-suisse.ch/de/produkt/le-gusto-pilzspezialitaeten-getrocknet-steinpilze-000000000691659004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/le-gusto-pilzspezialitaeten-getrocknet-steinpilze-000000000691659004",
+   "group": "gemuese",
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 58.2,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000290500002",
    "store": "aldi",
    "name": "Quick Noodles, Curry",
@@ -3808,9 +5250,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/798e24e7-a164-4452-be30-04656dd5c496/knorr-quick-noodles-curry",
-   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-curry-000000000290500002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-curry-000000000290500002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000290500003",
    "store": "aldi",
    "name": "Quick Noodles, Gemüse",
@@ -3827,9 +5276,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/01c14593-0731-41c2-b954-0eac590d1578/knorr-quick-noodles-gemuese",
-   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-gemuese-000000000290500003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-gemuese-000000000290500003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000290500001",
    "store": "aldi",
    "name": "Quick Noodles, Huhn",
@@ -3846,9 +5302,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b7ca2a1f-92db-4543-872e-cfddaee380ec/knorr-quick-noodles-huhn",
-   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-huhn-000000000290500001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-huhn-000000000290500001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000290500004",
    "store": "aldi",
    "name": "Quick Noodles, Rind",
@@ -3865,9 +5328,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3f708451-dc8e-4575-9da8-f00016dbc76c/knorr-quick-noodles-rind",
-   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-rind-000000000290500004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/knorr-quick-noodles-rind-000000000290500004",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000753223002",
    "store": "aldi",
    "name": "Ramen, China Beef",
@@ -3884,9 +5354,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4cea6eba-6f1b-437e-ac82-4643dc75c50f/nissin-ramen-china-beef",
-   "url": "https://www.aldi-suisse.ch/de/produkt/nissin-ramen-china-beef-000000000753223002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/nissin-ramen-china-beef-000000000753223002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000753223003",
    "store": "aldi",
    "name": "Ramen, Korea Chili",
@@ -3903,9 +5380,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2f1a8ac0-b280-48f0-8aa1-afc3ef6df8bd/nissin-ramen-korea-chili",
-   "url": "https://www.aldi-suisse.ch/de/produkt/nissin-ramen-korea-chili-000000000753223003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/nissin-ramen-korea-chili-000000000753223003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000753223001",
    "store": "aldi",
    "name": "Ramen, Thai Chicken",
@@ -3922,9 +5406,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/33aa765e-e0d3-4162-b00e-e04af9881aec/nissin-ramen-thai-chicken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/nissin-ramen-thai-chicken-000000000753223001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/nissin-ramen-thai-chicken-000000000753223001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 13.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000574941002",
    "store": "aldi",
    "name": "Reis Bällchen, Rice Balls Bibi",
@@ -3941,9 +5432,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5831c448-4754-47e9-af26-baedd1dc678b/bibigo-reis-baellchen-rice-balls-bibi",
-   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-reis-baellchen-rice-balls-bibi-000000000574941002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-reis-baellchen-rice-balls-bibi-000000000574941002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.98,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000574941001",
    "store": "aldi",
    "name": "Reis Bällchen, Rice Balls Bulg",
@@ -3960,9 +5458,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/02d962f5-2193-45cf-91ef-a630b4d4d298/bibigo-reis-baellchen-rice-balls-bulg",
-   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-reis-baellchen-rice-balls-bulg-000000000574941001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/bibigo-reis-baellchen-rice-balls-bulg-000000000574941001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.98,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000651966",
    "store": "aldi",
    "name": "Reisnudeln",
@@ -3979,9 +5484,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5ae704d2-7a04-46f9-87d2-8bba268775ea/no-brand-reisnudeln",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-reisnudeln-000000000000651966"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-reisnudeln-000000000000651966",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.8,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738726",
    "store": "aldi",
    "name": "Rote Curry Simmersauce",
@@ -3998,9 +5510,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/30b221f6-a978-4841-8134-464003d6f71e/no-brand-rote-curry-simmersauce",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-rote-curry-simmersauce-000000000000738726"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-rote-curry-simmersauce-000000000000738726",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 14.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000482498",
    "store": "aldi",
    "name": "Rösti, Original",
@@ -4017,9 +5536,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7225a789-6f05-4334-9933-dfe5ae6b9dc2/hero-roesti-original",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hero-roesti-original-000000000000482498"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hero-roesti-original-000000000000482498",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.66,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738709",
    "store": "aldi",
    "name": "Satay-Simmersauce",
@@ -4036,9 +5562,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0d6063bb-1ff3-4b9b-9e8b-3fcc3dcc6484/no-brand-satay-simmersauce",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-satay-simmersauce-000000000000738709"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-satay-simmersauce-000000000000738709",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 16.46,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641009",
    "store": "aldi",
    "name": "Saucen, Avocado-Limette",
@@ -4055,9 +5588,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/fe93c495-538f-4e27-a200-d79888ea429e/hellmann-s-saucen-avocado-limette",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-avocado-limette-000000000583641009"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-avocado-limette-000000000583641009",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641007",
    "store": "aldi",
    "name": "Saucen, Chili",
@@ -4074,9 +5614,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ab711f5f-6c73-4f0d-88cd-94d7ffee9221/hellmann-s-saucen-chili",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-chili-000000000583641007"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-chili-000000000583641007",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641002",
    "store": "aldi",
    "name": "Saucen, Chunky-Burger",
@@ -4093,9 +5640,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/62cb664a-6229-4795-ae11-3183cc0e8aea/hellmann-s-saucen-chunky-burger",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-chunky-burger-000000000583641002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-chunky-burger-000000000583641002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641004",
    "store": "aldi",
    "name": "Saucen, Knoblauch-Kräuter",
@@ -4112,9 +5666,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/0388223b-2f42-4a23-b77c-4b99c745b8ba/hellmann-s-saucen-knoblauch-kraeuter",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-knoblauch-kraeuter-000000000583641004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-knoblauch-kraeuter-000000000583641004",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641003",
    "store": "aldi",
    "name": "Saucen, Käse",
@@ -4131,9 +5692,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4a652fb4-7958-4e5b-abb6-c2d783458d2b/hellmann-s-saucen-kaese",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-kaese-000000000583641003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-kaese-000000000583641003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641001",
    "store": "aldi",
    "name": "Saucen, Mayonnaise, classic",
@@ -4150,9 +5718,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6d168df5-fc3b-426c-872f-c89fe61b327e/hellmann-s-saucen-mayonnaise-classic",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-mayonnaise-classic-000000000583641001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-mayonnaise-classic-000000000583641001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000583641005",
    "store": "aldi",
    "name": "Saucen, mit Trüffel",
@@ -4169,9 +5744,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b99f61bc-fd27-406b-a411-62fb9b431c2f/hellmann-s-saucen-mit-trueffel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-mit-trueffel-000000000583641005"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hellmann-s-saucen-mit-trueffel-000000000583641005",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000737353002",
    "store": "aldi",
    "name": "Schafswollen-Zirbenflocken-Duvet, Decke",
@@ -4188,9 +5770,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9e82c1f3-8c93-4002-ad1c-9bb1733d4d8a/novitesse-schafswollen-zirbenflocken-duvet-decke",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-schafswollen-zirbenflocken-duvet-decke-000000000737353002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-schafswollen-zirbenflocken-duvet-decke-000000000737353002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000736621002",
    "store": "aldi",
    "name": "Schafwoll Zirbenflocken Polster, Kissen 65 x 100 cm",
@@ -4207,9 +5796,16 @@
     "Heimtextilien - Wohnen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/892ef0c8-44e1-4a2b-affc-33c093632ee4/novitesse-schafwoll-zirbenflocken-polster-kissen-65-x-100-cm",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-schafwoll-zirbenflocken-polster-kissen-65-x-100-cm-000000000736621002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-schafwoll-zirbenflocken-polster-kissen-65-x-100-cm-000000000736621002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000736537",
    "store": "aldi",
    "name": "Schafwoll-Zirbenflocken-Kissen",
@@ -4226,9 +5822,16 @@
     "Heimtextilien - Wohnen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e132c449-9cad-4405-94be-3323b1cdcf99/novitesse-schafwoll-zirbenflocken-kissen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-schafwoll-zirbenflocken-kissen-000000000000736537"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-schafwoll-zirbenflocken-kissen-000000000000736537",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000290482",
    "store": "aldi",
    "name": "Silberzwiebeln",
@@ -4245,9 +5848,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/59abf2e4-cd2f-4f85-8793-70b0805743e3/chirat-silberzwiebeln",
-   "url": "https://www.aldi-suisse.ch/de/produkt/chirat-silberzwiebeln-000000000000290482"
+   "url": "https://www.aldi-suisse.ch/de/produkt/chirat-silberzwiebeln-000000000000290482",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 11.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000289573001",
    "store": "aldi",
    "name": "Soda, Lemon",
@@ -4264,9 +5874,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4ae29d48-030e-4361-b086-6f55d683c2d1/terme-di-crodo-soda-lemon",
-   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-lemon-000000000289573001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-lemon-000000000289573001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 2.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000289573004",
    "store": "aldi",
    "name": "Soda, Lemon Zero",
@@ -4283,9 +5900,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6bb4a063-e11c-4ee5-a985-701a92ef6602/terme-di-crodo-soda-lemon-zero",
-   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-lemon-zero-000000000289573004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-lemon-zero-000000000289573004",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 2.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000289573003",
    "store": "aldi",
    "name": "Soda, Mojito",
@@ -4302,9 +5926,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/36943164-0c1c-4fea-a04f-00505a90b4f4/terme-di-crodo-soda-mojito",
-   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-mojito-000000000289573003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-mojito-000000000289573003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 2.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000289573002",
    "store": "aldi",
    "name": "Soda, Orange",
@@ -4321,9 +5952,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/547fe033-6c58-48bd-aaef-fbcf1538a57f/terme-di-crodo-soda-orange",
-   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-orange-000000000289573002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/terme-di-crodo-soda-orange-000000000289573002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 2.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000526983",
    "store": "aldi",
    "name": "Sushireis",
@@ -4340,9 +5978,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9c9aaba1-edcd-4cef-ac80-e38deed31ac8/asia-green-garden-sushireis",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-sushireis-000000000000526983"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-sushireis-000000000000526983",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 3.6,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000651964",
    "store": "aldi",
    "name": "Sweet-Chili-Sauce",
@@ -4359,9 +6004,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9e603e44-9198-4875-8f14-cd011b5e88e4/no-brand-sweet-chili-sauce",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-sweet-chili-sauce-000000000000651964"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-sweet-chili-sauce-000000000000651964",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000776073001",
    "store": "aldi",
    "name": "Teigwaren, Hörnli",
@@ -4378,9 +6030,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/20679a02-a4ec-47b8-87d0-fa9c7127c1da/no-brand-teigwaren-hoernli",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-teigwaren-hoernli-000000000776073001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-teigwaren-hoernli-000000000776073001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.66,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000739869001",
    "store": "aldi",
    "name": "Thai Kitchen Nudeln, Spicy Chicken",
@@ -4397,9 +6056,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/013a0a69-7a17-4e1a-ac51-fe8c9069ad4a/no-brand-thai-kitchen-nudeln-spicy-chicken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-thai-kitchen-nudeln-spicy-chicken-000000000739869001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-thai-kitchen-nudeln-spicy-chicken-000000000739869001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.6,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000739869002",
    "store": "aldi",
    "name": "Thai Kitchen Nudeln, Tom Yum",
@@ -4416,9 +6082,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/3a3d8c35-f886-4c71-b8b4-7d34e442d652/no-brand-thai-kitchen-nudeln-tom-yum",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-thai-kitchen-nudeln-tom-yum-000000000739869002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-thai-kitchen-nudeln-tom-yum-000000000739869002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 18.6,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000728828",
    "store": "aldi",
    "name": "Thermodecke",
@@ -4435,9 +6108,16 @@
     "Heimtextilien - Schlaf"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ab338b6d-23b0-4b1f-ac08-e9583dfa1e94/home-creation-thermodecke",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-thermodecke-000000000000728828"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-thermodecke-000000000000728828",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000737677",
    "store": "aldi",
    "name": "Tischtafeln",
@@ -4454,9 +6134,16 @@
     "Küche"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/de982430-2732-4e9f-a0ba-47fe68ce5c0c/home-creation-tischtafeln",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-tischtafeln-000000000000737677"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-tischtafeln-000000000000737677",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000733462",
    "store": "aldi",
    "name": "Toilettenpapier",
@@ -4473,9 +6160,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/a011d717-a2a2-4b70-be6c-be77435acaef/hakle-toilettenpapier",
-   "url": "https://www.aldi-suisse.ch/de/produkt/hakle-toilettenpapier-000000000000733462"
+   "url": "https://www.aldi-suisse.ch/de/produkt/hakle-toilettenpapier-000000000000733462",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000749132",
    "store": "aldi",
    "name": "Trend-Puzzle, 500-teilig",
@@ -4492,9 +6186,16 @@
     "Spiele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ab9cbe8c-8e88-4d1e-8e84-2771b383e997/no-brand-trend-puzzle-500-teilig",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-trend-puzzle-500-teilig-000000000000749132"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-trend-puzzle-500-teilig-000000000000749132",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000780105",
    "store": "aldi",
    "name": "Türkisches Pidebrot",
@@ -4511,9 +6212,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/11bcc390-243c-4816-ace2-131dd849a749/gecchele-tuerkisches-pidebrot",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gecchele-tuerkisches-pidebrot-000000000000780105"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gecchele-tuerkisches-pidebrot-000000000000780105",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.3,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000715284002",
    "store": "aldi",
    "name": "Udon Nudelschüssel, Erdnuss-Satay",
@@ -4530,9 +6238,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2fde74c4-b872-4f89-99af-4a37aa2bee71/asia-green-garden-udon-nudelschuessel-erdnuss-satay",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-udon-nudelschuessel-erdnuss-satay-000000000715284002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-udon-nudelschuessel-erdnuss-satay-000000000715284002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000715284001",
    "store": "aldi",
    "name": "Udon Nudelschüssel, Sesam-Teriyaki",
@@ -4549,9 +6264,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9598e4df-22ac-4772-b8c3-8221b4dd1bb1/asia-green-garden-udon-nudelschuessel-sesam-teriyaki",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-udon-nudelschuessel-sesam-teriyaki-000000000715284001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-udon-nudelschuessel-sesam-teriyaki-000000000715284001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000715284003",
    "store": "aldi",
    "name": "Udon Nudelschüssel, Soja Ingwer",
@@ -4568,9 +6290,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/35c8380a-a897-4765-a093-1f537e296d1a/asia-green-garden-udon-nudelschuessel-soja-ingwer",
-   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-udon-nudelschuessel-soja-ingwer-000000000715284003"
+   "url": "https://www.aldi-suisse.ch/de/produkt/asia-green-garden-udon-nudelschuessel-soja-ingwer-000000000715284003",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 8.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000699439001",
    "store": "aldi",
    "name": "Ultje Swavy 120-170g, Salz Karamell",
@@ -4587,9 +6316,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6e3c90de-41db-46b6-be48-1b18a673b6b3/ueltje-ultje-swavy-120-170g-salz-karamell",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ueltje-ultje-swavy-120-170g-salz-karamell-000000000699439001"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ueltje-ultje-swavy-120-170g-salz-karamell-000000000699439001",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 24.9,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000699439004",
    "store": "aldi",
    "name": "Ultje Swavy 120-170g, Scharf Honig",
@@ -4606,9 +6342,16 @@
     "Asien"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/fa053fe3-7d97-4abd-830a-2e54c8257950/ueltje-ultje-swavy-120-170g-scharf-honig",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ueltje-ultje-swavy-120-170g-scharf-honig-000000000699439004"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ueltje-ultje-swavy-120-170g-scharf-honig-000000000699439004",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 29.1,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000769425",
    "store": "aldi",
    "name": "Ultra-Clean-Küchenpapier",
@@ -4625,9 +6368,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/11486e41-7611-4b62-bd65-7270af64f8de/kleenex-ultra-clean-kuechenpapier",
-   "url": "https://www.aldi-suisse.ch/de/produkt/kleenex-ultra-clean-kuechenpapier-000000000000769425"
+   "url": "https://www.aldi-suisse.ch/de/produkt/kleenex-ultra-clean-kuechenpapier-000000000000769425",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000288238",
    "store": "aldi",
    "name": "Zartweizen",
@@ -4644,9 +6394,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/646da0ac-fe45-41a6-b20a-6e4692f795ea/ebly-zartweizen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ebly-zartweizen-000000000000288238"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ebly-zartweizen-000000000000288238",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000760300",
    "store": "aldi",
    "name": "Zimtschnecken",
@@ -4663,9 +6420,16 @@
     "Herbst & Seele"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d3c94263-fc3b-421f-b678-8d4909e4a886/coolback-zimtschnecken",
-   "url": "https://www.aldi-suisse.ch/de/produkt/coolback-zimtschnecken-000000000000760300"
+   "url": "https://www.aldi-suisse.ch/de/produkt/coolback-zimtschnecken-000000000000760300",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 15.6,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000753543",
    "store": "aldi",
    "name": "Allerheiligen-Arrangement/Urnengesteck",
@@ -4682,9 +6446,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d397a068-8d45-4152-a09c-75b500eaffb0/gardenline-allerheiligen-arrangement-urnengesteck",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-allerheiligen-arrangement-urnengesteck-000000000000753543"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-allerheiligen-arrangement-urnengesteck-000000000000753543",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000757390",
    "store": "aldi",
    "name": "Allerheiligen-Sempervivum",
@@ -4701,9 +6472,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7a621b52-b65a-4ba9-be9e-7e183c938a91/gardenline-allerheiligen-sempervivum",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-allerheiligen-sempervivum-000000000000757390"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-allerheiligen-sempervivum-000000000000757390",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000755151",
    "store": "aldi",
    "name": "Amaryllis",
@@ -4720,9 +6498,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c816cd87-50a4-47b2-b873-2ee951e01a00/gardenline-amaryllis",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-amaryllis-000000000000755151"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-amaryllis-000000000000755151",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000364347",
    "store": "aldi",
    "name": "BIO-Schulterbraten vom Weiderind",
@@ -4739,9 +6524,16 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/c78b398a-f422-486c-a32c-9834e9824186/retour-aux-sources-bio-schulterbraten-vom-weiderind",
-   "url": "https://www.aldi-suisse.ch/de/produkt/retour-aux-sources-bio-schulterbraten-vom-weiderind-000000000000364347"
+   "url": "https://www.aldi-suisse.ch/de/produkt/retour-aux-sources-bio-schulterbraten-vom-weiderind-000000000000364347",
+   "group": "protein",
+   "proteinPer100g": 21,
+   "highProtein": true,
+   "pricePerKg": 34.9,
+   "proteinPerChf": 6.0,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000735535",
    "store": "aldi",
    "name": "Bad-/Dusch-Saugmatten",
@@ -4758,9 +6550,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b3195bef-be41-4ae7-aca6-bbf2d8807c11/home-creation-bad-dusch-saugmatten",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-bad-dusch-saugmatten-000000000000735535"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-bad-dusch-saugmatten-000000000000735535",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000741229",
    "store": "aldi",
    "name": "Badematte",
@@ -4777,9 +6576,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7b95b445-daf6-46bd-bf5d-a9920e8c43fb/novitesse-badematte",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-badematte-000000000000741229"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-badematte-000000000000741229",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000746563",
    "store": "aldi",
    "name": "Badematte",
@@ -4796,9 +6602,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/8dda875c-6173-467b-bea2-3b10e5d044c5/novitesse-badematte",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-badematte-000000000000746563"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-badematte-000000000000746563",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000733769",
    "store": "aldi",
    "name": "Beflockte Kleiderbügel",
@@ -4815,9 +6628,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/5628e2fa-2794-4618-89b6-9ce3d7edcf73/home-creation-beflockte-kleiderbuegel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-beflockte-kleiderbuegel-000000000000733769"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-beflockte-kleiderbuegel-000000000000733769",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000740136",
    "store": "aldi",
    "name": "Callunenschale Mosaik",
@@ -4834,9 +6654,16 @@
     "Pflanzen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ac221ea0-38a5-4852-9aab-06fc80f2223f/gardenline-callunenschale-mosaik",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-callunenschale-mosaik-000000000000740136"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gardenline-callunenschale-mosaik-000000000000740136",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000745308",
    "store": "aldi",
    "name": "Chenille-Frottierserie",
@@ -4853,9 +6680,16 @@
     "Heimtextilien - Schlaf"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/443eab65-418c-4a3f-b636-6366a86ce7e4/novitesse-chenille-frottierserie",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-chenille-frottierserie-000000000000745308"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-chenille-frottierserie-000000000000745308",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000738163",
    "store": "aldi",
    "name": "Damen-Frottee-Pyjama",
@@ -4872,9 +6706,16 @@
     "Mode"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/746d0dd3-590e-4a36-b185-9fd71b40f4f7/up2fashion-women-damen-frottee-pyjama",
-   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-frottee-pyjama-000000000000738163"
+   "url": "https://www.aldi-suisse.ch/de/produkt/up2fashion-women-damen-frottee-pyjama-000000000000738163",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000754376",
    "store": "aldi",
    "name": "Deo-Bodyspray",
@@ -4891,9 +6732,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/d996ea7c-bb69-4abd-abee-ab67419b4843/old-spice-deo-bodyspray",
-   "url": "https://www.aldi-suisse.ch/de/produkt/old-spice-deo-bodyspray-000000000000754376"
+   "url": "https://www.aldi-suisse.ch/de/produkt/old-spice-deo-bodyspray-000000000000754376",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 20.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000739847",
    "store": "aldi",
    "name": "Deo-Stick",
@@ -4910,9 +6758,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/41a1e5fc-7869-472e-9a7f-1421a311b808/old-spice-deo-stick",
-   "url": "https://www.aldi-suisse.ch/de/produkt/old-spice-deo-stick-000000000000739847"
+   "url": "https://www.aldi-suisse.ch/de/produkt/old-spice-deo-stick-000000000000739847",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 58.7,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000782830",
    "store": "aldi",
    "name": "Duschcreme/-Gel",
@@ -4929,9 +6784,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/e39cdf5b-8dab-4260-b10d-b994cbbbdf68/le-petit-marseillais-duschcreme-gel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/le-petit-marseillais-duschcreme-gel-000000000000782830"
+   "url": "https://www.aldi-suisse.ch/de/produkt/le-petit-marseillais-duschcreme-gel-000000000000782830",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.32,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000666563",
    "store": "aldi",
    "name": "Duschgel",
@@ -4948,9 +6810,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/f3281bf5-f839-4d10-9dd6-51843bbf519e/old-spice-duschgel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/old-spice-duschgel-000000000000666563"
+   "url": "https://www.aldi-suisse.ch/de/produkt/old-spice-duschgel-000000000000666563",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 7.39,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000690203",
    "store": "aldi",
    "name": "Feuchtes Toilettenpapier",
@@ -4967,9 +6836,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1f33a974-680e-41d2-b33d-d2ef7a144bb2/tempo-feuchtes-toilettenpapier",
-   "url": "https://www.aldi-suisse.ch/de/produkt/tempo-feuchtes-toilettenpapier-000000000000690203"
+   "url": "https://www.aldi-suisse.ch/de/produkt/tempo-feuchtes-toilettenpapier-000000000000690203",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000540377",
    "store": "aldi",
    "name": "Flüssigseife, Lavendel",
@@ -4986,9 +6862,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ee094e8b-3ab4-4708-a211-5986fe2c6443/le-petit-marseillais-fluessigseife-lavendel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/le-petit-marseillais-fluessigseife-lavendel-000000000000540377"
+   "url": "https://www.aldi-suisse.ch/de/produkt/le-petit-marseillais-fluessigseife-lavendel-000000000000540377",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 10.0,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000680622",
    "store": "aldi",
    "name": "Flüssigseifenachfüller, Lavendel",
@@ -5005,9 +6888,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/b7b4b0f7-ef08-49c2-a13d-ef0c38dc6478/le-petit-marseillais-fluessigseifenachfueller-lavendel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/le-petit-marseillais-fluessigseifenachfueller-lavendel-000000000000680622"
+   "url": "https://www.aldi-suisse.ch/de/produkt/le-petit-marseillais-fluessigseifenachfueller-lavendel-000000000000680622",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 6.99,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000733737",
    "store": "aldi",
    "name": "Grablicht",
@@ -5024,9 +6914,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/7c51b42f-1cdd-4601-9112-6e9b538b8029/no-brand-grablicht",
-   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-grablicht-000000000000733737"
+   "url": "https://www.aldi-suisse.ch/de/produkt/no-brand-grablicht-000000000000733737",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000751117",
    "store": "aldi",
    "name": "Haarstyler",
@@ -5043,9 +6940,16 @@
     "Kosmetik"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/654a81c8-9079-4cc6-86b2-7403f8118398/ambiano-haarstyler",
-   "url": "https://www.aldi-suisse.ch/de/produkt/ambiano-haarstyler-000000000000751117"
+   "url": "https://www.aldi-suisse.ch/de/produkt/ambiano-haarstyler-000000000000751117",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000701964",
    "store": "aldi",
    "name": "Hackfleisch, gemischt",
@@ -5062,9 +6966,16 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/ab37711e-cbc8-4d66-9703-ac8deeb4451b/country-s-best-hackfleisch-gemischt",
-   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-hackfleisch-gemischt-000000000000701964"
+   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-hackfleisch-gemischt-000000000000701964",
+   "group": "protein",
+   "proteinPer100g": 18,
+   "highProtein": true,
+   "pricePerKg": 11.49,
+   "proteinPerChf": 15.7,
+   "pick": true
   },
   {
+   "regular": false,
    "id": "aldi-000000000000697314",
    "store": "aldi",
    "name": "Hirschschnitzel",
@@ -5081,9 +6992,16 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4732461e-4e53-4f28-85be-268fa6227c6f/country-s-best-hirschschnitzel",
-   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-hirschschnitzel-000000000000697314"
+   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-hirschschnitzel-000000000000697314",
+   "group": "protein",
+   "proteinPer100g": 20,
+   "highProtein": true,
+   "pricePerKg": 27.9,
+   "proteinPerChf": 7.2,
+   "pick": true
   },
   {
+   "regular": false,
    "id": "aldi-000000000000739345",
    "store": "aldi",
    "name": "Mini-Klappboxen",
@@ -5100,9 +7018,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/9e645da9-e4c0-43a3-8779-def1606ad456/home-creation-mini-klappboxen",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-mini-klappboxen-000000000000739345"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-mini-klappboxen-000000000000739345",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000753518",
    "store": "aldi",
    "name": "Raum-Entfeuchter-Set",
@@ -5119,9 +7044,16 @@
     "Haushalt"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/4fb2a763-38a7-486c-acc6-8ef9100f8829/home-creation-raum-entfeuchter-set",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-raum-entfeuchter-set-000000000000753518"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-raum-entfeuchter-set-000000000000753518",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000288269",
    "store": "aldi",
    "name": "Rindshuft, Black Angus",
@@ -5138,9 +7070,16 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/2c6ad774-f436-4534-96c3-daf9794e1ecc/gourmet-finest-cuisine-rindshuft-black-angus",
-   "url": "https://www.aldi-suisse.ch/de/produkt/gourmet-finest-cuisine-rindshuft-black-angus-000000000000288269"
+   "url": "https://www.aldi-suisse.ch/de/produkt/gourmet-finest-cuisine-rindshuft-black-angus-000000000000288269",
+   "group": "protein",
+   "proteinPer100g": 21,
+   "highProtein": true,
+   "pricePerKg": 29.9,
+   "proteinPerChf": 7.0,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000290594",
    "store": "aldi",
    "name": "Taschentücher, Classic",
@@ -5157,9 +7096,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/818683e0-c1e8-443c-a713-8052de783cec/tempo-taschentuecher-classic",
-   "url": "https://www.aldi-suisse.ch/de/produkt/tempo-taschentuecher-classic-000000000000290594"
+   "url": "https://www.aldi-suisse.ch/de/produkt/tempo-taschentuecher-classic-000000000000290594",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000740507",
    "store": "aldi",
    "name": "Teddy-Badematte",
@@ -5176,9 +7122,16 @@
     "Heimtextilien - Schlaf"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1be29035-9ef6-43ab-a5aa-35401e2f824f/novitesse-teddy-badematte",
-   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-teddy-badematte-000000000000740507"
+   "url": "https://www.aldi-suisse.ch/de/produkt/novitesse-teddy-badematte-000000000000740507",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000573439002",
    "store": "aldi",
    "name": "Toilettenpapier, 4-lagig",
@@ -5195,9 +7148,16 @@
     "Waschen, Putzen Reinigen"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/22a01780-8e2a-4520-9ca9-837a3b901ba7/tempo-toilettenpapier-4-lagig",
-   "url": "https://www.aldi-suisse.ch/de/produkt/tempo-toilettenpapier-4-lagig-000000000573439002"
+   "url": "https://www.aldi-suisse.ch/de/produkt/tempo-toilettenpapier-4-lagig-000000000573439002",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000743264",
    "store": "aldi",
    "name": "Wärmflasche",
@@ -5214,9 +7174,16 @@
     "Bad"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/6190c33c-7d85-4b59-bf99-3e90baa8c0f3/home-creation-waermflasche",
-   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-waermflasche-000000000000743264"
+   "url": "https://www.aldi-suisse.ch/de/produkt/home-creation-waermflasche-000000000000743264",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false
   },
   {
+   "regular": false,
    "id": "aldi-000000000000708006",
    "store": "aldi",
    "name": "XXL-Truten-Minifilets",
@@ -5233,7 +7200,13 @@
     "Super Deal"
    ],
    "image": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/product/jpg/scaleWidth/400/1528cdbd-a64d-4fa9-a6f6-5ef7ffcd0a37/country-s-best-xxl-truten-minifilets",
-   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-xxl-truten-minifilets-000000000000708006"
+   "url": "https://www.aldi-suisse.ch/de/produkt/country-s-best-xxl-truten-minifilets-000000000000708006",
+   "group": "protein",
+   "proteinPer100g": 23,
+   "highProtein": true,
+   "pricePerKg": 12.0,
+   "proteinPerChf": 19.2,
+   "pick": true
   }
  ]
 }

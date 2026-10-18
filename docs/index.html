@@ -4,22 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Aktionen der Woche</title>
-<meta name="description" content="Die aktuellen Aktionen von ALDI SUISSE – jede Woche automatisch aktualisiert.">
-<meta property="og:title" content="Aktionen der Woche 🛒">
-<meta property="og:description" content="Die aktuellen Aktionen von ALDI SUISSE – jede Woche automatisch aktualisiert.">
+<meta name="description" content="Magerquark-Radar, Protein, Früchte & Gemüse: die besten Aktionen der Woche – automatisch aktualisiert.">
+<meta property="og:title" content="Aktionen der Woche 💪">
+<meta property="og:description" content="Magerquark-Radar, Protein, Früchte & Gemüse: die besten Aktionen der Woche.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#00205b">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
 <style>
 :root {
   --bg: #f4f5f7; --surface: #fff; --text: #14171f; --muted: #5d6573; --line: #e2e5ea;
   --brand: #00205b; --brand-text: #fff; --accent: #f26b21; --chip: #e9edf5; --chip-on: #00205b; --chip-on-text: #fff;
-  --soon: #0a7d4f;
+  --soon: #0a7d4f; --good: #0a7d4f; --pick: #f26b21;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f1218; --surface: #181c24; --text: #eef0f4; --muted: #a3abb8; --line: #2a303b;
-    --brand: #0b2a6b; --chip: #232936; --chip-on: #f26b21; --chip-on-text: #111; --soon: #3ccf8e;
+    --brand: #0b2a6b; --chip: #232936; --chip-on: #f26b21; --chip-on-text: #111; --soon: #3ccf8e; --good: #3ccf8e;
   }
 }
 * { box-sizing: border-box; }
@@ -27,6 +27,9 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.4 syst
 header { background: var(--brand); color: var(--brand-text); padding: 18px 16px 14px; }
 header h1 { margin: 0; font-size: 22px; }
 header p { margin: 4px 0 0; font-size: 13px; opacity: .85; }
+.tabs { display: flex; gap: 4px; padding: 10px 16px 0; background: var(--brand); }
+.tab { flex: 1; border: 0; border-radius: 10px 10px 0 0; padding: 10px 8px; font-size: 15px; font-weight: 700; cursor: pointer; background: rgba(255,255,255,.15); color: #fff; }
+.tab[aria-selected="true"] { background: var(--bg); color: var(--text); }
 .controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 6px; border-bottom: 1px solid var(--line); }
 .search { display: block; width: calc(100% - 32px); margin: 0 16px 8px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); font-size: 16px; }
 .chips { display: flex; gap: 6px; overflow-x: auto; padding: 2px 16px 6px; scrollbar-width: none; }
@@ -34,10 +37,17 @@ header p { margin: 4px 0 0; font-size: 13px; opacity: .85; }
 .chip { flex: none; border: 0; border-radius: 999px; padding: 7px 12px; background: var(--chip); color: var(--text); font-size: 13px; cursor: pointer; white-space: nowrap; }
 .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
 .chip small { opacity: .7; margin-left: 3px; }
+h2 { margin: 18px 16px 2px; font-size: 18px; }
+.hint { margin: 0 16px 4px; color: var(--muted); font-size: 12px; }
 .count { margin: 10px 16px 4px; color: var(--muted); font-size: 13px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; padding: 6px 16px 24px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; color: inherit; text-decoration: none; }
-.card img { width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; padding: 6px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; padding: 6px 16px 12px; }
+.card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+.card.pick { border: 2px solid var(--pick); }
+.media { position: relative; }
+.media img.photo { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; padding: 6px; border-radius: 10px 10px 0 0; }
+.sticker { position: absolute; pointer-events: none; filter: drop-shadow(0 2px 3px rgba(0,0,0,.35)); }
+.sticker.gucks { width: 92px; top: -14px; right: -10px; transform: rotate(6deg); }
+.sticker.protein { width: 62px; bottom: -6px; left: -6px; transform: rotate(-6deg); }
 .body { padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
 .brand { font-size: 11px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
 .name { font-weight: 600; font-size: 14px; }
@@ -45,18 +55,24 @@ header p { margin: 4px 0 0; font-size: 13px; opacity: .85; }
 .price { margin-top: auto; padding-top: 4px; font-size: 18px; font-weight: 800; color: var(--accent); }
 .was { font-size: 12px; color: var(--muted); text-decoration: line-through; margin-left: 4px; font-weight: 400; }
 .unit { font-size: 11px; color: var(--muted); }
+.prot { font-size: 12px; color: var(--good); font-weight: 600; }
+.best { align-self: flex-start; font-size: 11px; font-weight: 700; color: #fff; background: var(--good); border-radius: 6px; padding: 1px 6px; }
 .date { font-size: 11px; color: var(--muted); }
 .date.soon { color: var(--soon); font-weight: 600; }
-.empty, .error { margin: 40px 16px; text-align: center; color: var(--muted); }
+.empty, .error { margin: 16px; text-align: center; color: var(--muted); }
 footer { padding: 4px 16px 28px; font-size: 12px; color: var(--muted); }
 footer a { color: inherit; }
 </style>
 </head>
 <body>
 <header>
-  <h1>🛒 Aktionen der Woche</h1>
+  <h1>💪 Aktionen der Woche</h1>
   <p id="updated">Wird geladen…</p>
 </header>
+<nav class="tabs" role="tablist">
+  <button class="tab" role="tab" data-tab="healthy" aria-selected="true">💪 Healthy</button>
+  <button class="tab" role="tab" data-tab="other" aria-selected="false">Alle anderen</button>
+</nav>
 
 <div class="controls">
   <input class="search" id="q" type="search" placeholder="Produkt suchen…" autocomplete="off" aria-label="Produkt suchen">
@@ -65,22 +81,29 @@ footer a { color: inherit; }
   <div class="chips" id="cats" aria-label="Kategorien"></div>
 </div>
 
-<p class="count" id="count"></p>
-<main class="grid" id="grid"></main>
+<main id="main"></main>
 
 <footer>
   Daten von den offiziellen Websites der Läden, ohne Gewähr. Nur solange Vorrat.
+  Protein-Werte sind typische Durchschnittswerte pro 100 g (ca.).
   <span id="sources"></span>
 </footer>
 
 <script>
-const state = { q: "", store: "", date: "", cat: "" };
+const state = { tab: "healthy", q: "", store: "", date: "", cat: "" };
 let data = { offers: [], stores: [] };
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const today = new Date().toISOString().slice(0, 10);
 const dayLabel = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("de-CH", { weekday: "short", day: "2-digit", month: "2-digit" });
+const chf = (n) => "CHF " + n.toFixed(2);
+
+const SECTIONS = [
+  { group: "magerquark", title: "🥛 Magerquark-Radar", hint: "Immer dabei – günstigster Preis pro 100 g zuerst.", sort: (a, b) => a.pricePerKg - b.pricePerKg },
+  { group: "protein", title: "🥩 Protein", hint: "Sortiert nach Gramm Protein pro Franken.", sort: (a, b) => (b.proteinPerChf ?? -1) - (a.proteinPerChf ?? -1) },
+  { group: ["frucht", "gemuese"], title: "🥦 Früchte & Gemüse", hint: "Günstigster Kilopreis zuerst.", sort: (a, b) => (a.pricePerKg ?? 1e9) - (b.pricePerKg ?? 1e9) },
+];
 
 function chips(el, items, key) {
   el.innerHTML = items.map(([value, label, n]) =>
@@ -93,15 +116,20 @@ function chips(el, items, key) {
   };
 }
 
+function matchesSearch(o) {
+  if (!state.q) return true;
+  const hay = `${o.name} ${o.brand ?? ""} ${o.categories.join(" ")}`.toLowerCase();
+  return state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w));
+}
+
 function matches(o, skip) {
   if (state.store && skip !== "store" && o.store !== state.store) return false;
-  if (state.date && skip !== "date" && o.validFrom !== state.date) return false;
-  if (state.cat && skip !== "cat" && !o.categories.includes(state.cat)) return false;
-  if (state.q) {
-    const hay = `${o.name} ${o.brand ?? ""} ${o.categories.join(" ")}`.toLowerCase();
-    if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
-  }
-  return true;
+  if (state.tab === "other") {
+    if (o.group) return false;
+    if (state.date && skip !== "date" && o.validFrom !== state.date) return false;
+    if (state.cat && skip !== "cat" && !o.categories.includes(state.cat)) return false;
+  } else if (!o.group) return false;
+  return matchesSearch(o);
 }
 
 function tally(list, fn) {
@@ -112,6 +140,7 @@ function tally(list, fn) {
 
 function render() {
   const { offers, stores } = data;
+  document.querySelectorAll(".tab").forEach((t) => t.setAttribute("aria-selected", t.dataset.tab === state.tab));
 
   if (stores.length > 1) {
     $("stores").hidden = false;
@@ -119,34 +148,59 @@ function render() {
     chips($("stores"), [["", "Alle Läden"], ...stores.map((s) => [s.id, s.name, n.get(s.id) || 0])], "store");
   }
 
-  const dates = tally(offers.filter((o) => matches(o, "date")), (o) => o.validFrom);
-  chips($("dates"), [["", "Alle Daten"], ...[...dates].sort().map(([d, n]) => [d, (d > today ? "ab " : "seit ") + dayLabel(d), n])], "date");
-
-  const cats = tally(offers.filter((o) => matches(o, "cat")), (o) => o.categories);
-  chips($("cats"), [["", "Alle Kategorien"], ...[...cats].sort((a, b) => b[1] - a[1]).map(([c, n]) => [c, c, n])], "cat");
+  const other = state.tab === "other";
+  $("dates").hidden = $("cats").hidden = !other;
+  if (other) {
+    const dates = tally(offers.filter((o) => matches(o, "date")), (o) => o.validFrom);
+    chips($("dates"), [["", "Alle Daten"], ...[...dates].sort().map(([d, n]) => [d, (d > today ? "ab " : "seit ") + dayLabel(d), n])], "date");
+    const cats = tally(offers.filter((o) => matches(o, "cat")), (o) => o.categories);
+    chips($("cats"), [["", "Alle Kategorien"], ...[...cats].sort((a, b) => b[1] - a[1]).map(([c, n]) => [c, c, n])], "cat");
+  }
 
   const list = offers.filter((o) => matches(o));
-  $("count").textContent = `${list.length} Aktion${list.length === 1 ? "" : "en"}`;
-  $("grid").innerHTML = list.length ? list.map(card).join("") : `<p class="empty">Keine Aktion gefunden.</p>`;
+  if (other) {
+    $("main").innerHTML = `<p class="count">${list.length} Aktion${list.length === 1 ? "" : "en"}</p>` +
+      (list.length ? `<div class="grid">${list.map((o) => card(o)).join("")}</div>` : `<p class="empty">Keine Aktion gefunden.</p>`);
+    return;
+  }
+  $("main").innerHTML = SECTIONS.map((s) => {
+    const groups = [].concat(s.group);
+    const items = list.filter((o) => groups.includes(o.group)).sort((a, b) => (b.pick - a.pick) || s.sort(a, b));
+    const bestKg = s.group === "magerquark" ? Math.min(...items.map((o) => o.pricePerKg ?? 1e9)) : null;
+    return `<h2>${s.title}</h2><p class="hint">${s.hint}</p>` + (items.length
+      ? `<div class="grid">${items.map((o) => card(o, bestKg != null && o.pricePerKg === bestKg)).join("")}</div>`
+      : `<p class="empty">Diese Woche nichts in Aktion.</p>`);
+  }).join("");
 }
 
-function card(o) {
+function card(o, isBest) {
   const soon = o.validFrom > today;
   const store = data.stores.length > 1 ? `${esc(data.stores.find((s) => s.id === o.store)?.name)} · ` : "";
-  return `<a class="card" href="${esc(o.url)}" target="_blank" rel="noopener">
-    ${o.image ? `<img src="${esc(o.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
+  const when = o.regular ? "Dauerpreis" : (soon ? "Bald: " : "") + o.validFromDisplay;
+  return `<a class="card${o.pick ? " pick" : ""}" href="${esc(o.url)}" target="_blank" rel="noopener">
+    <div class="media">
+      ${o.image ? `<img class="photo" src="${esc(o.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
+      ${o.pick ? `<img class="sticker gucks" src="stickers/gucks-dir-an.webp" alt="Gucks dir an">` : ""}
+      ${o.highProtein ? `<img class="sticker protein" src="stickers/protein.webp" alt="Viel Protein">` : ""}
+    </div>
     <div class="body">
+      ${isBest ? `<span class="best">Günstigster</span>` : ""}
       ${o.brand ? `<span class="brand">${esc(o.brand)}</span>` : ""}
       <span class="name">${esc(o.name)}</span>
       ${o.size ? `<span class="size">${esc(o.size)}</span>` : ""}
       <span class="price">${esc(o.priceDisplay)}${o.wasPriceDisplay ? `<span class="was">${esc(o.wasPriceDisplay)}</span>` : ""}</span>
-      ${o.unitPriceDisplay ? `<span class="unit">${esc(o.unitPriceDisplay)}</span>` : ""}
-      <span class="date${soon ? " soon" : ""}">${store}${soon ? "Bald: " : ""}${esc(o.validFromDisplay)}</span>
+      ${o.pricePerKg ? `<span class="unit">${chf(o.pricePerKg / 10)}/100 g</span>` : o.unitPriceDisplay ? `<span class="unit">${esc(o.unitPriceDisplay)}</span>` : ""}
+      ${o.proteinPer100g ? `<span class="prot">ca. ${o.proteinPer100g} g Protein/100 g${o.proteinPerChf ? ` · ${o.proteinPerChf} g pro CHF` : ""}</span>` : ""}
+      <span class="date${soon ? " soon" : ""}">${store}${esc(when)}</span>
     </div></a>`;
 }
 
-let t;
-$("q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); });
+document.querySelector(".tabs").onclick = (e) => {
+  const t = e.target.closest(".tab"); if (!t) return;
+  state.tab = t.dataset.tab; render();
+};
+let timer;
+$("q").addEventListener("input", (e) => { clearTimeout(timer); timer = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); });
 
 fetch("data/offers.json", { cache: "no-cache" })
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
@@ -156,12 +210,12 @@ fetch("data/offers.json", { cache: "no-cache" })
     const stale = d.stores.filter((s) => s.stale).map((s) => s.name);
     $("updated").textContent = `Aktualisiert: ${when}` + (stale.length ? ` · ⚠️ ${stale.join(", ")}: alte Daten` : "");
     $("sources").innerHTML = d.stores.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
-    // Default: the newest promotion that has already started.
-    const started = [...new Set(d.offers.map((o) => o.validFrom))].filter((x) => x <= today).sort();
+    // "Alle anderen" opens on the newest promotion that has already started.
+    const started = [...new Set(d.offers.filter((o) => !o.regular).map((o) => o.validFrom))].filter((x) => x <= today).sort();
     state.date = started.at(-1) || "";
     render();
   })
-  .catch(() => { $("grid").innerHTML = `<p class="error">Die Aktionen konnten nicht geladen werden. Bitte später nochmals versuchen.</p>`; $("updated").textContent = ""; });
+  .catch(() => { $("main").innerHTML = `<p class="error">Die Aktionen konnten nicht geladen werden. Bitte später nochmals versuchen.</p>`; $("updated").textContent = ""; });
 </script>
 </body>
 </html>

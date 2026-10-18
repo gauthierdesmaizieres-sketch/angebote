@@ -12,6 +12,7 @@ from pathlib import Path
 
 from playwright.async_api import async_playwright
 
+from scraper.health import annotate
 from scraper.stores import aldi
 
 STORES = [aldi]
@@ -38,6 +39,7 @@ async def main():
             result["offers"] += offers
         await browser.close()
 
+    annotate(result["offers"])
     result["offers"].sort(key=lambda o: (o["validFrom"], o["store"], o["name"] or ""))
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")
