@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aktionen der Woche</title>
+<meta name="description" content="Die aktuellen Aktionen von ALDI SUISSE – jede Woche automatisch aktualisiert.">
+<meta property="og:title" content="Aktionen der Woche 🛒">
+<meta property="og:description" content="Die aktuellen Aktionen von ALDI SUISSE – jede Woche automatisch aktualisiert.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#00205b">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛒</text></svg>">
+<style>
+:root {
+  --bg: #f4f5f7; --surface: #fff; --text: #14171f; --muted: #5d6573; --line: #e2e5ea;
+  --brand: #00205b; --brand-text: #fff; --accent: #f26b21; --chip: #e9edf5; --chip-on: #00205b; --chip-on-text: #fff;
+  --soon: #0a7d4f;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1218; --surface: #181c24; --text: #eef0f4; --muted: #a3abb8; --line: #2a303b;
+    --brand: #0b2a6b; --chip: #232936; --chip-on: #f26b21; --chip-on-text: #111; --soon: #3ccf8e;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { background: var(--brand); color: var(--brand-text); padding: 18px 16px 14px; }
+header h1 { margin: 0; font-size: 22px; }
+header p { margin: 4px 0 0; font-size: 13px; opacity: .85; }
+.controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0 6px; border-bottom: 1px solid var(--line); }
+.search { display: block; width: calc(100% - 32px); margin: 0 16px 8px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--text); font-size: 16px; }
+.chips { display: flex; gap: 6px; overflow-x: auto; padding: 2px 16px 6px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; border: 0; border-radius: 999px; padding: 7px 12px; background: var(--chip); color: var(--text); font-size: 13px; cursor: pointer; white-space: nowrap; }
+.chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); font-weight: 600; }
+.chip small { opacity: .7; margin-left: 3px; }
+.count { margin: 10px 16px 4px; color: var(--muted); font-size: 13px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; padding: 6px 16px 24px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+.card img { width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; padding: 6px; }
+.body { padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
+.brand { font-size: 11px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
+.name { font-weight: 600; font-size: 14px; }
+.size { font-size: 12px; color: var(--muted); }
+.price { margin-top: auto; padding-top: 4px; font-size: 18px; font-weight: 800; color: var(--accent); }
+.was { font-size: 12px; color: var(--muted); text-decoration: line-through; margin-left: 4px; font-weight: 400; }
+.unit { font-size: 11px; color: var(--muted); }
+.date { font-size: 11px; color: var(--muted); }
+.date.soon { color: var(--soon); font-weight: 600; }
+.empty, .error { margin: 40px 16px; text-align: center; color: var(--muted); }
+footer { padding: 4px 16px 28px; font-size: 12px; color: var(--muted); }
+footer a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🛒 Aktionen der Woche</h1>
+  <p id="updated">Wird geladen…</p>
+</header>
+
+<div class="controls">
+  <input class="search" id="q" type="search" placeholder="Produkt suchen…" autocomplete="off" aria-label="Produkt suchen">
+  <div class="chips" id="stores" hidden></div>
+  <div class="chips" id="dates" aria-label="Gültig ab"></div>
+  <div class="chips" id="cats" aria-label="Kategorien"></div>
+</div>
+
+<p class="count" id="count"></p>
+<main class="grid" id="grid"></main>
+
+<footer>
+  Daten von den offiziellen Websites der Läden, ohne Gewähr. Nur solange Vorrat.
+  <span id="sources"></span>
+</footer>
+
+<script>
+const state = { q: "", store: "", date: "", cat: "" };
+let data = { offers: [], stores: [] };
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const today = new Date().toISOString().slice(0, 10);
+const dayLabel = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("de-CH", { weekday: "short", day: "2-digit", month: "2-digit" });
+
+function chips(el, items, key) {
+  el.innerHTML = items.map(([value, label, n]) =>
+    `<button class="chip" data-v="${esc(value)}" aria-pressed="${state[key] === value}">${esc(label)}${n != null ? `<small>${n}</small>` : ""}</button>`).join("");
+  el.onclick = (e) => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    state[key] = b.dataset.v;
+    if (key !== "cat") state.cat = "";
+    render();
+  };
+}
+
+function matches(o, skip) {
+  if (state.store && skip !== "store" && o.store !== state.store) return false;
+  if (state.date && skip !== "date" && o.validFrom !== state.date) return false;
+  if (state.cat && skip !== "cat" && !o.categories.includes(state.cat)) return false;
+  if (state.q) {
+    const hay = `${o.name} ${o.brand ?? ""} ${o.categories.join(" ")}`.toLowerCase();
+    if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function tally(list, fn) {
+  const m = new Map();
+  list.forEach((o) => [].concat(fn(o)).forEach((k) => m.set(k, (m.get(k) || 0) + 1)));
+  return m;
+}
+
+function render() {
+  const { offers, stores } = data;
+
+  if (stores.length > 1) {
+    $("stores").hidden = false;
+    const n = tally(offers.filter((o) => matches(o, "store")), (o) => o.store);
+    chips($("stores"), [["", "Alle Läden"], ...stores.map((s) => [s.id, s.name, n.get(s.id) || 0])], "store");
+  }
+
+  const dates = tally(offers.filter((o) => matches(o, "date")), (o) => o.validFrom);
+  chips($("dates"), [["", "Alle Daten"], ...[...dates].sort().map(([d, n]) => [d, (d > today ? "ab " : "seit ") + dayLabel(d), n])], "date");
+
+  const cats = tally(offers.filter((o) => matches(o, "cat")), (o) => o.categories);
+  chips($("cats"), [["", "Alle Kategorien"], ...[...cats].sort((a, b) => b[1] - a[1]).map(([c, n]) => [c, c, n])], "cat");
+
+  const list = offers.filter((o) => matches(o));
+  $("count").textContent = `${list.length} Aktion${list.length === 1 ? "" : "en"}`;
+  $("grid").innerHTML = list.length ? list.map(card).join("") : `<p class="empty">Keine Aktion gefunden.</p>`;
+}
+
+function card(o) {
+  const soon = o.validFrom > today;
+  const store = data.stores.length > 1 ? `${esc(data.stores.find((s) => s.id === o.store)?.name)} · ` : "";
+  return `<a class="card" href="${esc(o.url)}" target="_blank" rel="noopener">
+    ${o.image ? `<img src="${esc(o.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : ""}
+    <div class="body">
+      ${o.brand ? `<span class="brand">${esc(o.brand)}</span>` : ""}
+      <span class="name">${esc(o.name)}</span>
+      ${o.size ? `<span class="size">${esc(o.size)}</span>` : ""}
+      <span class="price">${esc(o.priceDisplay)}${o.wasPriceDisplay ? `<span class="was">${esc(o.wasPriceDisplay)}</span>` : ""}</span>
+      ${o.unitPriceDisplay ? `<span class="unit">${esc(o.unitPriceDisplay)}</span>` : ""}
+      <span class="date${soon ? " soon" : ""}">${store}${soon ? "Bald: " : ""}${esc(o.validFromDisplay)}</span>
+    </div></a>`;
+}
+
+let t;
+$("q").addEventListener("input", (e) => { clearTimeout(t); t = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); });
+
+fetch("data/offers.json", { cache: "no-cache" })
+  .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then((d) => {
+    data = d;
+    const when = new Date(d.updatedAt).toLocaleString("de-CH", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+    const stale = d.stores.filter((s) => s.stale).map((s) => s.name);
+    $("updated").textContent = `Aktualisiert: ${when}` + (stale.length ? ` · ⚠️ ${stale.join(", ")}: alte Daten` : "");
+    $("sources").innerHTML = d.stores.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
+    // Default: the newest promotion that has already started.
+    const started = [...new Set(d.offers.map((o) => o.validFrom))].filter((x) => x <= today).sort();
+    state.date = started.at(-1) || "";
+    render();
+  })
+  .catch(() => { $("grid").innerHTML = `<p class="error">Die Aktionen konnten nicht geladen werden. Bitte später nochmals versuchen.</p>`; $("updated").textContent = ""; });
+</script>
+</body>
+</html>
