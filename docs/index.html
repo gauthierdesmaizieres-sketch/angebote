@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Aktionen der Woche</title>
-<meta name="description" content="Magerquark-Radar, Protein, Früchte & Gemüse: die besten Aktionen der Woche – automatisch aktualisiert.">
+<meta name="description" content="ALDI, Migros & Lidl in Buchs SG: Magerquark-Radar, Bester Preis pro kg, Protein, Früchte & Gemüse – automatisch aktualisiert.">
 <meta property="og:title" content="Aktionen der Woche 💪">
-<meta property="og:description" content="Magerquark-Radar, Protein, Früchte & Gemüse: die besten Aktionen der Woche.">
+<meta property="og:description" content="ALDI, Migros & Lidl: Magerquark-Radar, Bester Preis pro kg, Protein, Früchte & Gemüse.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#00205b">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
@@ -15,14 +15,17 @@
   --bg: #f4f5f7; --surface: #fff; --text: #14171f; --muted: #5d6573; --line: #e2e5ea;
   --brand: #00205b; --brand-text: #fff; --accent: #f26b21; --chip: #e9edf5; --chip-on: #00205b; --chip-on-text: #fff;
   --soon: #0a7d4f; --good: #0a7d4f; --pick: #f26b21;
+  --aldi: #00205b; --migros: #c94f00; --lidl: #0050aa;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0f1218; --surface: #181c24; --text: #eef0f4; --muted: #a3abb8; --line: #2a303b;
     --brand: #0b2a6b; --chip: #232936; --chip-on: #f26b21; --chip-on-text: #111; --soon: #3ccf8e; --good: #3ccf8e;
+    --aldi: #2d5bb8; --migros: #c94f00; --lidl: #1f6fc4;
   }
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 header { background: var(--brand); color: var(--brand-text); padding: 18px 16px 14px; }
 header h1 { margin: 0; font-size: 22px; }
@@ -41,7 +44,7 @@ h2 { margin: 18px 16px 2px; font-size: 18px; }
 .hint { margin: 0 16px 4px; color: var(--muted); font-size: 12px; }
 .count { margin: 10px 16px 4px; color: var(--muted); font-size: 13px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; padding: 6px 16px 12px; }
-.card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+.card { position: relative; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; display: flex; flex-direction: column; color: inherit; text-decoration: none; }
 .card.pick { border: 2px solid var(--pick); }
 .media { position: relative; }
 .media img.photo { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; padding: 6px; border-radius: 10px 10px 0 0; }
@@ -50,7 +53,7 @@ h2 { margin: 18px 16px 2px; font-size: 18px; }
 .sticker.protein { width: 62px; bottom: -6px; left: -6px; transform: rotate(-6deg); }
 .body { padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 3px; flex: 1; }
 .brand { font-size: 11px; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); }
-.name { font-weight: 600; font-size: 14px; }
+.name { font-weight: 600; font-size: 14px; overflow-wrap: anywhere; hyphens: auto; }
 .size { font-size: 12px; color: var(--muted); }
 .price { margin-top: auto; padding-top: 4px; font-size: 18px; font-weight: 800; color: var(--accent); }
 .was { font-size: 12px; color: var(--muted); text-decoration: line-through; margin-left: 4px; font-weight: 400; }
@@ -59,6 +62,22 @@ h2 { margin: 18px 16px 2px; font-size: 18px; }
 .best { align-self: flex-start; font-size: 11px; font-weight: 700; color: #fff; background: var(--good); border-radius: 6px; padding: 1px 6px; }
 .date { font-size: 11px; color: var(--muted); }
 .date.soon { color: var(--soon); font-weight: 600; }
+.store { align-self: flex-start; font-size: 11px; font-weight: 700; color: #fff; background: var(--muted); border-radius: 6px; padding: 1px 6px; white-space: nowrap; }
+.store.aldi { background: var(--aldi); } .store.migros { background: var(--migros); } .store.lidl { background: var(--lidl); }
+.chips-label { flex: none; align-self: center; font-size: 12px; font-weight: 700; color: var(--muted); }
+.cmp-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 10px; padding: 6px 16px 12px; }
+.cmp { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; min-width: 0; }
+.cmp h3 { margin: 0 0 6px; font-size: 15px; }
+.cmp h3 small { font-weight: 400; color: var(--muted); font-size: 12px; }
+.cmp ol { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.cmp li { display: grid; grid-template-columns: auto 1fr auto; gap: 2px 8px; align-items: baseline; font-size: 13px; }
+.cmp li a { color: inherit; text-decoration: none; min-width: 0; overflow-wrap: anywhere; }
+.cmp li a small { color: var(--muted); }
+.cmp li b { white-space: nowrap; }
+.cmp li .tag { grid-column: 2 / 4; font-size: 11px; color: var(--muted); }
+.cmp li.win { padding: 6px 8px; margin: 0 -8px; border-radius: 8px; background: color-mix(in srgb, var(--good) 14%, transparent); }
+.cmp li.win b { color: var(--good); font-size: 15px; }
+.cmp li .diff { color: var(--muted); font-weight: 400; font-size: 11px; }
 .empty, .error { margin: 16px; text-align: center; color: var(--muted); }
 footer { padding: 4px 16px 28px; font-size: 12px; color: var(--muted); }
 footer a { color: inherit; }
@@ -76,7 +95,7 @@ footer a { color: inherit; }
 
 <div class="controls">
   <input class="search" id="q" type="search" placeholder="Produkt suchen…" autocomplete="off" aria-label="Produkt suchen">
-  <div class="chips" id="stores" hidden></div>
+  <div class="chips" id="stores" aria-label="Laden" hidden></div>
   <div class="chips" id="dates" aria-label="Gültig ab"></div>
   <div class="chips" id="cats" aria-label="Kategorien"></div>
 </div>
@@ -86,6 +105,8 @@ footer a { color: inherit; }
 <footer>
   Daten von den offiziellen Websites der Läden, ohne Gewähr. Nur solange Vorrat.
   Protein-Werte sind typische Durchschnittswerte pro 100 g (ca.).
+  «Bester Preis» vergleicht nur gleiche Produkte (Aktion oder Dauerpreis) pro kg, Eier pro Stück.
+  Coop fehlt: coop.ch blockiert automatische Abfragen.
   <span id="sources"></span>
 </footer>
 
@@ -99,14 +120,22 @@ const today = new Date().toISOString().slice(0, 10);
 const dayLabel = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("de-CH", { weekday: "short", day: "2-digit", month: "2-digit" });
 const chf = (n) => "CHF " + n.toFixed(2);
 
+// "Bester Preis": the same product in every store, cheapest per kg (eggs: per piece) first.
+const COMPARE = [
+  ["magerquark", "🥛 Magerquark nature"], ["eier", "🥚 Eier"], ["pouletbrust", "🍗 Pouletbrust"],
+  ["hackfleisch", "🥩 Hackfleisch (Rind/gemischt)"], ["aepfel", "🍎 Äpfel"], ["bananen", "🍌 Bananen"],
+  ["rueebli", "🥕 Rüebli"], ["kartoffeln", "🥔 Kartoffeln"], ["tomaten", "🍅 Tomaten"], ["broccoli", "🥦 Broccoli"],
+];
+const storeName = (id) => data.stores.find((s) => s.id === id)?.name ?? id;
+
 const SECTIONS = [
   { group: "magerquark", title: "🥛 Magerquark-Radar", hint: "Immer dabei – günstigster Preis pro 100 g zuerst.", sort: (a, b) => a.pricePerKg - b.pricePerKg },
   { group: "protein", title: "🥩 Protein", hint: "Sortiert nach Gramm Protein pro Franken.", sort: (a, b) => (b.proteinPerChf ?? -1) - (a.proteinPerChf ?? -1) },
   { group: ["frucht", "gemuese"], title: "🥦 Früchte & Gemüse", hint: "Günstigster Kilopreis zuerst.", sort: (a, b) => (a.pricePerKg ?? 1e9) - (b.pricePerKg ?? 1e9) },
 ];
 
-function chips(el, items, key) {
-  el.innerHTML = items.map(([value, label, n]) =>
+function chips(el, items, key, label) {
+  el.innerHTML = (label ? `<span class="chips-label">${esc(label)}</span>` : "") + items.map(([value, label, n]) =>
     `<button class="chip" data-v="${esc(value)}" aria-pressed="${state[key] === value}">${esc(label)}${n != null ? `<small>${n}</small>` : ""}</button>`).join("");
   el.onclick = (e) => {
     const b = e.target.closest(".chip"); if (!b) return;
@@ -124,6 +153,8 @@ function matchesSearch(o) {
 
 function matches(o, skip) {
   if (state.store && skip !== "store" && o.store !== state.store) return false;
+  // Regular prices are only there for the comparison and the Magerquark-Radar.
+  if (o.regular && o.group !== "magerquark") return false;
   if (state.tab === "other") {
     if (o.group) return false;
     if (state.date && skip !== "date" && o.validFrom !== state.date) return false;
@@ -145,7 +176,7 @@ function render() {
   if (stores.length > 1) {
     $("stores").hidden = false;
     const n = tally(offers.filter((o) => matches(o, "store")), (o) => o.store);
-    chips($("stores"), [["", "Alle Läden"], ...stores.map((s) => [s.id, s.name, n.get(s.id) || 0])], "store");
+    chips($("stores"), [["", "Alle"], ...stores.map((s) => [s.id, s.name, n.get(s.id) || 0])], "store", "Laden");
   }
 
   const other = state.tab === "other";
@@ -163,19 +194,45 @@ function render() {
       (list.length ? `<div class="grid">${list.map((o) => card(o)).join("")}</div>` : `<p class="empty">Keine Aktion gefunden.</p>`);
     return;
   }
-  $("main").innerHTML = SECTIONS.map((s) => {
+  $("main").innerHTML = SECTIONS.map((s, i) => (i === 1 ? bestPrice() : "") + section(s, list)).join("");
+}
+
+function section(s, list) {
     const groups = [].concat(s.group);
     const items = list.filter((o) => groups.includes(o.group)).sort((a, b) => (b.pick - a.pick) || s.sort(a, b));
     const bestKg = s.group === "magerquark" ? Math.min(...items.map((o) => o.pricePerKg ?? 1e9)) : null;
     return `<h2>${s.title}</h2><p class="hint">${s.hint}</p>` + (items.length
       ? `<div class="grid">${items.map((o) => card(o, bestKg != null && o.pricePerKg === bestKg)).join("")}</div>`
       : `<p class="empty">Diese Woche nichts in Aktion.</p>`);
+}
+
+function bestPrice() {
+  // Valid today: regular prices and promotions that have started. Every store, whatever the Laden filter.
+  const valid = data.offers.filter((o) => o.compare && o.comparePrice && (o.regular || o.validFrom <= today));
+  const boxes = COMPARE.map(([key, title]) => {
+    const perStore = new Map();
+    valid.filter((o) => o.compare === key).forEach((o) => {
+      const cur = perStore.get(o.store);
+      if (!cur || o.comparePrice < cur.comparePrice) perStore.set(o.store, o);
+    });
+    const rows = [...perStore.values()].sort((a, b) => a.comparePrice - b.comparePrice);
+    if (!rows.length) return "";
+    const unit = rows[0].compareUnit === "stk" ? "Stück" : "kg";
+    const best = rows[0].comparePrice;
+    return `<div class="cmp"><h3>${title} <small>pro ${unit}</small></h3><ol>${rows.map((o, i) => `
+      <li${i === 0 ? ` class="win"` : ""}>
+        <span class="store ${esc(o.store)}">${esc(storeName(o.store))}</span>
+        <a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(o.brand && !o.name.toLowerCase().includes(o.brand.toLowerCase()) ? o.brand + " " : "")}${esc(o.name)}${o.size ? ` <small>${esc(o.size)}</small>` : ""}</a>
+        <b>${chf(o.comparePrice)}${i ? ` <span class="diff">+${Math.round((o.comparePrice / best - 1) * 100)}%</span>` : ""}</b>
+        <span class="tag">${o.regular ? "Dauerpreis" : `Aktion ${esc(o.validFromDisplay)}`} · ${esc(o.priceDisplay)}</span>
+      </li>`).join("")}</ol></div>`;
   }).join("");
+  return `<h2>🏆 Bester Preis</h2><p class="hint">Gleiches Produkt, alle Läden: günstigster Preis pro kg zuerst (Eier pro Stück), Aktionen und Dauerpreise.</p>` +
+    (boxes ? `<div class="cmp-list">${boxes}</div>` : `<p class="empty">Noch keine Preise zum Vergleichen.</p>`);
 }
 
 function card(o, isBest) {
   const soon = o.validFrom > today;
-  const store = data.stores.length > 1 ? `${esc(data.stores.find((s) => s.id === o.store)?.name)} · ` : "";
   const when = o.regular ? "Dauerpreis" : (soon ? "Bald: " : "") + o.validFromDisplay;
   return `<a class="card${o.pick ? " pick" : ""}" href="${esc(o.url)}" target="_blank" rel="noopener">
     <div class="media">
@@ -184,6 +241,7 @@ function card(o, isBest) {
       ${o.highProtein ? `<img class="sticker protein" src="stickers/protein.webp" alt="Viel Protein">` : ""}
     </div>
     <div class="body">
+      <span class="store ${esc(o.store)}">${esc(storeName(o.store))}</span>
       ${isBest ? `<span class="best">Günstigster</span>` : ""}
       ${o.brand ? `<span class="brand">${esc(o.brand)}</span>` : ""}
       <span class="name">${esc(o.name)}</span>
@@ -191,7 +249,7 @@ function card(o, isBest) {
       <span class="price">${esc(o.priceDisplay)}${o.wasPriceDisplay ? `<span class="was">${esc(o.wasPriceDisplay)}</span>` : ""}</span>
       ${o.pricePerKg ? `<span class="unit">${chf(o.pricePerKg / 10)}/100 g</span>` : o.unitPriceDisplay ? `<span class="unit">${esc(o.unitPriceDisplay)}</span>` : ""}
       ${o.proteinPer100g ? `<span class="prot">ca. ${o.proteinPer100g} g Protein/100 g${o.proteinPerChf ? ` · ${o.proteinPerChf} g pro CHF` : ""}</span>` : ""}
-      <span class="date${soon ? " soon" : ""}">${store}${esc(when)}</span>
+      <span class="date${soon ? " soon" : ""}">${esc(when)}</span>
     </div></a>`;
 }
 
@@ -209,10 +267,8 @@ fetch("data/offers.json", { cache: "no-cache" })
     const when = new Date(d.updatedAt).toLocaleString("de-CH", { weekday: "long", day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
     const stale = d.stores.filter((s) => s.stale).map((s) => s.name);
     $("updated").textContent = `Aktualisiert: ${when}` + (stale.length ? ` · ⚠️ ${stale.join(", ")}: alte Daten` : "");
-    $("sources").innerHTML = d.stores.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join(" · ");
-    // "Alle anderen" opens on the newest promotion that has already started.
-    const started = [...new Set(d.offers.filter((o) => !o.regular).map((o) => o.validFrom))].filter((x) => x <= today).sort();
-    state.date = started.at(-1) || "";
+    $("sources").innerHTML = "Quellen: " + d.stores.map((s) =>
+      `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>${s.scope ? ` (${esc(s.scope)})` : ""}`).join(" · ");
     render();
   })
   .catch(() => { $("main").innerHTML = `<p class="error">Die Aktionen konnten nicht geladen werden. Bitte später nochmals versuchen.</p>`; $("updated").textContent = ""; });

@@ -5,23 +5,29 @@ date has themes (?theme=Haushalt). Product data is embedded in each page's Nuxt 
 """
 
 import asyncio
-import re
 from datetime import date, timedelta
 from urllib.parse import quote_plus
 
+from scraper.health import is_staple
 from scraper.nuxt import read_payload
 
-STORE = {"id": "aldi", "name": "ALDI SUISSE", "url": "https://www.aldi-suisse.ch/de/aktionen-und-angebote"}
+# ALDI SUISSE has the same promotions and prices in every store (Buchs SG included).
+STORE = {"id": "aldi", "name": "ALDI SUISSE", "url": "https://www.aldi-suisse.ch/de/aktionen-und-angebote",
+         "scope": "national (gleich in Buchs SG)"}
 BASE = "https://www.aldi-suisse.ch"
 IMG_WIDTH = 400
 DELAY_S = 1.5  # be polite between page loads
 # Promotions that started up to this many days ago are still "this week".
 LOOKBACK_DAYS = 7
 LOOKAHEAD_DAYS = 7
-# Staples tracked every week even when not on promotion (Magerquark-Radar).
+# Categories whose regular prices we track every week, even off promotion: Magerquark (Magerquark-Radar)
+# and the products of the "Bester Preis" comparison (eggs, chicken breast, minced meat). ALDI doesn't list
+# its fresh fruit & vegetables online, so those only show up when they are on promotion.
 STAPLES = [
-    ("https://www.aldi-suisse.ch/de/produkte/milchprodukte-eier/joghurts-quark-desserts/k/158816141843305903",
-     re.compile(r"magerquark", re.I)),
+    "https://www.aldi-suisse.ch/de/produkte/milchprodukte-eier/joghurts-quark-desserts/k/158816141843305903",
+    "https://www.aldi-suisse.ch/de/produkte/milchprodukte-eier/eier/k/158816141843305902",
+    "https://www.aldi-suisse.ch/de/produkte/fleisch/gefluegel/k/158816141843304202",
+    "https://www.aldi-suisse.ch/de/produkte/fleisch/rind-kalb/k/158816141843304207",
 ]
 
 
@@ -94,10 +100,13 @@ async def fetch(browser, today=None):
         result = [_offer(p, promo, themes) for p, promo, themes in offers.values()]
 
         regular = {"onSaleDateFrom": today.isoformat(), "title": "Dauerpreis"}
-        for url, wanted in STAPLES:
+        seen = set(offers)
+        for url in STAPLES:
             for p in await _products(page, url):
-                if p["sku"] not in offers and wanted.search(p.get("name") or ""):
-                    result.append(_offer(p, regular, set(), regular=True))
+                o = _offer(p, regular, set(), regular=True)
+                if p["sku"] not in seen and is_staple(o):
+                    seen.add(p["sku"])
+                    result.append(o)
         return result
     finally:
         await page.close()
