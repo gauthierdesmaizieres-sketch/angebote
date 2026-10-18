@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-18T11:45:12+00:00",
+ "updatedAt": "2026-10-18T12:26:08+00:00",
  "stores": [
   {
    "id": "aldi",
@@ -22,7 +22,7 @@
    "name": "Lidl",
    "url": "https://www.lidl.ch/",
    "scope": "national (ohne Tessin-/Westschweiz-Aktionen)",
-   "count": 466,
+   "count": 489,
    "stale": false
   }
  ],
@@ -10519,6 +10519,36 @@
   },
   {
    "regular": false,
+   "id": "lidl-10060425-1792015200",
+   "store": "lidl",
+   "name": "CIEN Hydra Tages und Nachtcreme",
+   "brand": null,
+   "size": "50 ml",
+   "price": 3.19,
+   "priceDisplay": "CHF 3.19",
+   "wasPriceDisplay": "CHF 3.99",
+   "savingsDisplay": "Mit Lidl Plus -20%",
+   "unitPriceDisplay": "CHF 6.38/100ml",
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Testsieger"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/qEClup2V1ml4ddzTWi1Fp4PJZeP8RYmKCOW99ehM5qU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yMjEzNDE1QUIyQkI5Q0E5QkY5RUIyMzE/5Q0QwQTU3OURCNzYxQkEyRDdENUQwRDE3REIzM0Y0NThCNUEwOEVELnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/cien-hydra-tages-und-nachtcreme/p10060425",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 63.8,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
    "id": "lidl-10060200-1792015200",
    "store": "lidl",
    "name": "CIEN Kulturbeutel/Maniküre-Set",
@@ -10549,6 +10579,36 @@
   },
   {
    "regular": false,
+   "id": "lidl-10060427-1792015200",
+   "store": "lidl",
+   "name": "CIEN Men Gesichtspflege",
+   "brand": null,
+   "size": "50 ml",
+   "price": 2.36,
+   "priceDisplay": "CHF 2.36",
+   "wasPriceDisplay": "CHF 2.95",
+   "savingsDisplay": "Mit Lidl Plus -20%",
+   "unitPriceDisplay": "CHF 47.20/1l",
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Testsieger"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/FKbqzmFoYMmRVNwn9T5UMwYJHrWfD2D8K-jcyCmZcpc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wMDc4MTdEOEUxRjZFMjk2Rjk3ODcxNEN/GNjI2MTZCMjkzQzkwMzUyRkMzQjc5OTBDMUYyRUYyRDIyNkU1MkRCLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/cien-men-gesichtspflege/p10060427",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 47.2,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
    "id": "lidl-10060207-1792015200",
    "store": "lidl",
    "name": "CIEN Nasen- und Ohrhaartrimmer",
@@ -10571,6 +10631,66 @@
    "proteinPer100g": null,
    "highProtein": false,
    "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060428-1792015200",
+   "store": "lidl",
+   "name": "CIEN Q10 Nachtcreme",
+   "brand": null,
+   "size": "50 ml",
+   "price": 2.15,
+   "priceDisplay": "CHF 2.15",
+   "wasPriceDisplay": "CHF 2.69",
+   "savingsDisplay": "Mit Lidl Plus -20%",
+   "unitPriceDisplay": "CHF 43.00/1l",
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Testsieger"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/ohMLtXb1BtyMLupcrrGKfhGAqb5wLIxxszRJzgcUXdo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DMUJFMjY4N0E1Q0VEN0JDRDZGQjc3RDE/wOTYyQjVEQzIyOEJGNzdDRDRFN0RFQzZCRjczNzVDNEZFMURDNzdDLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/cien-q10-nachtcreme/p10060428",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 43.0,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060426-1792015200",
+   "store": "lidl",
+   "name": "CIEN Q10 Tagescreme",
+   "brand": null,
+   "size": "50 ml",
+   "price": 2.15,
+   "priceDisplay": "CHF 2.15",
+   "wasPriceDisplay": "CHF 2.69",
+   "savingsDisplay": "Mit Lidl Plus -20%",
+   "unitPriceDisplay": "CHF 43.00/1l",
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Testsieger"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/Y72x3DOBFmTMG39NTIQaIZz11jRdHOLb3XGJ01sUYVo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EQTg2RjAzRUEzNTk2Q0U3RDgxOEYxQjU/xQ0NCM0ZDOUY3RDNFQTEzNTg5MEVFQ0NERkY0Nzg3N0M1REIwRTJDLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/cien-q10-tagescreme/p10060426",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 43.0,
    "proteinPerChf": null,
    "pick": false,
    "compare": null,
@@ -10807,6 +10927,66 @@
    "food": false,
    "image": "https://imgproxy-retcat.assets.schwarz/kDkmOtaXyKWdplQgoeK1fJeXUZtnrBxUeiDgTszPMVA/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CMTdDQkRBRTQyOEMyQkU0OTkxM0Q3Qzk/4MEQwREU1QzM2NTBFOUE3OEY4M0VDN0IxQThBQzkxMUFFQzVERDNGLnBuZw.png",
    "url": "https://www.lidl.ch/p/de-CH/esmara-feinstrumpfhose-in-overknee-optik/p10060254",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060248-1792015200",
+   "store": "lidl",
+   "name": "ESMARA Gerippte Rollkragenshirts, 2er-Set",
+   "brand": null,
+   "size": "Set",
+   "price": 12.99,
+   "priceDisplay": "CHF 12.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Mode"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/NwUzuq75luQmskg5DwftQxaMEIgP-sli3yrUGCKi7aQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xQjczMDVBQjA3MDA4NjJDNjY4MEQ3MzB/DNUUxM0YxNDUxMEE4OUYwNEM1QkZFMDRGN0Y3OEExODM5MTg1QUM2LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/esmara-gerippte-rollkragenshirts-2er-set/p10060248",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060249-1792015200",
+   "store": "lidl",
+   "name": "ESMARA Jacquard-Strickkleid",
+   "brand": null,
+   "size": "Stück",
+   "price": 9.99,
+   "priceDisplay": "CHF 9.99",
+   "wasPriceDisplay": "CHF 11.99",
+   "savingsDisplay": "Mit Lidl Plus -16﹪",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Mode"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/sPG0FEyc9gTv21IwNyE5Wt_NkBltc_OcWA7xRy9kzds/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BQTI2OENDMUEwRDY1QzFDMkYwMTU3ODQ/2OTY1RjlCNEJCRjMwRUY2NTE0MjhFODRFM0IzNTgzMTk1NDlFRUNFLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/esmara-jacquard-strickkleid/p10060249",
    "group": null,
    "proteinPer100g": null,
    "highProtein": false,
@@ -11137,6 +11317,66 @@
    "food": false,
    "image": "https://imgproxy-retcat.assets.schwarz/hiOg3GWAHEnwkNk9jRxDPnBata4UYcYWg5smosO4gqU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xMjMxRUREQzExQjlFM0U0QTQ4MjI5RUJ/GN0M1QTBBMTMyNjlEQ0MzNjlCMjhGRjBBNTc2MEE3MEFBQTBBOERFLnBuZw.png",
    "url": "https://www.lidl.ch/p/de-CH/esmara-shaping-jeggings/p10060251",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060246-1792015200",
+   "store": "lidl",
+   "name": "ESMARA Steppmantel",
+   "brand": null,
+   "size": "Stück",
+   "price": 24.9,
+   "priceDisplay": "CHF 24.90",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Mode"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/UeMNAy6jVlAGBWbuZlhxd4zrfaICS6-4tvBgllmEu6s/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wODA2QkU0NDAxOUJEMzk0M0U5N0NFNkQ/1NDI2M0VFRUFEOTEwMTFDOUI5OUQzRDNBRTFFNjYzNEZGQTRGODQ0LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/esmara-steppmantel/p10060246",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060247-1792015200",
+   "store": "lidl",
+   "name": "ESMARA Strickpullover",
+   "brand": null,
+   "size": "Stück",
+   "price": 9.99,
+   "priceDisplay": "CHF 9.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Mode"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/gBK9wItcdOl0P3TUYQDv04grQ2ai91YOd_lA2rVY5Zs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xRjJFMzBDODY2NzQ2M0JCMjg3M0NGNzQ/0RDM5Nzc0NTkxQTI5MTBGQUZGMDE0MkQ3MTA1MDdGQTFEMkEwNTc3LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/esmara-strickpullover/p10060247",
    "group": null,
    "proteinPer100g": null,
    "highProtein": false,
@@ -12229,6 +12469,66 @@
   },
   {
    "regular": false,
+   "id": "lidl-10060189-1792015200",
+   "store": "lidl",
+   "name": "LIVARNO Bad-Hochschrank",
+   "brand": null,
+   "size": "Stück",
+   "price": 49.9,
+   "priceDisplay": "CHF 49.90",
+   "wasPriceDisplay": "CHF 59.90",
+   "savingsDisplay": "Mit Lidl Plus -16﹪",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Bad"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/YbVBAIUAtfE8lu0Vi2jLp34d3zNe0XNhF4wXXtrTKKo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80OEJCMjBEQjgxQjc1MkUzQkFCREYwOER/DOTIxODhBQ0MxOEQ4ODU1QUYyMURERjlGQ0I2RUJBNkVDRTYxNUQxLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/livarno-bad-hochschrank/p10060189",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060190-1792015200",
+   "store": "lidl",
+   "name": "LIVARNO Bad-Seitenschrank",
+   "brand": null,
+   "size": "Stück",
+   "price": 49.9,
+   "priceDisplay": "CHF 49.90",
+   "wasPriceDisplay": "CHF 59.90",
+   "savingsDisplay": "Mit Lidl Plus -16﹪",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Bad"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/UlAOqGcM7ybkY-etVzWOFzASCiumu4wr84hxrD__tXY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9FNzUzQjREQTVFRTRGQjc5MTA3NTBEOEY/wMkQxNkRBRUI1QUM4RTc5OUVEQkVCQkRFRDYxQjMwNjI0MjUwMEQyLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/livarno-bad-seitenschrank/p10060190",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
    "id": "lidl-10060213-1792015200",
    "store": "lidl",
    "name": "LIVARNO Brauseschlauch",
@@ -13057,6 +13357,66 @@
    "food": false,
    "image": "https://imgproxy-retcat.assets.schwarz/MMHg30UxzO6lPrJVJ6jZoFdYAif2anWBliDOOov4n3Y/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DQzBEQkM5QUUzMjlDQTUxRTlDN0M4RTI/xRjFFNjQzM0U1ODFGRDlEQTczREE3QzdCQUNFNzQzMUJEMzFGRDVGLnBuZw.png",
    "url": "https://www.lidl.ch/p/de-CH/livarno-wc-buerste/p10060212",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060191-1792015200",
+   "store": "lidl",
+   "name": "LIVARNO Waschbecken-Unterschrank",
+   "brand": null,
+   "size": "Stück",
+   "price": 34.9,
+   "priceDisplay": "CHF 34.90",
+   "wasPriceDisplay": "CHF 39.90",
+   "savingsDisplay": "Mit Lidl Plus -12﹪",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Bad"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/YXfcanvlSqk0AGYJwjZfQoo9JbrezC3rv0Vh4Vjsw-o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85MkJFMkI0OTAyQjczQTQzRTE5OUUzRUY/xOUJDREFFQzczMThENDZGNUNGNkQwQTdBOERBMDc1M0ZGNjQ1Qjg1LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/livarno-waschbecken-unterschrank/p10060191",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060192-1792015200",
+   "store": "lidl",
+   "name": "LIVARNO Waschbecken-Unterschrank (Aktion nur in der Deutschschweiz gültig)",
+   "brand": null,
+   "size": "Stück",
+   "price": 49.9,
+   "priceDisplay": "CHF 49.90",
+   "wasPriceDisplay": "CHF 69.90",
+   "savingsDisplay": "Mit Lidl Plus -20 Fr.",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-15",
+   "validFromDisplay": "15.10. – 21.10.",
+   "categories": [
+    "Bad"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/jyQrzsqS0Z9uMx8B5QGl53L9GF3hZ04DsTDWqDm3b6w/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8yODJEMzczOUE3M0RCQjUwNDk0MEM2QUJ/EQjY1QkU1QTJDQ0VCRUQ0QjQxNzFGQTczRTNDMDdGRUM2Q0Q4MzhFLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/livarno-waschbecken-unterschrank-aktion-nur-in-der-deutschschweiz-gueltig/p10060192",
    "group": null,
    "proteinPer100g": null,
    "highProtein": false,
@@ -14012,7 +14372,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "ab 15.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/je1BO0lUW79cRAPDG0m4cz7-UNyV1siXl5eL6n4GOcs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CQUM5RjgzN0NFMjkxMEQ4MTVGODM3MEI/wNUI0N0Y3QUJENURCMDYzNjk3M0Q4ODEyN0VBNEU5MEFFRTg0Mzc4LnBuZw.png",
@@ -14072,7 +14432,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/Ve7Vgs7tTwO5II1WAuE9Ut5Uzbrp4MoslOtFM_nBliE/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83OTg1QjdDN0ZEN0I2NjYzQUM0OEZCRDg/xOThBQTc1RDAyRkM3RTQ3NzkzQUVDMEUzNzQ2NzJFOTEzRDY3MDE5LnBuZw.png",
@@ -14102,7 +14462,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/5nld2EAELORQdw-fsClOz5YA25xHlW6sJGZ6dwGVUF0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wQjlBQTNFNzRCNDczQTA5RkE5NDNEMTc/xOEJDNjMwRkZCNkM2MDVCOEMxNzgwOTFCQzAxOUQ0RTkxRDRCRTM1LnBuZw.png",
@@ -14132,7 +14492,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/992_CunY44cXxH-Vn_E182iDEAYZSk-W4VBkXZBi2AQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wREEyMzQ5MTEwRDI2QjQ2RTBEQzAwQTA/zRDI4RDM3RTIxODY3MURGNkNEOUU4OTcwM0M4MjVCOTNCMTY0RTkyLnBuZw.png",
@@ -14252,7 +14612,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/ls0AfRokWf-SVYTG2H4T0NCO1pw7ndjIJ5uGlAOvwcY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GMDA2OTU1NjJFMDVGNTE4NDZBRUU0MDY/2NUI4OTVENjU3M0EyRkQxQkZEQjYyMzAyMTQ4NENFQjg2NkFFMzUyLnBuZw.png",
@@ -14282,7 +14642,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/6Gd8cZ21HxpvP6YyfbbBQyz88OgUS4hBPpj0o_ypLVQ/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80QzEyMDYzNzQ5QTAwMTcxMEJBRDVEODN/BNzlDRDYzOTJFM0Y4NkQyMEIwREY3M0JDNjZBRThEQjFEMDYwQTRGLnBuZw.png",
@@ -14582,7 +14942,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/CXCdhTWDGLDdLdF56b3KsewDejaWrEU7P8kZo60-Kgs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zQzM2NERGNkQyNTFCOUZDMUQxRTE3RTI/3NDVENkFGMjlGRUJFQjQ5QzlGNzFBOUE4MEU2OTc5MjkyNEUwNzZCLnBuZw.png",
@@ -14612,7 +14972,7 @@
    "validFrom": "2026-10-15",
    "validFromDisplay": "15.10. – 21.10.",
    "categories": [
-    "Wochenaktion"
+    "Früchte & Gemüse"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/CXCdhTWDGLDdLdF56b3KsewDejaWrEU7P8kZo60-Kgs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zQzM2NERGNkQyNTFCOUZDMUQxRTE3RTI/3NDVENkFGMjlGRUJFQjQ5QzlGNzFBOUE4MEU2OTc5MjkyNEUwNzZCLnBuZw.png",
@@ -38892,6 +39252,66 @@
   },
   {
    "regular": false,
+   "id": "lidl-10060279-1792360800",
+   "store": "lidl",
+   "name": "CRIVIT Funktionsunterwäsche, 2-tlg.",
+   "brand": null,
+   "size": "Set",
+   "price": 9.99,
+   "priceDisplay": "CHF 9.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-19",
+   "validFromDisplay": "19.10. – 21.10.",
+   "categories": [
+    "Wintermode für Kinder"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/LNhMp2tSgsIiR8z6N7K0KOGCudEM4oPtzAzu8r5xdQ8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wMDIzQzc1MjQ2OUZBQTA5NEIyMkQ1QjZ/BMThBNTlBRjdFMDYyREMwRDI2Q0NFQzBEQ0U3QzNDRUEyRjZFMjZBLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/crivit-funktionsunterwaesche-2-tlg/p10060279",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060280-1792360800",
+   "store": "lidl",
+   "name": "CRIVIT Funktionsunterwäsche, 2-tlg.",
+   "brand": null,
+   "size": "Set",
+   "price": 9.99,
+   "priceDisplay": "CHF 9.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-19",
+   "validFromDisplay": "19.10. – 21.10.",
+   "categories": [
+    "Wintermode für Kinder"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/o_E6Ve_2xYfdULoauba8vFziOB64U4HzMhXQ99BNY6A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85RDQwODREMDYxQ0VFNTkxNDJCOEY3RDU/wMjRBQTA0NjdDMEZEQkUwNzlDMDJCRTcxQzNFODhDMzY4MURCMDBFLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/crivit-funktionsunterwaesche-2-tlg/p10060280",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
    "id": "lidl-10060290-1792360800",
    "store": "lidl",
    "name": "CRIVIT Kinder-Schneestiefel",
@@ -39210,6 +39630,36 @@
    "food": false,
    "image": "https://imgproxy-retcat.assets.schwarz/5IVoIriVUFK6AmMzlHs7Bb39yPIbfqtEq8uPMSgAnrY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85MEI2MDc4NEUxRTE1NUJGMzVFMzFFRTA/1Mzc4QjYyNEVENzNDREM2NjczREJFQTQzODY4OTA2NzU2N0Y4QzE0LnBuZw.png",
    "url": "https://www.lidl.ch/p/de-CH/crivit-kinder-thermo-fleecejacke/p10060287",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060285-1792360800",
+   "store": "lidl",
+   "name": "CRIVIT Kinder-Thermo-Funktionsshirt",
+   "brand": null,
+   "size": "Stück",
+   "price": 6.99,
+   "priceDisplay": "CHF 6.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-19",
+   "validFromDisplay": "19.10. – 21.10.",
+   "categories": [
+    "Wintermode für Kinder"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/EnRwPTStpkd0DbpZlIBB-bAbOSMarzbg41tt5wvrNcU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zOThCRDFFMEQxNDRCRDQ3MzI1NTY1N0M/3QTRFNDU2RDM2M0JDMzBGOEMxMzJFNUY4QjIxNjQwOThENkMyQkUwLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/crivit-kinder-thermo-funktionsshirt/p10060285",
    "group": null,
    "proteinPer100g": null,
    "highProtein": false,
@@ -40290,6 +40740,36 @@
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/2V0W5ILz93RKrQ8L4RL8d1NzqeEtyCYkkYX6gAXewdY/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BRTJGODU5QTI1NDgyNDZERUQwQ0NGNDE/xOEZCOUYxQzA3NkYwREVGNjAwRUJGMzAyMkE2NkFDOURGRUU1Qzg3LnBuZw.png",
    "url": "https://www.lidl.ch/p/de-CH/lupilu-babyfeuchttuecher-xxl/p10060467",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060303-1792360800",
+   "store": "lidl",
+   "name": "LUPILU Funktionsunterwäsche, 2-tlg.",
+   "brand": null,
+   "size": "Set",
+   "price": 9.99,
+   "priceDisplay": "CHF 9.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-19",
+   "validFromDisplay": "19.10. – 21.10.",
+   "categories": [
+    "Wintermode für Kinder"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/-N3it4uOY0ygg6qe-oxJiuj_nC0oLtrioX5GeDkWVW4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9GMUE4RURBM0I2OEYwNkU1NjczOTg1NTc/4RDdGNzc2NTcxMTkzRjkzQTUwMUJDQzhFRjYxQUFDRTJCM0Y1NTQwLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/lupilu-funktionsunterwaesche-2-tlg/p10060303",
    "group": null,
    "proteinPer100g": null,
    "highProtein": false,
@@ -42505,7 +42985,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 24.10.",
    "categories": [
-    "Fleisch & Geflügel"
+    "Super Wochenende"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/2cskblT0E9ZCsSuqvEy8pf3w9g8xEYEsBVnUlHcTHjc/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81RTQ0RERCRTUzODdBN0U5ODdCRTBFRUM/xQkYzQzAzMzI4NzIyNzAyNkU5MUQzMURDODNFNUE4MjIwNUY4QjNGLnBuZw.png",
@@ -42754,6 +43234,36 @@
    "proteinPer100g": null,
    "highProtein": false,
    "pricePerKg": 39.9,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060742-1792620000",
+   "store": "lidl",
+   "name": "DELUXE Weizen Knusperbrot",
+   "brand": null,
+   "size": "550 g",
+   "price": 2.49,
+   "priceDisplay": "CHF 2.49",
+   "wasPriceDisplay": "CHF 2.99",
+   "savingsDisplay": "-16%",
+   "unitPriceDisplay": "CHF 0.45/100g",
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 24.10.",
+   "categories": [
+    "Super Wochenende"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/8nxdhOK16fkqtg_R1lzKqb9EsgrM9GACgw2iD4H7e_A/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ERkVGMEQxQTkxMzMwNzA4RUYyMzgyQjd/ENTEwRkYwMzBCMzYwNDg4Rjg0M0E5QjZBNzc1NzA2RUVEOTVFNjgzLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/deluxe-weizen-knusperbrot/p10060742",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 4.5,
    "proteinPerChf": null,
    "pick": false,
    "compare": null,
@@ -44515,7 +45025,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 28.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Wochenaktion"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/1gdDEF1lQyTb4V204q9oksE8rQfi7mNZI-sIdlopoEU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CMDQ5QkFEMzJEM0U1NzgxNUM5OTA2RTJ/BRERGQjk2NDVDMTIzMDQyOUI1Q0JGMzlDMTNGMzMxMUY3NUI2NkYyLnBuZw.png",
@@ -46195,7 +46705,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 24.10.",
    "categories": [
-    "Käse, Milchprodukte & Eier"
+    "Super Wochenende"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/9cZR4z4psyANhjzXwt-UEyE42Yjl7rEjnZ5d4wSVVdo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wN0Y2NDVGQkU0MjI1ODVDM0Q4MURDQkZ/CMjVDMjQ3NEZCMDgyRTNDODVCNTcyOTYwQjJGRDQ4NkY0QzYxOUNDLnBuZw.png",
@@ -46225,7 +46735,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 24.10.",
    "categories": [
-    "Käse, Milchprodukte & Eier"
+    "Super Wochenende"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/9cZR4z4psyANhjzXwt-UEyE42Yjl7rEjnZ5d4wSVVdo/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wN0Y2NDVGQkU0MjI1ODVDM0Q4MURDQkZ/CMjVDMjQ3NEZCMDgyRTNDODVCNTcyOTYwQjJGRDQ4NkY0QzYxOUNDLnBuZw.png",
@@ -46255,7 +46765,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 24.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Super Wochenende"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/1L-2S3bp1uejKggNV8tNwmv-4NDmwrYJUMzd5287fgU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9ENzU2ODlDNzAwN0QzNTMyMkU3RUIxNkE/3NzA2Qjg2MDAxQzNCMzUyRENENDIwNzkzMkY5RkI4NjI1QTI4NjQ2LnBuZw.png",
@@ -46465,7 +46975,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 24.10.",
    "categories": [
-    "Fleisch & Geflügel"
+    "Super Wochenende"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/YoQT6PuxCbMKHs8J15DvSH2LVIxQeK9HaS_oA4mzmBs/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS83MDAwQTdGRDY0RDE2OTIzMjI3RkE0MER/FQzJFQjc3OTUyMjcwQjA0RkUyODYzMURCNjA4MEVCREVCQjA3QUFBLnBuZw.png",
@@ -46525,7 +47035,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 28.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Wochenaktion"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/VdSiobiQRLHFuNE2G7KGoby6oGS3LJ5InfPEra_bR68/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS85QUZEMUIwNzFBRUEzQUM5OTA3MTM4Q0Z/BNjZFOUU5MzYxQ0Q3QzBDQzBGRTU2QkM3NDhBNDFFNkEwQjk1MTFFLnBuZw.png",
@@ -46585,7 +47095,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 24.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Super Wochenende"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/q-u5twL0PPdNQtTdhjj2EM1_kU7E7p69NfoHbrevzw4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8zQTQyNkYzNDE5MjE1MkIzRDlBMjU5NTB/FRjFGNjdGN0E3NDI5OTIzOEU4QUNERTUwNjZFOTYyQzNCNTQ0N0FBLnBuZw.png",
@@ -46842,6 +47352,66 @@
   },
   {
    "regular": false,
+   "id": "lidl-10060610-1792620000",
+   "store": "lidl",
+   "name": "SILVERCREST Aluguss-Bräter",
+   "brand": null,
+   "size": "Stück",
+   "price": 19.9,
+   "priceDisplay": "CHF 19.90",
+   "wasPriceDisplay": "CHF 29.90",
+   "savingsDisplay": "Mit Lidl Plus -33%",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 28.10.",
+   "categories": [
+    "Küche"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/cj5QFY92Dowwhuf2E1Sn3OWoCjWi_FpuIi2Dag6Unyg/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS80RUJGMUEzOEI4NjIzOEYzRDc5RTg3Njg/yNTMyNkFDQUFENTVGRjRBNUJFNjY0OUY4QUQ3Nzk0OTM1RTk2RDRDLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/silvercrest-aluguss-braeter/p10060610",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060613-1792620000",
+   "store": "lidl",
+   "name": "SILVERCREST Aluguss-Pfanne",
+   "brand": null,
+   "size": "Stück",
+   "price": 9.99,
+   "priceDisplay": "CHF 9.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 28.10.",
+   "categories": [
+    "Küche"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/ymGRADaBOpBkbhiV3jy-8GwLJvEp5vAv_H7eVJ2xw3o/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9EN0I2NjU1M0JDMTc5RkZFQzE0NEU4RUY/5REE5OUYzQkQ2ODlDOEQ2NjkwOEJGMUJEQUE0MjVBQzg2OUM0MzNBLnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/silvercrest-aluguss-pfanne/p10060613",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
    "id": "lidl-10060690-1792620000",
    "store": "lidl",
    "name": "SILVERCREST Aluguss-Pfanne",
@@ -46860,6 +47430,36 @@
    "food": false,
    "image": "https://imgproxy-retcat.assets.schwarz/5l0gD4ZEJFtvtxJaZue5BI0zL8MHroLgqqpUD7QaRqU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xOTNBMDI2MTg3QjMyOTYxNzA3MDZDRTR/DRjgxQTcwMkE5MkZFNUE4RTQyQTEwQkU2MUQ3MUQ4QjRDQzFDRjdELnBuZw.png",
    "url": "https://www.lidl.ch/p/de-CH/silvercrest-aluguss-pfanne/p10060690",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060611-1792620000",
+   "store": "lidl",
+   "name": "SILVERCREST Aluguss-Schmorpfanne",
+   "brand": null,
+   "size": "Stück",
+   "price": 12.99,
+   "priceDisplay": "CHF 12.99",
+   "wasPriceDisplay": null,
+   "savingsDisplay": null,
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 28.10.",
+   "categories": [
+    "Küche"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/14HyzlJnjzCLh0MbnWGqQw80vqnG3k3nN8c1T_upxD0/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9CNjI3MDdDNDdGMjg3RTZFNDlEQUI2QTE/wOThBNEY2MDI1MjQxOEIxRUNFOTY5QTREQjRFQTg5Qzk5NDhCOEI3LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/silvercrest-aluguss-schmorpfanne/p10060611",
    "group": null,
    "proteinPer100g": null,
    "highProtein": false,
@@ -47202,6 +47802,36 @@
   },
   {
    "regular": false,
+   "id": "lidl-10060612-1792620000",
+   "store": "lidl",
+   "name": "SILVERCREST Premium-Emaillearomabräter",
+   "brand": null,
+   "size": "Stück",
+   "price": 14.99,
+   "priceDisplay": "CHF 14.99",
+   "wasPriceDisplay": "CHF 19.99",
+   "savingsDisplay": "Mit Lidl Plus -25%",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 28.10.",
+   "categories": [
+    "Küche"
+   ],
+   "food": false,
+   "image": "https://imgproxy-retcat.assets.schwarz/27BYeclra5hP4iiCfN09DiHlS7Y17BLdkDZDmzMuxiw/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9DRkY1Q0E3MTI1QjA2QzdGOTQxMDcyRDc/5NjNFQ0REMDY2MzBCQkM0MDBERTkwQjcxRDQ0RjA2MDIxMjFENjI0LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/silvercrest-premium-emaillearomabraeter/p10060612",
+   "group": null,
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
    "id": "lidl-10060775-1792620000",
    "store": "lidl",
    "name": "SOLEVITA Bio Shot",
@@ -47245,7 +47875,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 28.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Wochenaktion"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/SSWKFExMNzXXfa31PSYakgby4PXVbtg8g-jdJf1aKeU/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8xQ0IzODhCM0M2MUQ4MjNDNTlDMzk3Q0Y/zMUEzNzMwNkYzQzc3QTY4OEIyMTg4NDJBMjIxQjEwM0ZGRDgxQUVGLnBuZw.png",
@@ -47275,7 +47905,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 28.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Wochenaktion"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/s6AUAEZfAZCqXqehCOJh50F88xLdyv6m63CarIheE9E/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS81N0ZERjI0MDhDOUM3Rjc5NDhDNjdDRkN/BREVDNUFCM0M3M0Q1NkQ0MTQ2MUNDOTBBQkY5Nzk1RDlBMTNFNzg3LnBuZw.png",
@@ -47335,7 +47965,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 28.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Wochenaktion"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/kmBo-Z1qlJTW-yz8wmOTlcIWBaB92ROtxHXyXE9v6z4/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS9BMjlCM0VCRDlEOERDQzMwMjRGRDEzMUI/5NzUzNDk3MjRFMjE3NUIzNDdFNDBGQzhFRDU2QTEzMjY3RTU3RUNCLnBuZw.png",
@@ -47515,7 +48145,7 @@
    "validFrom": "2026-10-22",
    "validFromDisplay": "22.10. – 28.10.",
    "categories": [
-    "Früchte & Gemüse"
+    "Wochenaktion"
    ],
    "food": true,
    "image": "https://imgproxy-retcat.assets.schwarz/x8JIKiDnRsgnkIN_7OwcMCKS6tQJCcNGLB_TCM7Ngjk/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wRDE5NUFERTA1MEFEQjZCOEFGNDcwMkJ/BQTlFRDNDNjEyRkU5NDIwOUI5MjU3MUJDODA2RjdENDFGQUNFQTIzLnBuZw.png",
@@ -47644,6 +48274,66 @@
    "proteinPer100g": null,
    "highProtein": false,
    "pricePerKg": null,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060727-1792620000",
+   "store": "lidl",
+   "name": "Zucchetti",
+   "brand": null,
+   "size": "1 kg",
+   "price": 1.89,
+   "priceDisplay": "CHF 1.89",
+   "wasPriceDisplay": "CHF 2.49",
+   "savingsDisplay": "-24%",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 28.10.",
+   "categories": [
+    "Wochenaktion"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/VL5j9XxKMO8SLjsiYXtqLr41wIzJuvi3NckkAgO0mP8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wNTk2QkVGMjc5Nzc1QTYzQzIwNUNCQjg/3Qjk0Rjk5RDlFRUUxMTRBODk1NDVDQ0Y0REVCOTZGQjk1NDhEMDI0LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/zucchetti/p10060727",
+   "group": "gemuese",
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 1.89,
+   "proteinPerChf": null,
+   "pick": false,
+   "compare": null,
+   "comparePrice": null,
+   "compareUnit": null
+  },
+  {
+   "regular": false,
+   "id": "lidl-10060728-1792620000",
+   "store": "lidl",
+   "name": "Zucchetti",
+   "brand": null,
+   "size": "1 kg",
+   "price": 1.79,
+   "priceDisplay": "CHF 1.79",
+   "wasPriceDisplay": "CHF 2.49",
+   "savingsDisplay": "Mit Lidl Plus -28%",
+   "unitPriceDisplay": null,
+   "validFrom": "2026-10-22",
+   "validFromDisplay": "22.10. – 28.10.",
+   "categories": [
+    "Wochenaktion"
+   ],
+   "food": true,
+   "image": "https://imgproxy-retcat.assets.schwarz/VL5j9XxKMO8SLjsiYXtqLr41wIzJuvi3NckkAgO0mP8/sm:0/exar:1:ce/w:427/h:320/cz/M6Ly9wcm9kLWNhd/GFsb2ctbWVkaWEvY2gvMS8wNTk2QkVGMjc5Nzc1QTYzQzIwNUNCQjg/3Qjk0Rjk5RDlFRUUxMTRBODk1NDVDQ0Y0REVCOTZGQjk1NDhEMDI0LnBuZw.png",
+   "url": "https://www.lidl.ch/p/de-CH/zucchetti/p10060728",
+   "group": "gemuese",
+   "proteinPer100g": null,
+   "highProtein": false,
+   "pricePerKg": 1.79,
    "proteinPerChf": null,
    "pick": false,
    "compare": null,
