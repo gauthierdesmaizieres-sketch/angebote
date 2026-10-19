@@ -1,5 +1,5 @@
 {
- "hinweis": "Dauerpreise, die online fehlen (ALDI und Lidl zeigen nicht ihr ganzes Sortiment). Im Laden notieren und hier eintragen. store: aldi, migros oder lidl. size wie auf der Packung (500 g). seen: Datum, an dem der Preis im Laden gesehen wurde (JJJJ-MM-TT).",
+ "hinweis": "Dauerpreise, die online fehlen (ALDI und Lidl zeigen nicht ihr ganzes Sortiment). Im Laden notieren und hier eintragen. store: aldi, migros oder lidl. size wie auf der Packung (500 g). seen: Datum, an dem der Preis im Laden gesehen wurde (JJJJ-MM-TT). Optional: ean (Strichcode), protein (g pro 100 g laut Etikette). Der Knopf «Preis hinzufügen» auf der Seite schickt per WhatsApp eine fertige Zeile für «preise».",
  "beispiel": {"store": "aldi", "name": "Magerquark", "brand": "MILSANI", "size": "500 g", "price": 1.49, "seen": "2026-10-19"},
  "preise": []
 }

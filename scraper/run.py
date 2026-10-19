@@ -53,6 +53,8 @@ def manual_offers():
             "categories": [],
             "image": None,
             "url": stores[m["store"]]["url"],
+            "ean": m.get("ean"),
+            "protein100g": m.get("protein"),  # from the label / Open Food Facts, replaces the estimate
         })
     return result
 

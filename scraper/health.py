@@ -158,12 +158,17 @@ def classify(offer):
 def annotate(offers):
     for o in offers:
         group, protein = classify(o)
+        exact = o.get("protein100g") is not None
+        if exact:
+            protein = o["protein100g"]
+            group = group or ("protein" if protein >= HIGH_PROTEIN_G else None)
         ppk = price_per_kg(o)
         key, unit = compare_key(o)
         cmp_price = compare_price(o, unit, ppk) if key else None
         o.update(
             group=group,
             proteinPer100g=protein,
+            proteinExact=exact,
             highProtein=bool(protein and protein >= HIGH_PROTEIN_G),
             pricePerKg=ppk,
             # grams of protein you get for 1 CHF (eggs sold by the piece: per egg)

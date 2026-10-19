@@ -30,6 +30,20 @@ body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.4 syst
 header { background: var(--brand); color: var(--brand-text); padding: 18px 16px 14px; }
 header h1 { margin: 0; font-size: 22px; }
 header p { margin: 4px 0 0; font-size: 13px; opacity: .85; }
+.addbtn { margin-top: 10px; border: 0; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 700; background: var(--accent); color: #111; cursor: pointer; }
+dialog { width: min(440px, calc(100% - 24px)); max-height: calc(100% - 24px); border: 1px solid var(--line); border-radius: 14px; padding: 16px; background: var(--surface); color: var(--text); }
+dialog::backdrop { background: rgba(0,0,0,.5); }
+dialog h2 { margin: 0 0 4px; }
+dialog .hint { margin: 0 0 10px; }
+dialog label { display: block; margin: 8px 0 0; font-size: 13px; font-weight: 600; }
+dialog input, dialog select { display: block; width: 100%; margin-top: 3px; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--bg); color: var(--text); font-size: 16px; }
+dialog video { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; background: #000; margin-top: 8px; }
+dialog .row { display: flex; gap: 8px; margin-top: 14px; }
+dialog .row button, #scanBtn { flex: 1; border: 1px solid var(--line); border-radius: 10px; padding: 10px; font-size: 15px; font-weight: 600; background: var(--chip); color: var(--text); cursor: pointer; }
+dialog .row .primary { background: var(--good); border-color: var(--good); color: #fff; }
+#scanBtn { width: 100%; }
+#offInfo:empty, #fErr:empty { display: none; }
+#fErr { color: #d33; font-size: 13px; margin: 8px 0 0; }
 .tabs { display: flex; gap: 4px; padding: 10px 16px 0; background: var(--brand); }
 .tab { flex: 1; min-width: 0; border: 0; border-radius: 10px 10px 0 0; padding: 10px 6px; font-size: 14px; font-weight: 700; cursor: pointer; background: rgba(255,255,255,.15); color: #fff; }
 .tab[aria-selected="true"] { background: var(--bg); color: var(--text); }
@@ -96,7 +110,26 @@ footer a { color: inherit; }
 <header>
   <h1>💪 Aktionen der Woche</h1>
   <p id="updated">Wird geladen…</p>
+  <button class="addbtn" id="addBtn" type="button">➕ Preis hinzufügen</button>
 </header>
+
+<dialog id="addDlg" aria-labelledby="addTitle">
+  <form id="addForm" novalidate>
+    <h2 id="addTitle">➕ Preis hinzufügen</h2>
+    <p class="hint">Für Produkte, die nicht online sind: Strichcode scannen, Preis vom Regal eintippen, per WhatsApp schicken. Der Preis kommt bei der nächsten Aktualisierung auf die Seite.</p>
+    <button type="button" id="scanBtn">📷 Strichcode scannen</button>
+    <video id="cam" playsinline muted hidden></video>
+    <label>Strichcode (EAN)<input id="fEan" inputmode="numeric" autocomplete="off" placeholder="z.B. 7610000000000"></label>
+    <p class="hint" id="offInfo" aria-live="polite"></p>
+    <label>Laden<select id="fStore"></select></label>
+    <label>Produkt<input id="fName" autocomplete="off" placeholder="Magerquark"></label>
+    <label>Marke<input id="fBrand" autocomplete="off" placeholder="optional"></label>
+    <label>Packung<input id="fSize" autocomplete="off" placeholder="500 g"></label>
+    <label>Preis (CHF)<input id="fPrice" type="number" inputmode="decimal" step="0.01" min="0.05" placeholder="1.29"></label>
+    <p id="fErr" role="alert"></p>
+    <div class="row"><button type="button" id="addCancel">Abbrechen</button><button type="submit" class="primary">Per WhatsApp senden</button></div>
+  </form>
+</dialog>
 <nav class="tabs" role="tablist">
   <button class="tab" role="tab" data-tab="healthy" aria-selected="true">💪 Healthy</button>
   <button class="tab" role="tab" data-tab="protein" aria-selected="false">Protein/CHF</button>
@@ -282,7 +315,7 @@ function card(o, isBest) {
       ${o.size ? `<span class="size">${esc(o.size)}</span>` : ""}
       <span class="price">${esc(o.priceDisplay)}${o.wasPriceDisplay ? `<span class="was">${esc(o.wasPriceDisplay)}</span>` : ""}</span>
       ${o.pricePerKg ? `<span class="unit">${chf(o.pricePerKg / 10)}/100 g</span>` : o.unitPriceDisplay ? `<span class="unit">${esc(o.unitPriceDisplay)}</span>` : ""}
-      ${o.proteinPer100g ? `<span class="prot">ca. ${o.proteinPer100g} g Protein/100 g${o.proteinPerChf ? ` · ${o.proteinPerChf} g pro CHF` : ""}</span>` : ""}
+      ${o.proteinPer100g ? `<span class="prot">${o.proteinExact ? "" : "ca. "}${o.proteinPer100g} g Protein/100 g${o.proteinPerChf ? ` · ${o.proteinPerChf} g pro CHF` : ""}</span>` : ""}
       <span class="date${soon ? " soon" : ""}">${esc(when(o))}</span>
     </div></a>`;
 }
@@ -293,6 +326,109 @@ document.querySelector(".tabs").onclick = (e) => {
 };
 let timer;
 $("q").addEventListener("input", (e) => { clearTimeout(timer); timer = setTimeout(() => { state.q = e.target.value.trim(); render(); }, 150); });
+
+// "Preis hinzufügen": barcode -> Open Food Facts (name, size, protein) -> price typed in -> WhatsApp.
+// The page is static and can't save anything, so the price travels as a message with a ready-to-paste
+// line for scraper/manual_prices.json.
+let scan = null; // { stop() } while the camera is on
+let protein = null; // protein per 100 g from Open Food Facts, if known
+
+function stopScan() {
+  if (scan) scan.stop();
+  scan = null;
+  $("cam").hidden = true;
+  $("scanBtn").textContent = "📷 Strichcode scannen";
+}
+
+async function lookup(ean) {
+  protein = null;
+  $("offInfo").textContent = "Suche Produkt…";
+  try {
+    const r = await fetch(`https://world.openfoodfacts.org/api/v2/product/${ean}.json?fields=product_name,product_name_de,brands,quantity,nutriments`);
+    const p = r.ok ? (await r.json()).product : null;
+    if (!p) throw new Error("not found");
+    if (!$("fName").value) $("fName").value = p.product_name_de || p.product_name || "";
+    if (!$("fBrand").value) $("fBrand").value = (p.brands || "").split(",")[0].trim();
+    if (!$("fSize").value) $("fSize").value = (p.quantity || "").replace(/\s*[e℮]$/, ""); // ℮ = estimated weight
+    protein = p.nutriments?.proteins_100g ?? null;
+    $("offInfo").textContent = `Gefunden bei Open Food Facts${protein != null ? ` · ${protein} g Protein/100 g` : ""}.`;
+  } catch {
+    $("offInfo").textContent = "Nicht bei Open Food Facts gefunden: bitte Produkt und Packung selbst eintragen.";
+  }
+}
+
+function found(code) {
+  stopScan();
+  $("fEan").value = code;
+  if (navigator.vibrate) navigator.vibrate(80);
+  lookup(code);
+  $("fPrice").focus();
+}
+
+async function startScan() {
+  const video = $("cam");
+  video.hidden = false;
+  $("scanBtn").textContent = "⏹ Scan stoppen";
+  try {
+    const formats = "BarcodeDetector" in window ? await BarcodeDetector.getSupportedFormats() : [];
+    if (formats.includes("ean_13")) {
+      // Android Chrome: the browser reads barcodes itself
+      const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+      video.srcObject = stream;
+      await video.play();
+      const detector = new BarcodeDetector({ formats: ["ean_13", "ean_8"] });
+      const timer = setInterval(async () => {
+        const codes = await detector.detect(video).catch(() => []);
+        if (codes.length) found(codes[0].rawValue);
+      }, 250);
+      scan = { stop() { clearInterval(timer); stream.getTracks().forEach((t) => t.stop()); video.srcObject = null; } };
+    } else {
+      // iPhone and others: ZXing, loaded only when needed
+      if (!window.ZXingBrowser) {
+        await new Promise((ok, fail) => {
+          const s = document.createElement("script");
+          s.src = "https://cdn.jsdelivr.net/npm/@zxing/browser@0.1.5/umd/zxing-browser.min.js";
+          s.onload = ok; s.onerror = fail;
+          document.head.append(s);
+        });
+      }
+      const controls = await new ZXingBrowser.BrowserMultiFormatReader().decodeFromConstraints(
+        { video: { facingMode: "environment" } }, video, (result) => { if (result) found(result.getText()); });
+      scan = { stop() { controls.stop(); } };
+    }
+  } catch {
+    stopScan();
+    $("offInfo").textContent = "Kamera nicht verfügbar: Strichcode-Nummer bitte eintippen.";
+  }
+}
+
+$("addBtn").onclick = () => {
+  $("fStore").innerHTML = data.stores.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("");
+  $("fErr").textContent = "";
+  $("addDlg").showModal();
+};
+$("scanBtn").onclick = () => (scan ? stopScan() : startScan());
+$("addCancel").onclick = () => $("addDlg").close();
+$("addDlg").addEventListener("close", stopScan);
+$("fEan").addEventListener("change", (e) => { const v = e.target.value.trim(); if (/^\d{8,14}$/.test(v)) lookup(v); });
+$("addForm").addEventListener("input", () => { $("fErr").textContent = ""; });
+$("addForm").onsubmit = (e) => {
+  e.preventDefault();
+  const price = parseFloat($("fPrice").value.replace(",", "."));
+  const name = $("fName").value.trim(), size = $("fSize").value.trim();
+  const err = !name ? "Bitte Produkt eintragen." : !/\d/.test(size) ? "Bitte Packung mit Menge eintragen (z.B. 500 g)."
+    : !(price > 0 && price < 1000) ? "Bitte einen gültigen Preis eintragen (z.B. 1.29)." : "";
+  if (err) { $("fErr").textContent = err; return; }
+  const entry = { store: $("fStore").value, name, brand: $("fBrand").value.trim() || undefined, size, price, seen: today,
+    ean: $("fEan").value.trim() || undefined, protein: protein ?? undefined };
+  const msg = `🛒 Neuer Preis: ${storeName(entry.store)}, ${entry.brand && !name.toLowerCase().includes(entry.brand.toLowerCase()) ? entry.brand + " " : ""}${name} ${size}: CHF ${price.toFixed(2)} ` +
+    `(gesehen ${new Date().toLocaleDateString("de-CH")})\n\nFür manual_prices.json:\n${JSON.stringify(entry)}`;
+  window.open(`https://wa.me/?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
+  $("addDlg").close();
+  $("addForm").reset();
+  protein = null;
+  $("offInfo").textContent = "";
+};
 
 fetch("data/offers.json", { cache: "no-cache" })
   .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
