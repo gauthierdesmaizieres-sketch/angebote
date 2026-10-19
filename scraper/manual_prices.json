@@ -1,0 +1,5 @@
+{
+ "hinweis": "Dauerpreise, die online fehlen (ALDI und Lidl zeigen nicht ihr ganzes Sortiment). Im Laden notieren und hier eintragen. store: aldi, migros oder lidl. size wie auf der Packung (500 g). seen: Datum, an dem der Preis im Laden gesehen wurde (JJJJ-MM-TT).",
+ "beispiel": {"store": "aldi", "name": "Magerquark", "brand": "MILSANI", "size": "500 g", "price": 1.49, "seen": "2026-10-19"},
+ "preise": []
+}

@@ -7,6 +7,7 @@ and compare/comparePrice/compareUnit for the cross-store "Bester Preis" comparis
 
 import re
 
+EGG_PROTEIN_G = 7  # one egg (53-63 g) has about 7 g protein
 HIGH_PROTEIN_G = 10  # protein sticker from this many g per 100 g (Magerquark ≈ 12 g)
 TOP_PROTEIN_PICKS = 3  # "Gucks dir an" for the best protein-per-franc deals
 
@@ -18,7 +19,7 @@ EXCLUDE = re.compile(
     r"spül|wasch|reinig|putz|entkalk|deo|lotion|kosmetik|"
     r"ramen|gyoza|instant|quick|fertiggericht|dumpling|"
     r"marzipan|berliner|börek|cracker|donut|croissant|feldschlösschen|alkoholfrei|radler|panaché|cider|"
-    r"gratin|soss|dressing|quetschbeutel|babybrei|plastik|trinkbecher|halloween",
+    r"gratin|soss|dressing|quetschbeutel|babybrei|plastik|trinkbecher|halloween|pesto",
     re.I,
 )
 
@@ -31,14 +32,17 @@ EXCLUDE_FRESH = re.compile(
 
 # (pattern, group, typical protein g/100 g or None). First match wins: specific before general.
 RULES = [
+    (r"protein.*(drink|milk|milch|shake)|(drink|milk|milch|shake).*(protein|skyr|quark)", "protein", 6),
     (r"magerquark", "magerquark", 12),
     (r"\bquark\b|speisequark", "protein", 9),
     (r"skyr", "protein", 11),
     (r"hüttenkäse|cottage", "protein", 12),
-    (r"protein.*(drink|milk|milch|shake)|(drink|milk|milch|shake).*protein", "protein", 6),
     (r"protein.*(pudding|milchreis|joghurt|jogurt|dessert)|(pudding|milchreis|joghurt|dessert).*protein", "protein", 10),
     (r"protein|high[- ]?protein", "protein", 20),
     (r"buschbohnen|grüne bohnen|stangenbohnen|bohnen mit speck|gemüsemischung|kefen|zuckerschoten", "gemuese", None),
+    (r"nugget|paniert|knusperli|crunchy|croustillant|fischstäbchen|schlemmerfilet|cordon", "protein", 12),
+    # whole chicken and legs are sold with bones: protein per 100 g bought, not per 100 g meat
+    (r"^poulet(,|\s*$)|poulet.{0,3}ganz|ganzes poulet|bratbeutel|schenkel|schlegel|flügel|wings", "protein", 14),
     (r"poulet|hähnchen|huhn|truthahn|trute|geflügel", "protein", 23),
     (r"rinds?|rind\b|black angus|beef|steak|huft|filet|entrecôte|kalb", "protein", 21),
     (r"hackfleisch|gehacktes", "protein", 18),
@@ -158,8 +162,9 @@ def annotate(offers):
             proteinPer100g=protein,
             highProtein=bool(protein and protein >= HIGH_PROTEIN_G),
             pricePerKg=ppk,
-            # grams of protein you get for 1 CHF
-            proteinPerChf=round(protein * 10 / ppk, 1) if protein and ppk else None,
+            # grams of protein you get for 1 CHF (eggs sold by the piece: per egg)
+            proteinPerChf=round(protein * 10 / ppk, 1) if protein and ppk else
+            round(EGG_PROTEIN_G / cmp_price, 1) if key == "eier" and unit == "stk" and cmp_price else None,
             pick=group == "magerquark",
             compare=key if cmp_price else None,
             comparePrice=cmp_price,
