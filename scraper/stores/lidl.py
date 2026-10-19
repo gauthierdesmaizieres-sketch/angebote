@@ -5,8 +5,11 @@ tile carries its data as JSON in a data-grid-data attribute. Food categories (/h
 promotions, including the next ones, so we read both and merge by product id.
 
 Lidl has one national price list. A few promotions are marked "nur im Tessin" / "nur in der Westschweiz"
-and don't apply in Buchs SG, so we drop them. lidl.ch only lists promotions: there is no regular price
-for Magerquark or the comparison products, so Lidl only shows up in those when they are on promotion.
+and don't apply in Buchs SG, so we drop them.
+
+lidl.ch only lists promotions. Regular prices (Magerquark-Radar, "Bester Preis") come from
+sortiment.lidl.ch: its section pages list products with price and pack size. Its robots.txt disallows
+"/*?" and "/catalog/", so we only read the first page of each section (about 30 products), never ?p=2.
 """
 
 import asyncio
@@ -14,6 +17,8 @@ import html
 import json
 import re
 from datetime import date, datetime, timedelta, timezone
+
+from scraper.health import is_staple
 
 STORE = {"id": "lidl", "name": "Lidl", "url": "https://www.lidl.ch/",
          "scope": "national (ohne Tessin-/Westschweiz-Aktionen)"}
@@ -28,6 +33,13 @@ CATEGORIES = [
     "/h/de-CH/fisch-meeresfruechte/h10071050",
     "/h/de-CH/kaese-milchprodukte-eier/h10095761",
 ]
+# Regular range: first page of the sections with Magerquark, eggs, meat, fish, fruit & vegetables.
+SORTIMENT = [
+    "https://sortiment.lidl.ch/de/milchprodukte-eier/",
+    "https://sortiment.lidl.ch/de/fleisch",
+    "https://sortiment.lidl.ch/de/fisch/",
+    "https://sortiment.lidl.ch/de/obst-gemuse",
+]
 SKIP_LISTS = re.compile(r"lidl-plus|coupons|prepaid|gutschein|reisen", re.I)
 NOT_HERE = re.compile(r"nur im tessin|nur in der westschweiz|nur in der romandie", re.I)
 
@@ -40,7 +52,7 @@ _UNIT = re.compile(r"^([\d.]*\s*(?:kg|g|l|ml|cl))\s*=\s*([\d.]+)$", re.I)
 
 async def _html(page, path):
     await asyncio.sleep(DELAY_S)
-    resp = await page.goto(BASE + path, wait_until="domcontentloaded")
+    resp = await page.goto(path if path.startswith("http") else BASE + path, wait_until="domcontentloaded")
     if not resp or resp.status != 200:
         raise RuntimeError(f"{path} -> HTTP {resp.status if resp else '??'}")
     return await page.content()
@@ -110,6 +122,50 @@ def _offer(tile):
     }
 
 
+# Runs in the page: one row per product tile of a sortiment.lidl.ch section page.
+_SORTIMENT_JS = r"""
+() => [...document.querySelectorAll('.product-item-details')].map((d) => {
+  const box = d.closest('.product-item') || d.parentElement;
+  const price = d.querySelector('.pricefield__price');
+  return {
+    name: d.querySelector('.product-item-name')?.textContent.trim(),
+    variant: d.querySelector('.product-item-description')?.textContent.trim(),
+    url: d.querySelector('a.product-item-link')?.href,
+    price: price ? parseFloat(price.getAttribute('content')) : null,
+    footer: d.querySelector('.pricefield__footer')?.textContent.trim(),
+    image: box.querySelector('img')?.src,
+    id: d.querySelector('[data-product-id]')?.dataset.productId,
+  };
+})
+"""
+
+
+def _regular(row, today):
+    """A sortiment.lidl.ch tile ("pro 500g | 100g = 0.26 CHF") in the same format as the promotions."""
+    per, _, unit = (row.get("footer") or "").partition("|")
+    size = re.sub(r"^pro\s+", "", per.strip(), flags=re.I) or None
+    m = re.match(r"\s*([\d.]*\s*\w+)\s*=\s*([\d.]+)", unit)
+    return {
+        "regular": True,
+        "id": f"lidl-s{row['id']}",
+        "store": "lidl",
+        "name": row["name"] + (f", {row['variant']}" if row.get("variant") else ""),
+        "brand": None,
+        "size": "1 kg" if size == "kg" else size,
+        "price": row["price"],
+        "priceDisplay": f"CHF {row['price']:.2f}",
+        "wasPriceDisplay": None,
+        "savingsDisplay": None,
+        "unitPriceDisplay": f"CHF {m[2]}/{m[1].replace(' ', '')}" if m else None,
+        "validFrom": today.isoformat(),
+        "validFromDisplay": "Dauerpreis",
+        "categories": [],
+        "food": True,
+        "image": row.get("image"),
+        "url": row.get("url") or SORTIMENT[0],
+    }
+
+
 async def fetch(browser, today=None):
     today = today or date.today()
     lo, hi = today - timedelta(days=LOOKBACK_DAYS), today + timedelta(days=LOOKAHEAD_DAYS)
@@ -135,6 +191,17 @@ async def fetch(browser, today=None):
                 if end and end < today:
                     continue
                 result.setdefault(o["id"], o)
+
+        promo_names = {o["name"].lower() for o in result.values()}
+        for url in SORTIMENT:
+            await _html(page, url)
+            for row in await page.evaluate(_SORTIMENT_JS):
+                if not row.get("name") or not row.get("price") or not row.get("id"):
+                    continue
+                o = _regular(row, today)
+                # promotions already show this product at its promotion price
+                if is_staple(o) and o["name"].lower() not in promo_names:
+                    result.setdefault(o["id"], o)
         return list(result.values())
     finally:
         await page.close()

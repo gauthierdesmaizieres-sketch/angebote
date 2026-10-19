@@ -69,17 +69,21 @@ _PER_KG = {"kg": 1, "l": 1, "g": 1000, "ml": 1000, "cl": 100}
 
 
 def price_per_kg(offer):
-    """CHF per kg (or litre) from the store's unit price, else from price and pack size."""
+    """CHF per kg (or litre) from price and pack size, else from the store's unit price.
+
+    Price and size first: the stores round their unit price ("100g = 0.26"), which can hide a 2 % difference.
+    """
+    m = _SIZE.search((offer.get("size") or "").replace(",", "."))
+    if m and offer.get("price"):
+        qty, unit = float(m[1] or 1) * float(m[2]), m[3].lower()
+        kg = qty / _PER_KG[unit]
+        if kg:
+            return round(offer["price"] / kg, 2)
     text = (offer.get("unitPriceDisplay") or "").replace("\xa0", " ")
     m = _UNIT.search(text)
     if m:
         chf, qty, unit = float(m[1].replace("'", "")), float(m[2] or 1), m[3].lower()
         return round(chf / qty * _PER_KG[unit], 2)
-    m = _SIZE.search((offer.get("size") or "").replace(",", "."))
-    if m and offer.get("price"):
-        qty, unit = float(m[1] or 1) * float(m[2]), m[3].lower()
-        kg = qty / _PER_KG[unit]
-        return round(offer["price"] / kg, 2) if kg else None
     return None
 
 
